@@ -1,0 +1,13 @@
+variable,q,n,mean_score,mean_pred_risk
+Affective (Emotional Eating),1,138,1.25,0.275
+Affective (Emotional Eating),2,138,1.56,0.46
+Affective (Emotional Eating),3,137,1.76,0.615
+Affective (Emotional Eating),4,137,2.05,0.778
+Cognitive Control/Restriction,1,138,1.05,0.309
+Cognitive Control/Restriction,2,138,1.5,0.474
+Cognitive Control/Restriction,3,137,1.82,0.613
+Cognitive Control/Restriction,4,137,2.24,0.731
+Body Image Distress,1,138,0.78,0.369
+Body Image Distress,2,138,1.41,0.551
+Body Image Distress,3,137,1.81,0.545
+Body Image Distress,4,137,2.37,0.662

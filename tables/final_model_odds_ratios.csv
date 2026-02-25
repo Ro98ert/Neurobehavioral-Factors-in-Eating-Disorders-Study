@@ -1,0 +1,4 @@
+Predictor,OR,CI_low,CI_high,p_value
+Affective (Emotional Eating),16.2,6.96,40.24,4.55e-10
+Cognitive Control/Restriction,3.8,2.28,6.51,5.73e-7
+Body Image Distress (reversed),1.93,1.32,2.85,8.32e-4
