@@ -1,0 +1,551 @@
+Age_Range,Gender,Division_ofOrigin,Current_EducationLevel,Employment_Status,Marital_Status,EatLess_OnWeightGain,EatLess_AtMealtime,RefuseFood_WeightConcern,Monitor_Food,Eat_SlimmingFoods,EatLess_AfterOvereating,EatLess_ToPreventWeightGain,AvoidSnacks_BetweenMealsForWeightConcern,AvoidEveningEating_ForWeightConcern,ConsiderWeight_WhenEating,Eat_WhenUnoccupied,Eat_WhenIrritated,Eat_WhenDepressedOrDiscouraged,Eat_WhenLonely,Eat_WhenSomeoneLetYouDown,Eat_WhenAngry,Eat_WhenExpectingBad,Eat_WhenAnxious,Eat_WhenThingsGoWrong,Eat_WhenFrightened,Eat_WhenDisappointed,Eat_WhenEmotionallyUpset,Eat_WhenBoredOrRestless,EatMore_IfFoodTasty,EatMore_IfFoodSmellsOrLooksGood,Eat_WhenSeeDeliciousFood,Eat_DeliciousFoodImmediately,DesireToBuy_FromBakery,DesireToBuy_FromSnackBarOrCafe,DesireToEat_WhenSeeOthersEating,Resist_DeliciousFood,EatMore_WhenSeeOthersEating,Eat_WhenPreparingMeal,Eat_SpecificFoodsHabitually,Location_TriggersHabitualEating,AutomaticEating_WhenExperiencingStrongEmotion,Realize_AfterEatingOutOfHabit,Days_DesireForFlatStomach,Days_FeltFat,Days_WeightAffectedSelfJudgment,Days_ShapeAffectedSelfJudgment,Days_DissatisfiedWithWeight,Days_DissatisfiedWithShape,Days_UncomfortableToSeeOwnBody,Days_UncomfortableOthersSeeingYourShape,Days_TriedLimitFoodToControlShapeOrWeight,Days_FastedToControlShapeOrWeight,Days_ExcludedFoodToControlShapeOrWeight,Days_FollowedRulesToControlShapeOrWeight,Days_FearLosingControlOverEating,Perception_EatingDisorder
+18-24,Male,Rajshahi,Bachelor's degree 3rd year,Student,In a relationship,3,0,2,2,0,3,1,3,1,3,2,2,2,3,3,0,1,1,1,2,1,0,0,3,0,2,2,0,3,1,3,1,3,3,3,2,0,2,3,1,3,1,1,1,1,2,3,1,3,1,1
+25-34,Female,Chattogram,Master's degree 2nd year,Self-employed,Married,3,3,1,3,1,3,3,0,2,1,2,3,3,1,3,0,1,3,3,3,2,3,2,3,2,1,3,1,3,3,0,2,1,3,2,0,0,1,1,1,0,2,3,0,0,1,2,2,0,2,1
+18-24,Male,Khulna,Bachelor's degree 2nd year,Student,Single,3,0,3,1,2,3,3,2,1,0,3,3,3,3,2,3,3,2,0,2,3,1,0,3,0,3,1,2,3,3,2,1,0,0,2,0,0,3,1,1,2,1,1,3,1,3,1,1,2,1,1
+18-24,Female,Dhaka,Bachelor's degree 2nd year,Self-employed,Married,3,3,0,2,2,3,2,3,2,1,0,2,0,0,2,3,3,2,0,3,3,1,1,3,2,0,2,2,3,2,2,2,1,2,3,3,3,1,1,1,1,1,2,2,0,3,1,3,1,1,1
+18-24,Male,Sylhet,Bachelor's degree 3rd year,Student,Single,2,0,1,3,0,3,3,3,3,2,0,2,2,1,2,1,0,1,1,1,2,0,1,2,2,1,1,0,3,3,3,3,3,3,3,1,3,1,2,1,1,1,1,3,1,1,2,1,1,1,1
+18-24,Female,Khulna,Bachelor's degree 2nd year,Self-employed,Married,3,3,3,2,0,2,0,0,0,2,3,0,1,0,2,1,3,2,1,1,0,0,0,3,3,3,2,0,2,0,0,0,2,0,2,2,1,2,2,0,3,2,2,0,2,2,2,0,3,2,0
+18-24,Male,Barishal,Bachelor's degree 3rd year,Student,Married,3,3,0,1,2,0,3,1,0,3,1,0,0,3,2,3,0,2,3,2,2,3,3,3,2,0,1,2,0,3,1,0,3,0,2,0,1,2,1,2,0,1,0,2,2,2,0,2,0,3,1
+18-24,Male,Sylhet,Bachelor's degree 1st year,Employed full-time,Single,0,1,1,2,3,3,0,2,3,0,2,2,2,0,2,2,2,1,3,1,0,2,1,0,0,1,2,3,3,0,2,3,0,3,3,2,1,0,1,3,1,1,1,0,2,0,1,3,1,1,0
+18-24,Male,Sylhet,Bachelor's degree 3rd year,Self-employed,Single,3,3,1,0,1,1,0,3,3,0,2,3,2,2,3,3,2,3,3,3,1,3,2,3,0,1,0,1,1,0,3,3,0,2,3,1,2,0,1,0,1,3,1,3,1,0,3,0,1,3,1
+25-34,Male,Rajshahi,Bachelor's degree 3rd year,Student,Single,3,1,2,3,3,3,1,0,1,3,2,1,3,3,2,0,1,2,3,1,1,2,0,1,1,2,3,3,3,1,0,1,3,1,0,2,1,1,1,3,3,1,1,2,1,1,1,3,3,1,1
+18-24,Female,Dhaka,Bachelor's degree 4th year,Self-employed,In a relationship,3,3,0,2,0,3,3,3,1,3,1,3,1,3,0,2,3,3,0,1,0,1,2,2,1,0,2,0,3,3,3,1,3,2,0,2,3,2,1,2,1,2,1,0,2,2,1,2,1,2,1
+18-24,Female,Dhaka,Bachelor's degree 3rd year,Employed part-time,In a relationship,2,2,0,2,2,0,0,1,1,0,2,1,1,1,2,3,0,3,2,2,3,3,3,2,1,0,2,2,0,0,1,1,0,3,1,2,2,1,0,3,2,1,1,3,1,1,0,3,2,1,1
+18-24,Male,Mymensingh,Bachelor's degree 3rd year,Employed part-time,In a relationship,2,3,3,3,1,2,0,2,2,1,2,3,3,2,2,2,2,2,3,1,3,2,0,2,2,3,3,1,2,0,2,2,1,2,3,2,3,1,3,0,1,2,1,0,2,1,3,0,1,2,1
+25-34,Female,Rangpur,Master's degree 2nd year,Employed part-time,In a relationship,2,2,2,2,2,0,0,3,1,1,3,0,3,3,3,0,0,1,1,3,3,1,1,2,3,2,2,2,0,0,3,1,1,0,2,1,2,0,2,1,0,1,1,1,2,0,2,1,0,1,0
+18-24,Male,Rangpur,Bachelor's degree 1st year,Self-employed,Single,3,3,2,2,1,0,2,3,3,3,1,2,2,2,3,3,1,2,3,0,0,1,2,3,1,2,2,1,0,2,3,3,3,0,2,1,1,1,3,2,1,3,0,3,2,1,3,2,1,3,0
+18-24,Male,Rangpur,Bachelor's degree 4th year,Employed full-time,Single,0,3,2,1,1,3,2,3,0,1,0,2,2,0,2,0,3,0,3,2,3,1,3,0,3,2,1,1,3,2,3,0,1,2,3,2,1,2,1,1,3,0,1,2,1,2,1,1,3,0,1
+25-34,Female,Rangpur,Master's degree 2nd year,Employed full-time,Married,3,1,2,3,1,1,3,1,2,3,3,0,1,3,3,3,0,0,3,3,3,3,3,3,2,2,3,1,1,3,1,2,3,2,1,2,2,0,3,2,3,2,0,2,2,0,3,2,3,2,1
+25-34,Male,Barishal,Master's degree 1st year,Self-employed,Married,3,3,0,0,0,2,1,3,1,2,3,1,3,3,1,2,2,1,2,3,3,1,0,3,3,0,0,0,2,1,3,1,2,2,2,1,2,2,1,0,1,1,0,1,1,2,1,0,1,1,0
+18-24,Female,Barishal,Bachelor's degree 1st year,Employed part-time,Married,3,2,0,2,3,0,2,1,2,2,0,1,2,1,3,1,1,3,0,2,0,0,2,3,2,0,2,3,0,2,1,2,2,3,3,0,3,1,0,2,3,3,0,0,0,1,0,2,3,3,0
+18-24,Male,Sylhet,Bachelor's degree 1st year,Employed part-time,In a relationship,3,2,1,3,3,0,3,1,2,1,3,1,3,3,3,2,3,3,1,2,3,1,3,3,2,1,3,3,0,3,1,2,1,2,2,3,2,1,1,1,3,2,2,0,2,0,1,1,3,2,1
+25-34,Female,Chattogram,Master's degree 1st year,Employed full-time,In a relationship,1,1,1,1,3,2,3,1,1,3,1,0,3,2,3,2,1,3,2,1,2,1,1,1,2,1,1,3,2,3,1,1,3,2,1,1,3,0,2,2,3,3,0,2,3,0,2,2,3,3,0
+18-24,Male,Rajshahi,Bachelor's degree 3rd year,Student,Single,0,2,2,0,2,0,1,2,2,3,2,1,2,2,3,1,2,0,1,0,2,1,0,0,2,2,0,2,0,1,2,2,3,2,3,2,1,0,2,0,2,2,0,0,1,0,2,0,2,2,0
+25-34,Male,Rajshahi,Master's degree 2nd year,Student,Married,1,0,2,3,1,3,2,2,0,3,1,0,1,3,0,1,3,3,1,3,0,2,0,1,1,2,3,1,3,2,2,0,3,1,2,0,2,0,2,2,0,2,1,3,0,0,2,2,0,2,0
+18-24,Female,Rangpur,Bachelor's degree 2nd year,Employed full-time,Married,3,1,2,0,0,3,1,3,3,3,0,3,2,2,0,3,2,3,1,3,0,3,3,3,0,2,0,0,3,1,3,3,3,2,0,0,2,1,0,1,3,2,0,3,1,1,0,1,3,2,0
+18-24,Female,Sylhet,Bachelor's degree 4th year,Employed part-time,Married,3,2,1,0,3,3,2,3,3,3,0,3,2,0,0,3,0,1,2,2,2,1,0,3,0,1,0,3,3,2,3,3,3,3,1,0,1,0,1,0,1,3,0,2,1,0,1,0,1,3,0
+18-24,Female,Mymensingh,Bachelor's degree 2nd year,Student,Single,1,1,3,0,0,3,1,2,0,1,3,0,3,3,2,0,3,3,0,1,1,3,1,1,0,3,0,0,3,1,2,0,1,0,3,3,2,3,0,1,3,3,3,3,0,3,0,1,3,3,0
+25-34,Female,Khulna,Master's degree 1st year,Student,Married,1,3,3,2,2,3,2,0,3,2,1,2,2,1,2,0,3,0,1,2,3,0,0,1,1,3,2,2,3,2,0,3,2,3,2,3,1,3,3,2,2,2,2,2,1,3,3,2,2,2,1
+18-24,Male,Chattogram,Bachelor's degree 1st year,Employed full-time,Married,1,1,1,2,0,2,2,2,1,2,1,3,1,3,1,2,3,0,0,2,2,0,2,1,0,1,2,0,2,2,2,1,2,2,3,1,3,2,3,3,1,0,3,0,2,2,3,3,1,0,0
+18-24,Female,Sylhet,Bachelor's degree 1st year,Student,In a relationship,3,1,1,1,0,2,1,1,2,1,0,1,2,0,0,1,2,0,0,2,2,1,2,3,1,1,1,0,2,1,1,2,1,0,0,1,2,0,3,1,0,0,1,0,1,0,3,1,0,0,0
+18-24,Female,Chattogram,Bachelor's degree 4th year,Student,In a relationship,3,1,1,1,3,2,3,2,0,3,1,0,1,0,2,0,3,1,3,2,1,0,1,3,1,1,1,3,2,3,2,0,3,1,1,1,0,3,3,2,1,0,2,0,0,3,3,2,1,0,0
+18-24,Male,Chattogram,Bachelor's degree 1st year,Student,In a relationship,0,1,1,3,1,2,0,1,2,1,0,1,1,0,3,2,2,1,2,3,1,3,2,0,1,1,3,1,2,0,1,2,1,3,3,1,2,3,2,3,1,1,2,1,2,3,2,3,1,1,0
+18-24,Female,Chattogram,Bachelor's degree 1st year,Student,In a relationship,3,0,1,1,0,1,3,3,3,2,1,1,3,3,3,1,0,2,2,3,1,2,3,3,0,1,1,0,1,3,3,3,2,1,0,2,2,3,1,3,1,1,1,2,1,3,1,3,1,1,1
+18-24,Female,Sylhet,Bachelor's degree 4th year,Self-employed,Married,3,3,1,0,1,3,1,3,2,0,1,2,0,3,0,3,3,3,3,2,1,1,0,3,3,1,0,1,3,1,3,2,0,0,2,3,2,1,2,0,1,3,2,3,1,1,2,0,1,3,1
+25-34,Male,Rangpur,Master's degree 2nd year,Employed full-time,Single,3,1,2,0,2,1,3,3,0,1,1,1,0,1,1,2,3,1,3,2,3,3,3,1,0,2,0,2,1,3,3,0,1,2,3,2,1,0,1,1,3,1,3,1,0,0,1,1,3,1,1
+18-24,Male,Rajshahi,Bachelor's degree 3rd year,Employed full-time,Married,1,1,2,2,0,1,2,1,3,3,0,2,3,2,1,3,3,0,0,1,1,3,3,1,0,2,2,0,1,2,1,3,3,0,2,2,2,1,1,1,0,3,1,1,1,1,1,1,0,3,1
+18-24,Male,Rajshahi,Bachelor's degree 4th year,Employed part-time,Single,0,2,3,0,3,3,0,3,2,2,3,3,3,0,3,0,3,0,1,2,3,3,0,0,2,3,0,3,3,0,3,2,2,0,0,1,0,1,0,1,3,1,3,1,1,1,0,1,3,1,1
+18-24,Male,Rangpur,Bachelor's degree 3rd year,Employed full-time,In a relationship,3,1,2,3,2,1,1,1,2,2,1,0,3,0,1,0,0,1,2,3,0,0,3,3,1,2,3,2,1,1,1,2,2,1,1,1,0,3,3,3,2,3,2,3,1,3,3,3,2,3,0
+18-24,Female,Chattogram,Bachelor's degree 1st year,Employed part-time,Married,0,3,3,0,2,3,3,0,3,2,0,1,3,3,3,1,3,1,1,0,2,3,1,0,3,3,0,2,3,3,0,3,2,3,3,2,2,3,1,2,1,1,1,3,0,3,1,2,1,1,1
+18-24,Male,Khulna,Bachelor's degree 1st year,Self-employed,In a relationship,0,3,3,0,3,1,1,2,1,2,0,0,0,1,3,2,1,1,1,3,3,3,1,0,2,3,0,3,1,1,2,1,2,0,2,0,0,2,3,1,1,3,1,0,2,2,3,1,1,3,0
+25-34,Male,Dhaka,Master's degree 1st year,Student,Married,2,0,0,3,0,3,0,3,3,3,1,1,3,1,2,3,0,2,3,1,0,1,3,2,3,0,3,0,3,0,3,3,3,2,3,3,3,0,3,1,3,0,1,3,2,0,3,1,3,0,0
+25-34,Female,Sylhet,Master's degree 2nd year,Student,In a relationship,2,0,1,1,3,3,3,3,1,0,1,0,2,2,2,1,1,0,1,3,0,3,0,2,3,1,1,3,3,2,3,1,0,0,0,2,0,0,3,1,1,1,1,2,1,0,3,0,1,1,1
+18-24,Female,Dhaka,Bachelor's degree 3rd year,Self-employed,Single,3,3,0,1,2,0,1,2,0,2,3,1,3,1,1,0,3,3,0,0,3,0,3,3,1,0,1,2,0,1,2,0,2,2,2,0,0,3,1,2,1,3,1,1,2,3,1,2,1,3,1
+25-34,Male,Mymensingh,Bachelor's degree 3rd year,Student,Single,1,0,3,3,0,0,3,3,0,1,0,1,0,3,3,0,2,2,3,2,0,1,2,1,0,3,3,0,0,3,3,0,1,3,0,3,3,3,3,3,0,0,2,3,2,3,3,3,0,0,0
+18-24,Female,Rangpur,Bachelor's degree 3rd year,Student,Single,3,3,2,2,1,0,1,0,3,0,0,1,3,3,3,2,1,3,1,0,0,0,3,3,1,2,2,1,0,1,0,3,0,2,1,1,1,0,1,2,0,0,1,3,3,0,1,2,0,0,0
+25-34,Male,Khulna,Master's degree 2nd year,Self-employed,Married,3,3,3,0,3,3,1,3,3,2,2,1,3,2,2,3,3,0,3,2,3,2,1,3,1,3,0,3,3,1,3,3,2,1,3,1,1,2,2,0,3,0,3,2,3,2,2,0,3,0,0
+25-34,Female,Sylhet,Master's degree 2nd year,Self-employed,Single,3,3,1,3,1,3,1,1,0,0,0,1,0,3,3,2,1,0,0,2,0,0,0,3,2,1,3,1,3,1,1,0,0,0,0,1,3,3,3,0,0,2,0,3,0,3,3,0,0,2,0
+25-34,Male,Rangpur,Master's degree 1st year,Student,Married,3,0,2,0,0,2,1,2,1,1,3,1,1,0,3,3,3,1,0,3,1,0,0,3,1,2,0,0,2,1,2,1,1,0,0,1,0,2,0,2,0,2,2,0,3,2,0,2,0,2,0
+18-24,Male,Chattogram,Bachelor's degree 1st year,Employed part-time,Single,2,2,1,2,2,3,2,0,0,2,2,1,1,0,3,3,3,1,1,3,1,1,1,2,0,1,2,2,3,2,0,0,2,3,3,0,2,1,3,0,0,2,1,0,2,1,3,0,0,2,0
+25-34,Female,Rajshahi,Master's degree 1st year,Self-employed,Single,1,3,2,0,3,0,3,2,3,1,2,1,0,3,1,2,3,3,3,3,2,3,2,1,3,2,0,3,0,3,2,3,1,1,2,3,3,3,3,0,1,2,2,0,0,3,3,0,1,2,0
+25-34,Male,Dhaka,Master's degree 1st year,Employed full-time,Married,1,1,0,3,0,0,2,0,0,3,2,1,3,2,3,1,2,2,1,1,0,0,0,1,1,0,3,0,0,2,0,0,3,1,0,3,2,1,2,0,2,1,1,3,0,1,2,0,2,1,0
+25-34,Female,Barishal,Master's degree 2nd year,Student,Married,2,0,0,0,0,3,3,1,3,2,1,0,0,1,0,2,1,1,1,3,2,1,3,2,3,0,0,0,3,3,1,3,2,3,3,2,1,3,1,2,2,2,2,1,1,3,1,2,2,2,0
+18-24,Female,Barishal,Bachelor's degree 3rd year,Self-employed,Single,1,3,0,3,2,1,3,2,3,2,1,2,1,3,3,2,0,1,3,1,1,2,3,1,2,0,3,2,1,3,2,3,2,2,1,0,3,1,1,0,1,2,1,1,1,1,1,0,1,2,1
+18-24,Male,Khulna,Bachelor's degree 2nd year,Self-employed,Married,2,3,3,2,2,3,0,3,0,2,0,1,2,1,3,0,0,0,1,3,1,1,3,2,3,3,2,2,3,0,3,0,2,1,1,3,2,3,2,3,3,2,0,3,0,3,2,3,3,2,0
+18-24,Female,Chattogram,Bachelor's degree 1st year,Employed full-time,Single,3,1,1,3,1,3,2,0,1,2,2,2,3,3,3,0,0,0,0,2,1,3,3,3,2,1,3,1,3,2,0,3,2,2,3,3,0,1,2,1,1,3,1,1,2,1,2,3,1,3,1
+25-34,Female,Mymensingh,Master's degree 2nd year,Employed part-time,Married,2,2,3,2,3,0,0,2,2,3,3,1,1,3,0,2,0,1,3,1,0,3,1,2,2,3,2,3,0,0,2,2,3,1,0,2,3,2,1,1,2,3,3,1,0,2,1,1,2,3,0
+18-24,Male,Dhaka,Bachelor's degree 3rd year,Student,In a relationship,3,2,0,3,3,2,2,3,0,2,1,1,3,0,3,2,3,0,3,0,3,3,3,3,2,0,3,3,2,2,3,0,2,2,2,1,2,2,2,3,0,2,2,1,0,2,2,3,0,2,1
+18-24,Male,Chattogram,Bachelor's degree 2nd year,Employed part-time,In a relationship,3,2,1,2,2,0,3,2,2,0,3,3,0,1,2,0,1,3,3,1,3,2,3,3,1,1,2,2,0,3,2,2,0,0,2,3,3,1,1,1,0,1,2,1,1,1,1,1,0,1,1
+18-24,Female,Dhaka,Bachelor's degree 2nd year,Self-employed,In a relationship,0,3,3,3,1,2,2,2,0,2,3,3,2,2,2,3,1,1,3,1,2,1,1,0,1,3,3,1,2,2,2,0,2,2,0,1,3,2,1,2,3,1,1,3,2,2,1,2,3,1,1
+25-34,Male,Khulna,Master's degree 2nd year,Self-employed,In a relationship,2,3,3,3,3,0,3,2,2,3,1,3,0,3,1,2,2,3,1,0,2,0,3,2,2,3,3,3,0,3,2,2,3,1,2,2,1,1,1,1,1,0,1,1,1,1,3,0,1,0,1
+18-24,Male,Khulna,Bachelor's degree 4th year,Student,Single,0,3,3,1,2,3,2,0,1,2,1,0,2,2,3,1,3,3,3,1,3,0,2,0,2,3,1,2,3,2,0,1,2,2,2,3,1,3,2,3,3,1,1,0,1,3,2,3,3,1,1
+18-24,Female,Mymensingh,Bachelor's degree 1st year,Student,Single,2,0,3,0,0,0,1,3,1,0,1,2,3,0,3,1,1,0,0,2,1,1,0,2,2,3,0,0,0,1,3,1,0,0,1,1,0,1,0,1,3,0,2,1,2,1,0,1,3,0,0
+18-24,Female,Barishal,Bachelor's degree 2nd year,Employed full-time,In a relationship,2,1,0,0,3,0,1,3,0,3,1,3,3,1,2,1,1,0,2,3,2,0,3,2,2,0,0,3,0,1,1,0,3,2,2,0,2,1,2,2,0,3,0,1,0,1,2,2,0,3,1
+25-34,Female,Dhaka,Master's degree 2nd year,Self-employed,In a relationship,0,3,1,0,1,0,3,3,3,3,2,0,0,3,3,2,2,0,2,0,1,1,1,0,3,1,0,1,0,3,3,3,3,3,3,1,1,0,2,1,0,2,2,0,2,0,2,1,0,2,1
+25-34,Female,Sylhet,Master's degree 2nd year,Employed full-time,In a relationship,0,1,1,0,1,3,1,0,2,0,2,0,2,3,2,3,0,1,0,3,2,1,2,0,2,1,0,1,3,1,0,2,0,2,2,1,1,0,0,1,2,3,2,0,1,0,0,0,2,3,1
+18-24,Male,Barishal,Bachelor's degree 3rd year,Employed full-time,Single,2,1,0,1,1,3,3,0,3,0,2,3,2,1,0,3,1,2,2,2,3,1,3,2,0,0,1,1,3,3,0,3,0,2,1,1,2,0,2,3,3,2,0,1,0,0,2,3,3,2,0
+18-24,Female,Chattogram,Bachelor's degree 4th year,Student,Married,1,3,1,3,0,3,3,1,3,0,3,2,3,3,2,0,2,0,0,0,3,2,3,1,2,1,3,0,3,3,1,3,0,2,2,1,3,1,1,2,1,1,1,2,1,1,2,2,1,2,1
+18-24,Male,Barishal,Bachelor's degree 1st year,Student,Single,3,0,0,3,3,3,0,3,3,3,0,0,0,3,0,2,2,3,1,3,1,1,3,3,1,0,3,3,3,0,3,3,3,0,3,0,1,0,0,1,1,3,2,1,3,0,0,1,2,3,1
+25-34,Male,Sylhet,Master's degree 1st year,Student,In a relationship,0,3,1,2,3,3,1,3,1,0,2,1,2,3,1,3,3,1,3,3,2,3,3,0,0,1,2,3,3,1,3,1,0,1,1,2,2,0,2,1,3,0,0,0,3,0,2,2,3,0,1
+18-24,Male,Rajshahi,Bachelor's degree 3rd year,Employed part-time,In a relationship,3,2,2,1,0,2,0,3,0,3,1,2,3,3,3,2,2,1,3,2,0,0,0,3,1,2,1,0,2,0,3,0,3,2,0,1,3,0,1,1,2,0,1,0,1,0,1,1,2,0,0
+18-24,Male,Rajshahi,Bachelor's degree 2nd year,Employed part-time,In a relationship,1,2,2,0,3,3,0,2,0,3,3,2,1,2,3,0,0,3,1,3,3,2,1,1,3,2,0,3,3,0,2,0,3,2,2,1,1,3,2,1,2,3,0,1,1,3,2,1,2,3,1
+18-24,Female,Mymensingh,Bachelor's degree 2nd year,Student,Single,1,3,3,1,0,3,3,2,1,2,2,3,0,3,3,0,1,0,3,2,1,0,3,1,3,3,1,0,3,3,2,1,2,3,2,3,1,2,1,1,1,2,2,3,1,2,3,0,1,2,1
+18-24,Female,Dhaka,Bachelor's degree 3rd year,Student,Married,1,1,2,2,0,2,0,2,1,2,0,3,1,1,3,0,2,3,3,3,1,2,2,1,2,2,2,0,2,0,2,1,2,2,0,2,2,1,1,1,1,1,3,1,1,1,1,0,1,1,1
+25-34,Female,Rajshahi,Master's degree 2nd year,Student,Single,0,2,2,2,0,0,3,1,0,1,1,1,0,0,2,1,0,0,2,2,2,3,3,0,3,2,2,0,0,3,1,0,1,3,3,0,2,0,3,1,1,1,1,0,1,0,3,1,1,1,0
+18-24,Male,Rangpur,Bachelor's degree 2nd year,Student,Married,1,1,3,1,1,3,3,2,3,3,3,0,3,3,3,3,2,3,3,1,1,3,0,1,2,3,1,1,3,3,2,3,3,2,3,2,2,3,1,3,0,2,3,0,1,3,3,3,0,2,1
+18-24,Male,Dhaka,Bachelor's degree 4th year,Student,In a relationship,0,0,0,1,3,1,1,1,2,2,3,3,2,1,1,0,2,1,2,0,3,2,1,0,2,0,1,3,1,1,1,2,2,1,3,0,0,2,2,2,0,3,1,3,3,2,2,2,0,3,0
+18-24,Male,Rangpur,Bachelor's degree 1st year,Employed full-time,In a relationship,1,1,3,1,0,1,0,3,2,0,2,3,2,3,0,2,2,2,2,3,1,3,3,1,2,3,1,0,1,0,3,2,0,2,2,3,3,2,0,2,3,2,1,3,3,2,0,2,3,2,1
+18-24,Female,Rangpur,Bachelor's degree 4th year,Student,Single,3,0,2,3,3,3,1,2,2,3,3,3,3,2,0,1,2,1,3,2,1,0,3,3,0,2,3,3,3,1,2,2,3,1,1,1,0,2,1,1,2,1,1,0,3,2,1,1,2,1,1
+18-24,Female,Mymensingh,Bachelor's degree 2nd year,Employed full-time,Single,3,1,3,0,1,3,3,2,3,2,3,3,0,1,3,1,2,3,3,3,0,1,0,3,1,3,0,1,0,3,2,3,2,2,2,3,2,3,1,1,1,1,0,0,3,3,1,1,1,1,1
+25-34,Female,Rangpur,Master's degree 1st year,Employed part-time,Married,2,3,2,1,3,2,1,0,0,3,3,3,3,3,2,0,0,0,1,3,0,0,0,2,3,2,1,3,2,1,0,0,3,3,1,2,1,1,1,1,1,0,1,1,1,1,1,1,1,0,1
+18-24,Female,Rajshahi,Bachelor's degree 1st year,Employed part-time,Married,3,2,2,1,2,0,3,1,1,0,3,3,1,3,1,3,1,2,3,3,3,1,1,3,2,2,1,2,0,1,1,1,0,3,2,2,0,2,0,1,1,1,1,1,1,2,0,0,1,1,1
+18-24,Male,Sylhet,Bachelor's degree 1st year,Student,Single,2,3,1,1,1,3,0,3,0,3,1,3,3,2,1,3,1,1,3,3,3,0,2,2,1,1,1,1,3,0,3,0,3,2,2,0,2,3,0,1,1,2,1,2,1,3,0,1,1,2,1
+25-34,Female,Mymensingh,Bachelor's degree 3rd year,Self-employed,Single,3,3,3,2,2,3,3,0,3,2,0,2,1,3,1,2,1,1,1,0,0,3,3,3,2,3,2,2,3,3,0,3,2,2,2,0,2,1,1,1,3,1,2,0,1,1,1,1,3,1,1
+18-24,Male,Mymensingh,Bachelor's degree 3rd year,Student,Single,0,0,3,2,3,0,2,0,1,3,1,1,0,0,1,0,1,1,3,2,2,3,1,0,2,3,2,3,0,2,0,1,3,3,1,2,1,1,0,0,0,1,3,0,3,1,0,0,0,1,0
+25-34,Female,Khulna,Master's degree 1st year,Student,Married,3,0,3,3,3,0,2,3,3,1,1,1,0,2,1,3,0,0,2,0,3,2,2,3,2,3,3,3,0,2,3,3,1,1,2,1,3,3,2,3,3,0,0,0,3,3,2,3,3,0,0
+25-34,Male,Mymensingh,Master's degree 2nd year,Student,Single,2,3,3,0,1,2,0,3,2,3,2,0,1,3,3,2,3,2,1,1,0,3,0,2,2,3,0,1,2,0,3,2,3,1,2,1,2,2,1,2,3,0,3,0,1,2,1,2,3,0,1
+18-24,Male,Khulna,Bachelor's degree 1st year,Employed full-time,Single,2,1,3,3,3,2,1,1,2,1,1,3,1,0,0,0,3,0,3,0,2,2,2,2,1,3,3,3,2,1,1,2,1,3,1,1,0,2,0,0,3,3,3,1,0,2,0,0,3,3,0
+25-34,Male,Mymensingh,Master's degree 1st year,Student,Single,1,0,3,0,2,1,0,1,3,0,2,2,1,2,0,3,0,0,0,0,0,1,0,1,2,3,0,2,1,0,1,3,0,0,0,0,1,3,2,3,3,0,0,1,3,3,2,3,3,0,0
+18-24,Female,Dhaka,Bachelor's degree 3rd year,Employed part-time,Married,0,2,0,2,0,0,0,2,1,1,2,0,3,0,2,3,0,0,1,2,3,3,0,0,3,0,2,0,0,0,2,1,1,0,2,1,3,2,3,1,0,0,2,1,0,2,3,1,0,0,0
+18-24,Male,Rajshahi,Bachelor's degree 3rd year,Employed full-time,Single,3,1,2,2,3,0,0,3,1,2,3,0,1,1,3,2,3,3,1,1,3,1,1,3,2,2,2,3,0,0,3,1,2,1,2,2,3,3,1,1,1,1,1,2,1,3,1,1,1,1,1
+18-24,Female,Mymensingh,Bachelor's degree 1st year,Self-employed,Married,1,3,3,2,0,2,1,2,0,2,0,1,0,3,1,3,2,3,0,0,0,0,0,1,2,3,2,0,2,1,2,0,2,3,0,0,3,2,2,2,3,2,2,3,2,2,2,2,3,2,0
+18-24,Male,Dhaka,Bachelor's degree 4th year,Employed full-time,Single,3,1,2,3,1,0,3,0,2,1,3,2,0,0,2,2,2,3,3,1,3,1,1,3,2,2,3,1,0,3,0,2,1,0,0,2,2,1,0,1,2,2,1,0,0,1,0,2,2,2,1
+18-24,Male,Rajshahi,Bachelor's degree 2nd year,Employed full-time,Married,3,1,2,1,3,0,3,1,0,1,3,3,3,2,1,2,3,2,3,1,1,0,2,3,2,2,1,3,0,0,1,0,1,2,2,2,3,1,1,1,3,1,1,1,1,1,1,1,3,1,1
+18-24,Male,Barishal,Bachelor's degree 3rd year,Self-employed,Married,3,3,0,3,2,0,1,3,0,1,3,2,1,0,0,2,2,0,1,1,1,1,3,3,3,0,3,2,0,1,3,0,1,1,2,1,2,1,1,1,1,2,3,1,3,1,1,0,1,2,1
+25-34,Female,Mymensingh,Master's degree 2nd year,Student,Single,1,0,3,2,3,2,3,3,3,3,1,3,3,3,2,3,3,0,1,3,0,1,0,1,3,3,2,3,2,3,3,3,3,0,0,0,1,1,1,2,1,0,1,1,0,1,1,2,3,0,1
+25-34,Female,Chattogram,Master's degree 2nd year,Self-employed,In a relationship,1,3,1,1,3,1,3,0,3,1,3,3,3,1,0,3,1,3,3,3,2,3,1,1,1,1,1,3,1,3,0,3,1,3,1,3,1,0,1,0,1,3,0,0,0,0,1,0,1,3,1
+18-24,Male,Barishal,Bachelor's degree 3rd year,Student,Single,1,0,0,1,3,3,2,1,0,0,2,1,3,0,1,3,2,3,3,3,1,1,0,1,1,0,1,3,3,2,1,0,0,3,3,3,3,1,3,2,1,0,1,2,1,1,3,2,1,0,1
+18-24,Female,Chattogram,Bachelor's degree 4th year,Student,Married,1,0,1,3,0,1,3,0,2,3,3,1,2,1,1,0,1,0,2,3,3,3,1,1,2,1,3,0,1,3,0,2,3,1,3,0,1,0,3,1,3,0,3,3,2,0,3,1,3,0,0
+18-24,Female,Rajshahi,Bachelor's degree 4th year,Student,Single,3,0,3,3,2,3,0,2,3,3,3,1,0,3,3,1,3,1,1,3,2,3,3,3,0,3,0,2,3,0,2,3,3,2,0,1,0,3,2,1,1,3,2,2,1,3,2,1,1,3,1
+25-34,Male,Rajshahi,Master's degree 1st year,Self-employed,In a relationship,1,3,3,2,2,0,3,3,0,1,3,3,3,2,1,1,2,0,1,3,1,3,1,1,1,3,2,2,0,3,3,0,1,2,0,2,0,1,1,0,1,1,1,1,3,1,3,0,1,1,1
+25-34,Female,Barishal,Master's degree 2nd year,Student,Single,3,0,0,2,3,3,3,2,0,0,1,3,0,2,0,3,3,1,0,3,2,2,2,3,1,0,2,3,3,3,2,0,0,2,3,2,2,1,1,1,1,0,1,3,0,1,2,3,1,0,1
+25-34,Male,Barishal,Master's degree 1st year,Employed part-time,Married,3,2,0,3,0,3,3,3,0,3,0,2,2,1,3,3,3,0,2,2,0,0,1,3,2,0,3,0,3,3,0,0,3,0,1,3,3,1,1,3,1,0,1,1,1,1,1,3,2,0,1
+25-34,Female,Chattogram,Master's degree 2nd year,Student,In a relationship,1,3,1,3,0,2,3,2,0,2,3,0,1,3,3,3,3,2,3,0,2,1,2,1,2,1,3,0,2,3,2,0,2,3,1,3,2,2,2,1,1,1,3,2,0,2,2,1,1,1,0
+18-24,Female,Khulna,Bachelor's degree 2nd year,Employed part-time,Married,1,2,3,1,2,2,3,1,0,3,0,2,1,0,3,1,2,3,2,3,1,0,1,1,1,3,1,2,2,3,1,0,3,2,0,3,1,1,2,2,1,0,2,2,0,1,2,2,1,0,0
+18-24,Male,Chattogram,Bachelor's degree 2nd year,Student,In a relationship,3,0,1,2,0,1,3,2,0,1,2,3,3,0,0,2,0,1,3,0,0,1,2,3,1,1,2,0,1,3,2,0,1,2,0,2,3,3,2,3,2,0,1,0,1,3,2,3,2,0,1
+18-24,Male,Barishal,Bachelor's degree 1st year,Employed full-time,In a relationship,1,1,0,0,0,1,0,1,3,0,1,3,3,2,3,0,2,3,3,3,2,2,3,1,3,0,0,0,1,0,1,3,0,3,0,3,2,1,3,1,2,2,1,3,1,1,3,1,2,2,1
+25-34,Male,Sylhet,Master's degree 1st year,Student,Single,1,0,1,3,0,0,2,1,2,1,0,0,1,1,1,2,3,1,2,2,3,2,2,1,0,1,3,0,0,2,1,2,1,0,3,2,3,1,2,2,1,1,0,3,0,1,2,2,1,1,0
+18-24,Female,Barishal,Bachelor's degree 3rd year,Employed part-time,Single,3,2,0,0,1,1,1,3,0,2,3,2,3,3,3,1,2,1,3,1,3,1,2,3,3,0,0,1,1,1,3,0,2,2,2,2,3,3,1,1,3,0,2,0,1,3,1,2,3,0,1
+25-34,Female,Sylhet,Master's degree 1st year,Employed part-time,Married,3,2,1,0,3,0,3,0,1,2,0,2,2,0,1,0,3,1,3,1,0,1,0,3,1,1,0,3,0,3,0,1,2,1,0,1,2,2,2,3,1,0,2,3,3,2,2,3,1,0,0
+18-24,Female,Dhaka,Bachelor's degree 3rd year,Self-employed,Single,1,3,0,2,2,0,1,0,3,2,2,0,3,3,1,3,0,2,2,0,2,2,1,1,2,0,2,2,0,1,0,3,2,2,1,1,3,1,1,1,1,3,1,1,2,1,1,1,3,3,1
+18-24,Male,Barishal,Bachelor's degree 4th year,Employed full-time,Single,2,1,0,3,2,3,3,3,3,3,2,3,3,3,3,0,1,3,0,2,3,2,3,2,3,0,3,2,3,3,3,3,3,2,2,1,1,0,0,2,1,3,0,1,1,0,0,2,1,3,1
+25-34,Female,Dhaka,Master's degree 1st year,Student,In a relationship,3,3,0,3,1,2,3,0,0,3,1,1,0,0,3,0,3,1,2,3,3,0,3,3,1,0,3,1,2,3,0,0,3,1,1,3,2,1,1,2,3,1,1,1,1,0,1,2,3,3,1
+18-24,Male,Khulna,Bachelor's degree 4th year,Employed part-time,Single,2,2,3,3,3,3,2,3,3,1,3,3,1,3,1,1,0,2,0,3,3,2,1,2,2,3,3,3,3,2,3,3,1,2,2,2,0,3,1,0,1,0,1,1,1,3,1,0,1,0,1
+18-24,Female,Chattogram,Bachelor's degree 2nd year,Student,In a relationship,3,0,1,3,2,2,1,3,0,0,3,2,1,1,3,0,1,1,3,1,2,1,3,3,1,1,3,2,2,1,3,0,0,1,3,3,3,0,1,0,1,1,0,1,1,0,1,0,1,1,1
+18-24,Female,Sylhet,Bachelor's degree 2nd year,Employed full-time,In a relationship,1,1,1,2,0,2,3,0,2,3,0,3,1,3,0,3,2,0,2,0,2,0,3,1,2,1,2,0,2,3,0,2,3,2,2,2,0,3,0,3,1,3,1,0,0,3,0,3,1,3,0
+18-24,Female,Chattogram,Bachelor's degree 1st year,Student,In a relationship,2,0,1,0,2,1,0,1,2,2,2,0,3,0,0,1,1,1,2,0,0,1,3,2,1,1,0,2,1,0,1,2,2,3,1,1,3,2,0,0,0,2,2,2,2,2,0,0,0,2,0
+25-34,Female,Dhaka,Master's degree 1st year,Student,Married,3,0,0,3,0,2,2,3,3,1,3,1,2,0,1,3,2,2,0,2,3,3,1,3,1,0,3,0,2,2,3,3,1,2,2,1,2,1,3,1,2,2,0,0,3,1,3,1,2,2,0
+18-24,Female,Sylhet,Bachelor's degree 4th year,Employed full-time,Married,0,1,1,1,1,3,1,0,3,2,1,3,1,2,3,0,2,0,2,0,0,0,3,0,1,1,1,1,3,1,0,3,2,2,3,3,1,3,0,3,0,2,3,2,0,3,0,3,0,2,0
+18-24,Female,Chattogram,Bachelor's degree 3rd year,Self-employed,Married,1,3,1,0,0,1,1,3,1,3,3,1,2,0,1,3,3,2,3,1,1,1,3,1,0,1,0,0,1,1,3,3,3,2,1,2,0,1,2,3,1,2,1,1,1,1,2,3,1,2,1
+25-34,Female,Barishal,Bachelor's degree 3rd year,Student,In a relationship,3,0,0,2,2,3,3,1,3,0,1,3,1,0,3,2,3,0,3,1,0,2,0,3,2,0,2,2,3,3,1,3,0,1,0,3,2,1,1,0,3,1,3,0,3,1,1,0,3,1,0
+18-24,Male,Rajshahi,Bachelor's degree 2nd year,Employed part-time,Married,3,2,2,3,2,3,2,1,3,3,3,3,1,3,3,0,1,0,2,1,1,3,2,3,2,2,3,2,3,2,1,3,3,3,2,0,2,3,3,2,2,3,1,1,0,3,3,2,2,3,1
+18-24,Male,Dhaka,Bachelor's degree 3rd year,Student,Married,3,0,0,2,2,3,2,3,2,0,0,2,3,1,2,2,0,3,1,1,2,1,1,3,1,0,2,2,3,2,3,2,0,1,1,3,0,0,0,1,0,0,2,1,2,0,0,1,0,0,0
+18-24,Male,Chattogram,Bachelor's degree 4th year,Student,Single,0,1,1,2,1,3,3,1,2,0,3,1,0,3,3,3,1,3,0,2,2,0,2,0,3,1,2,1,3,2,1,2,0,2,2,1,0,2,1,1,1,1,0,1,2,2,1,1,1,1,1
+18-24,Female,Dhaka,Bachelor's degree 4th year,Employed full-time,Married,1,1,0,0,1,0,2,2,0,0,3,0,3,1,2,2,2,3,2,3,3,1,0,1,0,0,0,1,0,2,2,0,0,1,3,2,1,1,0,1,0,2,1,1,0,1,0,1,0,2,0
+25-34,Female,Rangpur,Master's degree 1st year,Employed full-time,Married,2,1,2,3,3,3,0,2,2,2,0,2,1,2,1,0,3,0,0,3,1,3,2,2,2,2,3,3,3,0,2,2,2,2,1,2,2,2,3,3,2,0,0,0,3,2,3,3,2,0,0
+25-34,Female,Dhaka,Master's degree 1st year,Self-employed,In a relationship,0,3,0,2,2,3,2,1,1,0,0,3,1,0,2,2,1,1,0,3,2,0,3,0,1,0,2,2,3,2,1,1,0,1,0,3,2,1,1,1,1,1,2,3,1,1,1,1,1,1,1
+25-34,Female,Sylhet,Master's degree 2nd year,Student,In a relationship,3,0,1,3,0,1,1,2,3,0,0,0,0,2,3,3,1,2,0,0,3,3,3,3,0,3,3,0,1,1,2,3,0,2,0,2,0,1,0,2,1,3,1,2,1,1,0,2,1,3,1
+25-34,Female,Rangpur,Master's degree 2nd year,Self-employed,In a relationship,1,3,2,1,1,1,3,3,0,3,3,2,2,1,3,3,3,2,2,3,3,1,1,1,3,2,1,1,1,3,3,0,3,2,2,0,1,1,1,2,1,1,1,0,1,1,1,2,1,0,1
+18-24,Male,Mymensingh,Bachelor's degree 1st year,Self-employed,In a relationship,3,3,3,3,2,3,3,3,1,3,2,3,2,3,3,3,3,2,3,3,3,2,1,3,0,3,3,2,3,3,3,1,3,2,3,3,2,2,2,0,3,0,2,1,2,2,2,0,3,0,1
+18-24,Female,Sylhet,Bachelor's degree 2nd year,Employed full-time,In a relationship,3,1,1,3,2,2,1,0,3,0,0,3,1,3,3,0,3,3,0,3,3,2,1,3,2,1,3,2,2,1,0,3,0,1,3,2,1,1,0,1,1,2,2,1,0,1,0,1,1,2,0
+25-34,Female,Rajshahi,Master's degree 1st year,Employed full-time,Married,3,1,2,3,1,3,1,3,0,3,0,1,2,2,2,3,2,0,1,0,2,1,0,3,0,2,3,1,3,1,3,0,3,1,2,1,1,3,3,3,3,2,0,0,2,3,3,3,3,2,0
+18-24,Female,Rangpur,Bachelor's degree 4th year,Self-employed,Married,3,3,3,1,3,1,2,1,2,3,3,1,1,1,3,0,3,3,0,2,0,1,3,3,2,3,1,3,1,2,1,2,3,0,2,2,0,3,1,0,3,3,1,1,1,3,0,0,3,3,1
+18-24,Male,Mymensingh,Bachelor's degree 3rd year,Student,In a relationship,0,0,3,3,1,0,1,0,1,3,3,0,0,2,3,2,3,1,1,1,3,1,0,0,2,3,3,1,0,1,0,1,3,2,1,2,1,1,0,1,0,1,1,0,1,1,0,2,0,1,1
+18-24,Male,Barishal,Bachelor's degree 4th year,Employed part-time,In a relationship,0,2,0,3,1,0,0,1,3,2,0,1,0,2,0,3,1,0,0,0,1,0,3,0,2,0,3,1,0,0,1,3,2,2,2,2,1,1,2,1,0,0,3,0,0,1,2,1,0,0,0
+18-24,Male,Dhaka,Bachelor's degree 2nd year,Self-employed,Single,0,3,3,1,3,3,2,1,0,0,1,3,3,0,2,2,3,2,3,1,2,3,2,0,3,3,1,3,3,2,1,0,0,0,2,2,2,1,1,2,1,1,0,3,0,1,1,2,1,1,1
+25-34,Female,Chattogram,Master's degree 2nd year,Student,Married,2,0,1,2,0,3,3,3,0,3,3,0,0,3,0,1,3,3,0,0,2,3,3,2,1,1,2,0,3,3,3,0,3,0,1,0,1,0,1,0,2,3,1,0,0,0,1,0,2,3,1
+18-24,Male,Khulna,Bachelor's degree 4th year,Employed full-time,Married,0,1,3,3,3,0,2,3,2,2,0,0,3,0,3,2,2,3,0,0,0,3,3,0,3,3,3,3,0,2,3,2,2,3,1,1,2,1,1,2,1,2,1,3,2,1,1,2,1,2,0
+18-24,Female,Dhaka,Bachelor's degree 1st year,Employed full-time,Married,0,1,0,3,2,3,0,3,3,1,0,1,3,0,1,1,2,1,2,0,0,1,3,0,1,0,3,2,3,0,3,3,1,2,2,3,0,1,1,1,0,3,3,2,1,1,1,1,0,3,0
+18-24,Male,Mymensingh,Bachelor's degree 2nd year,Student,In a relationship,0,0,3,3,3,1,2,0,2,2,1,3,3,3,3,2,1,1,1,3,2,3,1,0,2,3,3,3,1,2,0,2,2,3,0,1,0,0,1,1,1,1,0,0,1,0,1,1,1,1,1
+25-34,Female,Dhaka,Master's degree 2nd year,Employed part-time,In a relationship,2,2,0,0,3,3,2,2,2,3,1,0,1,0,1,0,0,3,3,0,2,1,3,2,1,0,0,3,3,2,2,2,3,1,3,1,1,3,0,0,0,1,1,0,1,3,0,0,0,1,1
+18-24,Male,Rajshahi,Bachelor's degree 3rd year,Employed full-time,Single,0,1,2,1,0,2,0,3,3,2,3,3,1,0,2,2,1,1,1,1,1,0,1,0,1,2,1,0,2,0,3,3,2,3,0,1,1,1,2,1,1,0,3,1,0,1,2,1,1,0,0
+25-34,Male,Barishal,Master's degree 2nd year,Employed full-time,Single,3,1,0,0,1,1,2,3,3,0,3,3,0,3,1,0,3,2,3,0,1,2,2,3,0,0,0,1,1,2,3,3,0,0,1,3,2,2,0,2,2,2,3,0,3,2,0,2,2,2,0
+18-24,Male,Khulna,Bachelor's degree 1st year,Student,In a relationship,0,1,3,1,2,2,0,0,3,1,1,3,2,2,0,0,0,1,0,1,1,1,1,0,3,3,1,2,2,0,0,3,1,0,2,1,3,3,3,2,1,0,2,1,0,3,3,2,1,0,0
+18-24,Male,Rangpur,Bachelor's degree 2nd year,Student,Single,3,0,3,2,0,1,0,3,1,3,3,1,3,1,3,3,0,1,2,3,2,1,0,3,1,3,2,0,1,0,3,1,3,0,3,3,2,2,2,3,2,3,1,1,3,2,2,3,2,3,1
+18-24,Male,Rangpur,Bachelor's degree 3rd year,Self-employed,Married,3,3,2,2,0,0,3,0,3,1,1,2,2,1,1,0,0,3,2,3,3,2,3,3,3,2,2,0,0,3,0,3,1,0,1,3,3,1,1,3,2,1,2,1,3,1,1,3,2,1,0
+18-24,Female,Rangpur,Bachelor's degree 1st year,Employed full-time,In a relationship,3,1,2,3,0,2,1,1,0,3,0,2,1,1,3,1,0,3,1,0,2,2,2,3,0,2,3,0,2,1,1,0,3,3,3,0,2,0,2,3,1,0,1,2,2,0,2,3,1,0,0
+25-34,Male,Mymensingh,Master's degree 2nd year,Student,Single,2,3,3,1,3,2,1,3,2,3,1,0,1,2,2,3,1,0,2,3,2,0,2,2,2,3,1,3,2,1,3,2,3,3,3,2,0,0,3,2,2,2,3,3,1,0,3,2,2,2,0
+18-24,Male,Sylhet,Bachelor's degree 1st year,Student,Single,2,2,1,2,2,1,2,3,1,1,1,3,2,0,2,3,2,0,1,1,1,3,2,2,3,1,2,2,1,2,3,1,1,3,0,3,2,0,0,2,2,0,2,1,1,0,0,2,2,0,0
+18-24,Female,Sylhet,Bachelor's degree 2nd year,Employed full-time,In a relationship,2,3,1,1,1,2,3,1,3,2,3,1,0,1,0,2,2,3,3,2,2,1,2,2,2,1,1,1,2,2,1,3,2,0,1,2,1,1,0,0,1,0,0,0,1,1,0,0,1,0,1
+25-34,Female,Chattogram,Master's degree 1st year,Employed full-time,Married,0,1,1,2,3,1,3,1,1,1,1,3,2,2,2,0,3,1,3,2,0,3,2,0,2,1,2,3,1,3,1,1,1,0,3,1,2,1,1,3,0,3,3,0,1,1,1,3,0,3,0
+18-24,Female,Khulna,Bachelor's degree 1st year,Employed part-time,Single,3,2,3,0,3,1,3,1,3,2,1,3,3,0,1,0,2,1,1,3,2,1,3,3,2,3,0,3,1,3,1,3,2,2,2,2,1,2,0,1,2,1,1,1,2,2,0,1,2,1,1
+18-24,Female,Rangpur,Bachelor's degree 1st year,Employed full-time,Married,2,1,2,2,3,1,3,3,1,2,2,1,3,3,2,3,2,0,3,3,2,3,3,2,0,2,2,3,1,3,3,1,2,2,2,2,3,0,1,0,3,1,1,1,3,0,1,0,3,1,1
+25-34,Male,Sylhet,Master's degree 2nd year,Self-employed,Single,2,3,1,0,0,1,0,2,2,3,3,2,3,1,0,2,2,0,2,1,2,2,2,2,3,1,0,0,1,0,2,2,3,0,3,2,0,1,3,2,1,0,2,0,1,1,3,2,1,0,0
+25-34,Male,Mymensingh,Master's degree 2nd year,Student,Single,0,0,3,2,2,0,3,2,2,2,2,3,2,0,3,2,2,0,1,0,2,0,3,0,3,3,2,2,0,3,2,2,2,2,1,1,0,3,2,0,2,0,2,1,3,3,2,0,2,0,0
+18-24,Female,Chattogram,Bachelor's degree 3rd year,Self-employed,Single,2,3,1,3,3,1,3,2,0,1,0,3,2,1,3,3,3,2,1,0,3,2,1,2,0,1,3,3,1,3,2,0,1,1,2,1,3,1,0,3,1,3,1,3,2,1,0,3,1,3,0
+25-34,Male,Barishal,Master's degree 2nd year,Student,Single,0,0,0,0,1,3,3,3,0,3,2,3,1,3,2,3,3,2,0,1,2,3,2,0,2,0,0,1,3,3,3,0,3,2,3,3,1,1,3,1,1,0,3,3,0,1,3,1,0,0,1
+18-24,Female,Chattogram,Bachelor's degree 4th year,Student,Single,1,0,1,2,2,2,3,1,3,0,0,1,3,1,1,3,0,0,1,3,3,3,2,1,2,1,2,2,2,3,1,3,0,0,3,3,0,3,1,3,1,3,1,1,2,3,3,3,1,3,1
+18-24,Female,Sylhet,Bachelor's degree 2nd year,Self-employed,In a relationship,2,3,1,3,1,3,0,3,2,0,3,0,3,0,0,1,2,1,1,0,0,0,3,2,1,1,3,1,3,0,3,2,0,3,1,0,2,0,1,2,2,1,0,1,1,0,1,2,2,1,0
+18-24,Male,Rajshahi,Bachelor's degree 2nd year,Self-employed,Single,3,3,2,0,3,0,0,1,1,3,3,2,1,2,1,1,3,3,0,1,2,2,2,3,2,2,0,3,0,0,1,1,3,1,3,1,1,3,3,2,2,1,1,2,0,3,3,2,2,1,1
+25-34,Female,Mymensingh,Master's degree 1st year,Self-employed,Single,0,3,3,3,1,3,2,3,1,1,2,0,0,0,0,3,2,2,0,0,1,0,2,0,3,3,3,1,3,2,3,1,1,1,1,0,0,0,1,0,2,3,0,2,2,0,1,0,2,3,0
+25-34,Female,Rajshahi,Master's degree 1st year,Self-employed,Married,3,3,2,3,3,2,3,3,1,0,3,0,3,1,2,2,2,1,2,2,3,3,2,3,1,2,1,3,2,3,3,1,0,2,1,1,2,3,0,1,2,1,1,2,2,3,0,1,2,1,1
+18-24,Female,Rangpur,Bachelor's degree 2nd year,Employed part-time,Single,2,2,2,1,3,3,3,1,0,0,0,2,3,0,0,1,0,2,1,0,2,2,0,2,1,2,1,3,3,3,1,0,0,2,1,2,2,2,1,1,3,1,0,1,3,2,1,1,3,1,0
+25-34,Male,Rajshahi,Master's degree 1st year,Employed full-time,In a relationship,0,1,2,0,1,3,0,2,1,3,2,3,0,3,3,2,3,1,2,3,3,3,0,0,0,2,0,3,3,0,2,1,3,3,1,0,0,0,3,3,1,2,3,1,1,0,3,3,1,2,1
+18-24,Male,Rangpur,Bachelor's degree 3rd year,Student,Single,3,0,2,2,2,1,3,1,0,2,0,0,3,2,2,2,0,2,2,1,2,3,2,3,0,2,2,2,1,3,1,0,2,2,3,0,3,1,2,1,3,3,1,3,0,1,2,1,3,3,0
+25-34,Female,Rangpur,Master's degree 2nd year,Self-employed,Married,3,3,2,0,3,3,3,0,0,1,2,0,3,0,1,0,2,1,0,3,1,2,0,3,2,2,0,3,3,3,0,0,1,2,2,0,3,2,2,3,2,1,3,2,2,2,2,3,2,1,0
+18-24,Female,Sylhet,Bachelor's degree 2nd year,Student,In a relationship,1,3,1,3,3,0,3,0,3,3,1,1,0,3,3,3,2,3,3,1,1,2,1,1,2,1,3,3,0,3,0,3,3,3,2,1,0,0,0,0,1,1,2,3,1,0,0,0,1,1,1
+25-34,Male,Rajshahi,Master's degree 1st year,Self-employed,Single,0,3,2,2,2,0,1,1,1,1,2,3,0,2,0,0,2,1,2,2,1,2,2,0,2,2,2,2,0,1,1,1,1,2,0,3,2,0,0,1,1,1,1,3,3,0,0,1,1,1,0
+18-24,Female,Rangpur,Bachelor's degree 2nd year,Employed part-time,In a relationship,3,2,2,1,1,2,2,3,1,3,3,0,2,3,2,3,0,1,3,1,3,3,1,3,2,2,1,1,2,2,3,1,3,1,1,0,3,0,2,1,2,2,3,1,0,0,2,1,2,2,0
+18-24,Male,Khulna,Bachelor's degree 4th year,Self-employed,Married,2,3,3,2,0,2,1,0,2,0,3,1,1,2,0,3,3,3,1,0,0,3,3,2,0,3,2,0,2,1,0,2,0,0,3,3,3,3,1,3,0,2,0,2,0,3,1,3,0,2,0
+18-24,Male,Barishal,Bachelor's degree 1st year,Self-employed,Single,2,3,0,1,0,3,2,0,3,2,0,3,1,0,2,2,1,2,0,0,3,1,1,2,0,0,1,0,3,2,0,3,2,2,3,1,3,0,0,0,2,2,3,1,2,0,0,0,2,2,0
+25-34,Male,Chattogram,Master's degree 2nd year,Student,Single,3,3,1,2,1,1,0,3,2,1,2,2,0,3,3,3,3,2,1,2,1,2,3,3,2,1,2,1,1,0,3,2,1,1,0,0,2,1,1,1,1,1,1,1,1,1,1,1,1,0,1
+18-24,Male,Chattogram,Bachelor's degree 2nd year,Employed full-time,Single,3,1,1,2,3,3,3,3,3,1,0,2,3,3,3,2,2,3,1,1,3,1,3,3,1,1,2,3,3,3,3,3,1,2,2,1,3,1,0,1,1,1,3,1,1,0,0,1,1,1,1
+18-24,Male,Sylhet,Bachelor's degree 1st year,Student,Single,0,2,1,2,3,3,2,2,1,3,0,1,3,3,2,2,3,1,0,2,0,2,3,0,1,1,2,3,3,2,2,1,3,2,2,3,0,1,1,1,2,1,0,1,1,1,1,1,2,0,1
+25-34,Male,Rajshahi,Master's degree 1st year,Self-employed,Married,3,3,2,3,3,0,3,3,0,3,3,2,3,2,3,3,3,1,3,3,1,3,3,3,2,2,3,3,0,1,3,0,3,2,0,3,2,1,0,0,3,2,0,1,3,1,0,0,3,2,1
+18-24,Female,Rajshahi,Bachelor's degree 1st year,Student,In a relationship,3,0,2,3,3,0,3,1,3,3,1,0,3,0,3,2,2,2,0,3,1,3,3,3,1,2,3,3,0,3,1,3,3,2,2,2,1,1,1,0,2,3,0,1,2,1,1,0,2,3,1
+25-34,Male,Rangpur,Master's degree 2nd year,Student,In a relationship,3,0,2,0,1,1,0,1,0,3,3,3,0,2,3,2,1,3,3,2,3,1,1,3,3,2,0,1,1,0,1,0,3,3,3,3,1,2,3,1,1,0,2,2,1,2,3,1,1,0,0
+18-24,Male,Mymensingh,Bachelor's degree 2nd year,Student,Single,1,0,3,0,3,3,2,2,0,1,3,0,3,3,1,2,3,1,1,3,1,3,3,1,2,3,0,3,3,2,2,0,1,2,1,2,0,1,1,3,1,0,1,2,2,1,1,3,1,0,1
+18-24,Male,Dhaka,Bachelor's degree 4th year,Student,Married,2,2,0,1,2,3,2,0,3,3,3,3,3,3,0,1,3,1,0,3,3,2,2,2,2,0,1,2,3,2,0,3,3,2,0,2,1,3,1,1,3,0,0,1,3,3,1,1,3,0,1
+25-34,Female,Rangpur,Master's degree 1st year,Employed part-time,Single,2,2,2,3,3,1,3,3,2,1,2,2,1,1,3,3,3,1,2,1,2,3,2,2,2,2,3,3,1,3,0,2,1,0,3,0,3,1,1,1,1,2,2,0,2,1,1,1,1,2,1
+18-24,Male,Barishal,Bachelor's degree 2nd year,Student,Single,0,0,0,1,0,1,3,3,3,0,0,0,1,0,3,1,3,0,1,2,1,0,1,0,3,0,1,0,1,3,3,3,0,2,0,1,2,3,3,0,1,1,0,1,3,3,3,0,1,1,0
+25-34,Female,Khulna,Master's degree 2nd year,Self-employed,Single,2,3,3,0,3,3,1,1,1,3,0,2,3,0,2,1,2,3,3,3,1,0,2,2,1,3,0,3,3,1,1,1,3,2,0,1,2,2,3,1,2,3,3,2,0,2,3,1,2,3,0
+25-34,Female,Chattogram,Master's degree 1st year,Employed part-time,Single,3,2,1,1,1,1,3,0,3,2,2,3,1,3,0,2,1,1,0,3,3,2,2,3,2,1,1,1,1,3,0,3,2,2,2,1,2,0,1,1,1,2,1,1,0,0,1,1,0,2,1
+18-24,Male,Rangpur,Bachelor's degree 3rd year,Student,Married,2,0,2,0,0,2,2,2,3,2,2,3,0,0,1,2,2,0,1,1,3,0,3,2,1,2,0,0,2,2,2,3,2,2,1,2,0,1,1,1,2,3,3,3,2,1,1,1,2,3,0
+18-24,Male,Dhaka,Bachelor's degree 1st year,Student,Single,3,3,0,3,3,0,0,2,0,3,3,0,3,1,1,1,0,3,1,1,3,2,3,3,1,0,3,3,0,0,2,0,3,1,2,3,1,0,1,0,1,2,1,2,0,0,1,0,1,2,1
+18-24,Female,Dhaka,Bachelor's degree 3rd year,Student,Married,2,3,0,2,1,0,0,1,3,1,3,1,1,2,1,1,0,1,1,0,0,0,1,2,3,0,2,1,0,0,1,3,1,1,2,2,2,2,2,2,0,0,3,2,3,2,2,2,0,0,0
+25-34,Male,Rangpur,Bachelor's degree 3rd year,Student,Married,0,1,2,3,0,0,1,2,3,2,2,2,2,0,0,2,0,2,3,3,0,2,2,0,2,2,3,0,0,1,2,3,2,0,3,3,3,2,1,3,1,0,3,0,0,2,1,3,1,0,0
+18-24,Female,Sylhet,Bachelor's degree 2nd year,Employed part-time,Single,0,2,1,1,1,0,3,2,0,2,3,2,3,3,1,3,0,0,0,0,2,3,3,0,2,1,1,1,0,0,2,0,2,0,1,2,3,3,3,2,1,1,0,0,1,3,3,2,2,1,1
+18-24,Male,Chattogram,Bachelor's degree 4th year,Student,Single,1,3,1,1,1,3,1,1,0,3,2,0,3,2,1,3,2,0,2,3,1,2,0,1,1,1,1,1,3,1,1,0,3,1,2,1,3,0,2,3,0,1,3,3,1,0,2,3,0,1,0
+25-34,Male,Sylhet,Master's degree 1st year,Student,In a relationship,2,0,1,3,3,0,2,3,0,2,0,2,2,2,1,1,0,1,2,0,3,2,2,2,3,1,3,3,0,2,3,0,2,0,3,1,1,0,1,0,1,3,0,3,2,0,1,0,1,3,0
+18-24,Female,Khulna,Bachelor's degree 1st year,Student,Married,3,0,3,3,2,0,3,3,1,1,3,2,0,1,2,3,1,1,2,3,0,1,0,3,2,3,3,2,0,3,3,1,1,2,3,1,2,0,1,1,1,1,0,3,2,0,1,1,3,1,1
+25-34,Male,Dhaka,Master's degree 1st year,Self-employed,Married,1,3,0,0,1,0,1,2,0,3,1,1,2,3,2,3,3,0,0,2,2,3,1,1,1,0,0,1,0,1,2,0,3,1,0,0,3,3,0,3,0,1,1,1,2,3,0,3,0,1,0
+18-24,Female,Dhaka,Bachelor's degree 2nd year,Employed part-time,Married,2,2,0,1,1,3,2,3,1,1,0,1,3,0,3,1,3,2,2,3,1,3,2,2,3,0,1,1,3,2,3,1,1,1,1,2,1,2,1,1,0,3,2,1,1,2,1,1,0,3,1
+25-34,Male,Barishal,Master's degree 1st year,Employed full-time,In a relationship,2,3,0,1,1,2,0,3,0,2,3,0,3,3,3,3,0,3,3,3,3,3,3,2,1,0,1,1,2,0,3,0,2,1,2,3,2,1,3,0,1,2,2,1,3,1,3,0,1,2,1
+18-24,Female,Khulna,Bachelor's degree 1st year,Student,In a relationship,3,3,3,3,3,3,1,2,1,2,3,3,3,2,3,1,0,3,0,0,1,0,1,3,2,3,3,3,3,1,2,1,2,2,1,0,2,0,1,1,3,1,2,1,3,0,0,0,3,1,1
+18-24,Male,Dhaka,Bachelor's degree 2nd year,Student,Single,3,0,0,2,2,3,1,3,3,1,3,0,1,3,2,3,0,1,3,2,1,1,1,3,0,0,2,2,3,1,3,3,1,2,1,2,2,3,3,1,0,1,1,1,1,3,3,1,0,1,1
+25-34,Male,Khulna,Master's degree 1st year,Employed part-time,In a relationship,2,2,3,1,0,3,2,2,2,0,3,3,1,0,3,0,2,2,3,3,3,3,3,2,3,3,1,0,3,2,2,2,0,1,2,2,2,3,1,1,1,0,2,3,3,3,1,1,1,0,1
+18-24,Female,Chattogram,Bachelor's degree 4th year,Student,In a relationship,1,1,1,2,3,1,0,0,3,2,2,0,3,0,3,2,3,3,1,0,0,0,1,1,0,1,2,3,1,0,0,3,2,2,2,3,2,1,1,3,0,1,0,3,0,1,1,3,0,1,0
+25-34,Female,Rajshahi,Master's degree 2nd year,Employed part-time,In a relationship,1,3,3,3,3,3,1,1,3,0,0,3,2,1,3,3,0,2,3,3,0,0,2,1,1,3,3,3,3,1,1,3,0,1,1,3,2,2,1,0,0,0,1,1,1,2,1,0,0,0,1
+18-24,Female,Dhaka,Bachelor's degree 2nd year,Employed part-time,In a relationship,3,2,0,3,2,1,2,1,0,2,3,0,3,3,1,3,3,1,3,0,1,0,0,3,1,0,3,2,1,2,1,0,2,3,3,1,3,1,1,3,0,0,2,1,1,1,1,3,0,0,1
+18-24,Female,Barishal,Bachelor's degree 3rd year,Student,Single,0,0,0,0,2,1,1,3,1,0,2,2,1,0,2,2,0,3,3,3,1,1,2,0,2,0,0,2,1,1,3,3,0,0,2,0,2,0,3,1,3,1,0,1,2,0,3,1,3,2,1
+18-24,Male,Chattogram,Bachelor's degree 2nd year,Employed full-time,In a relationship,2,1,1,1,3,3,3,3,2,0,1,1,0,3,2,3,3,3,3,1,2,0,2,2,0,1,1,3,3,3,3,2,0,2,2,1,3,3,0,0,2,3,2,1,3,3,0,0,2,3,0
+18-24,Female,Rangpur,Bachelor's degree 4th year,Self-employed,Married,2,3,2,2,0,1,2,3,0,0,1,3,3,3,2,1,0,3,1,0,3,1,2,2,1,2,2,0,1,2,3,0,0,2,1,0,2,2,3,1,2,1,2,1,1,2,3,1,2,1,0
+25-34,Male,Khulna,Master's degree 2nd year,Student,Married,3,0,3,0,3,2,0,1,0,1,0,0,1,2,0,2,3,2,0,2,1,2,3,3,3,3,0,3,2,0,1,0,1,0,2,0,3,0,3,3,3,2,1,0,3,0,3,3,3,2,0
+18-24,Male,Rangpur,Bachelor's degree 3rd year,Employed full-time,In a relationship,2,1,2,1,2,1,0,0,0,0,2,1,3,1,0,3,0,1,3,0,3,0,3,2,2,2,1,2,1,0,0,0,0,2,3,3,2,1,3,3,3,3,3,3,3,1,3,3,3,3,0
+18-24,Female,Sylhet,Bachelor's degree 1st year,Employed full-time,In a relationship,0,1,1,0,0,1,0,0,3,0,3,0,2,3,1,2,1,3,3,3,0,3,2,0,2,1,0,0,1,0,0,3,0,0,1,1,3,2,1,3,1,0,2,0,3,2,1,3,1,0,0
+18-24,Female,Chattogram,Bachelor's degree 3rd year,Employed full-time,Married,3,1,1,3,2,1,0,1,1,0,1,1,3,0,0,2,0,0,3,2,1,0,0,3,3,1,3,2,1,0,1,1,0,3,3,1,2,2,1,0,0,1,1,2,1,2,1,0,0,1,0
+25-34,Female,Rangpur,Master's degree 1st year,Student,Married,0,1,2,1,0,0,1,0,1,2,1,1,3,2,2,2,1,1,3,0,2,2,2,0,2,2,1,0,0,1,0,1,2,2,1,0,1,3,3,1,3,0,2,0,2,3,3,1,3,0,0
+18-24,Female,Mymensingh,Bachelor's degree 4th year,Employed full-time,Single,3,3,3,0,1,3,3,3,2,3,3,0,2,3,2,0,1,0,0,2,2,3,1,3,2,3,0,1,3,3,3,2,3,2,1,0,3,3,2,1,1,0,2,1,1,3,2,1,1,0,1
+18-24,Female,Mymensingh,Bachelor's degree 3rd year,Employed part-time,Married,3,2,3,3,2,2,0,0,1,3,2,3,0,3,0,3,3,0,1,0,3,0,3,3,1,3,3,2,2,0,0,1,3,2,2,3,1,0,3,3,2,1,2,1,2,0,3,3,2,1,1
+18-24,Male,Dhaka,Bachelor's degree 2nd year,Student,Married,1,0,0,2,2,2,0,2,1,0,1,3,2,1,3,0,1,3,3,1,0,2,3,1,1,0,2,2,2,0,2,1,0,0,0,2,3,3,3,3,2,3,2,0,1,3,3,3,2,3,0
+25-34,Female,Khulna,Master's degree 1st year,Employed part-time,In a relationship,0,2,3,0,3,0,3,3,0,3,3,2,2,2,1,3,2,3,0,0,3,1,2,0,2,3,0,3,0,0,3,0,3,3,2,1,3,1,0,3,2,3,3,2,2,1,0,3,2,3,1
+25-34,Male,Rajshahi,Master's degree 1st year,Self-employed,Married,2,3,2,1,2,2,1,3,0,1,3,1,3,3,3,1,3,3,1,3,0,1,2,2,0,2,1,2,2,1,3,0,1,0,1,1,3,0,1,3,1,1,1,1,1,0,1,3,1,1,1
+18-24,Male,Chattogram,Bachelor's degree 3rd year,Student,Single,2,1,1,1,2,0,0,0,3,2,2,2,0,2,1,1,0,2,3,3,2,0,0,2,0,1,1,2,0,0,0,3,2,0,0,3,0,0,1,2,1,1,2,2,0,0,1,2,1,1,0
+18-24,Male,Dhaka,Bachelor's degree 3rd year,Student,Married,0,0,0,2,1,3,0,3,0,0,2,2,1,2,3,1,1,2,1,3,3,1,0,0,0,0,2,1,3,0,3,0,0,3,0,3,2,2,0,2,0,2,2,0,2,2,0,2,0,2,0
+18-24,Female,Barishal,Bachelor's degree 4th year,Employed full-time,In a relationship,3,1,0,1,2,1,3,3,0,2,3,0,3,2,0,3,3,3,1,3,2,1,1,2,3,0,1,2,1,3,3,0,2,1,3,1,1,0,2,2,1,2,1,2,1,0,2,2,1,2,1
+18-24,Male,Sylhet,Bachelor's degree 1st year,Student,Single,2,0,1,3,1,1,3,2,0,2,2,0,0,0,1,2,0,2,0,0,2,3,2,2,0,1,3,1,1,3,2,0,2,1,1,1,1,1,0,3,0,0,1,2,2,1,0,3,0,0,0
+25-34,Male,Khulna,Bachelor's degree 3rd year,Student,Single,0,2,3,1,1,2,0,2,0,3,2,0,2,0,1,2,2,0,1,1,0,0,2,0,2,3,1,1,2,0,2,0,3,0,2,0,3,1,2,3,2,1,0,0,3,1,2,3,2,1,0
+18-24,Female,Chattogram,Bachelor's degree 3rd year,Student,In a relationship,3,0,1,1,1,0,2,0,3,1,0,1,2,3,1,0,1,2,0,0,3,2,2,3,3,1,1,1,0,2,0,3,1,3,0,2,1,0,0,1,3,3,3,0,1,0,0,1,3,3,0
+25-34,Female,Mymensingh,Master's degree 2nd year,Self-employed,Single,0,3,3,0,1,0,0,0,0,1,3,0,2,1,2,0,1,3,3,3,3,0,3,0,3,3,0,1,0,0,0,0,1,1,0,1,1,3,0,0,3,0,2,1,1,3,0,0,3,0,0
+18-24,Male,Chattogram,Bachelor's degree 2nd year,Self-employed,Single,3,3,1,0,0,2,3,3,2,1,1,0,2,0,2,1,3,2,1,2,2,1,1,3,3,1,0,0,2,3,3,2,1,3,2,3,1,1,2,1,3,0,3,1,0,1,2,1,3,0,0
+25-34,Female,Rajshahi,Master's degree 2nd year,Student,Married,2,0,2,1,3,0,3,3,2,3,2,1,3,0,3,0,2,1,1,3,2,3,0,2,2,2,1,3,0,3,3,2,3,2,2,0,1,0,1,1,0,0,1,3,1,0,1,2,0,0,1
+25-34,Female,Mymensingh,Master's degree 2nd year,Student,Married,2,0,3,3,0,3,2,0,2,3,1,1,0,0,0,3,2,1,2,2,0,0,3,2,3,3,3,0,3,2,0,2,3,0,0,2,2,1,1,1,2,0,3,1,3,1,1,1,2,0,1
+25-34,Male,Rajshahi,Master's degree 1st year,Student,Married,2,0,2,0,2,1,0,0,2,1,1,3,0,3,2,3,0,0,3,1,1,0,3,2,0,2,0,2,1,0,0,2,1,3,2,3,3,3,1,3,1,3,3,0,2,3,1,3,1,3,0
+18-24,Female,Barishal,Bachelor's degree 1st year,Student,In a relationship,1,0,0,2,0,2,3,0,0,3,0,0,0,2,1,0,2,1,3,2,1,1,3,1,0,0,2,0,2,3,0,0,3,2,3,3,1,2,0,2,3,0,2,2,1,2,0,2,3,0,0
+18-24,Female,Sylhet,Bachelor's degree 2nd year,Self-employed,Single,3,3,1,1,0,2,3,0,2,3,2,0,2,3,2,0,0,2,2,0,2,1,3,3,3,1,1,0,2,3,0,2,3,0,0,0,0,0,3,2,0,1,2,2,0,0,3,2,0,1,0
+18-24,Male,Barishal,Bachelor's degree 4th year,Employed full-time,Single,1,1,0,1,2,0,2,1,0,3,3,0,3,1,0,0,3,3,2,0,1,0,1,1,1,0,1,2,0,2,1,0,3,0,3,3,0,0,0,0,3,2,1,1,3,0,0,0,3,2,0
+18-24,Female,Dhaka,Bachelor's degree 4th year,Student,In a relationship,1,0,0,3,2,2,0,0,3,3,2,3,2,1,2,0,3,1,0,3,3,1,3,1,2,0,3,2,2,0,0,3,3,0,1,0,3,0,3,1,1,3,2,1,2,0,3,1,1,3,1
+18-24,Female,Dhaka,Bachelor's degree 3rd year,Student,Single,0,0,0,0,2,3,1,3,2,1,1,0,2,1,1,1,1,0,0,2,1,1,0,0,3,0,0,2,3,1,3,2,1,0,3,3,2,0,3,2,2,1,1,0,0,0,3,2,2,1,0
+18-24,Male,Dhaka,Bachelor's degree 3rd year,Self-employed,Married,1,3,0,1,3,0,3,2,1,3,3,3,0,1,3,1,3,2,1,0,1,3,0,1,2,0,1,3,0,3,2,1,3,2,2,0,2,0,1,2,1,1,1,1,1,0,1,2,1,1,1
+18-24,Female,Sylhet,Bachelor's degree 4th year,Self-employed,Single,0,3,1,3,0,3,3,1,3,3,2,2,3,0,1,0,0,0,1,0,3,1,3,0,2,1,3,0,3,3,1,3,3,3,0,1,2,0,3,1,2,1,1,3,0,0,3,1,2,1,1
+18-24,Male,Barishal,Bachelor's degree 3rd year,Employed part-time,Married,0,2,3,3,2,3,1,0,2,1,1,3,1,3,3,3,3,1,1,0,1,1,3,0,2,3,0,2,3,1,0,2,1,3,3,1,2,3,1,2,2,1,1,3,3,3,1,2,2,1,1
+18-24,Female,Sylhet,Bachelor's degree 1st year,Student,Single,1,0,1,1,3,0,3,3,0,3,1,2,2,3,3,1,0,1,1,1,3,3,1,1,2,1,1,3,0,3,3,0,3,3,2,3,3,2,1,3,2,2,0,1,0,2,1,3,2,2,1
+25-34,Male,Sylhet,Master's degree 2nd year,Employed part-time,Married,3,2,1,1,3,3,3,1,2,0,0,0,1,2,2,3,3,0,0,2,0,1,3,3,1,1,1,3,3,3,1,2,0,2,2,2,2,3,1,1,3,2,3,3,3,3,1,1,3,2,0
+18-24,Female,Rangpur,Bachelor's degree 3rd year,Student,In a relationship,3,3,2,0,1,0,3,2,1,3,0,2,2,1,3,2,0,2,3,2,2,3,0,3,2,2,0,1,0,3,2,1,3,3,3,1,2,1,1,3,1,1,0,0,1,1,2,3,1,1,1
+25-34,Female,Mymensingh,Master's degree 1st year,Self-employed,In a relationship,3,3,3,0,2,2,1,0,0,2,0,3,3,3,2,3,2,1,1,3,3,0,0,3,2,3,0,2,2,1,0,0,2,2,0,0,3,1,0,3,3,2,1,3,0,1,0,3,3,2,1
+18-24,Male,Khulna,Bachelor's degree 3rd year,Employed full-time,Single,3,1,3,0,1,3,3,0,0,1,1,1,3,0,3,0,1,3,3,2,3,3,2,3,1,3,0,1,3,3,0,0,1,0,3,2,1,3,3,3,1,0,2,1,3,3,3,3,1,0,0
+18-24,Female,Sylhet,Bachelor's degree 2nd year,Student,In a relationship,3,3,3,1,3,1,3,3,3,1,2,2,3,0,1,2,0,1,3,1,0,3,2,3,2,3,1,3,1,3,3,3,1,2,1,0,2,1,1,2,0,2,0,0,3,1,0,2,0,2,1
+18-24,Female,Rajshahi,Bachelor's degree 1st year,Employed part-time,In a relationship,1,2,2,1,1,1,3,0,3,2,0,2,2,2,3,1,3,2,2,2,0,3,0,1,2,2,1,1,1,3,0,3,2,0,3,0,2,1,1,0,1,3,1,2,3,1,0,0,1,3,1
+18-24,Male,Sylhet,Bachelor's degree 2nd year,Self-employed,Single,3,3,3,3,2,3,0,3,2,3,2,0,1,2,3,1,0,3,1,1,2,0,3,1,3,3,3,2,3,0,3,2,3,2,2,1,0,0,1,1,1,1,1,0,0,0,1,1,1,1,1
+18-24,Male,Sylhet,Bachelor's degree 2nd year,Student,Married,2,3,1,2,2,2,3,1,3,0,0,3,3,2,0,2,0,0,3,1,3,2,1,2,0,1,2,2,2,3,1,3,0,1,0,3,2,1,2,3,1,1,3,1,1,1,2,3,1,1,1
+25-34,Female,Dhaka,Master's degree 1st year,Employed part-time,Married,3,2,1,0,2,3,0,3,3,2,3,3,3,3,3,3,0,1,1,2,1,3,1,3,2,1,0,2,3,0,3,3,2,2,3,3,3,1,3,2,1,1,3,1,1,1,3,2,1,1,1
+18-24,Female,Rangpur,Bachelor's degree 1st year,Student,Married,1,1,2,1,0,1,1,3,3,2,3,2,1,0,2,1,3,1,0,3,0,0,0,1,0,2,1,0,1,1,1,3,2,2,2,0,1,2,1,1,1,2,1,3,1,2,1,1,1,2,1
+18-24,Male,Mymensingh,Bachelor's degree 1st year,Self-employed,Single,2,3,3,1,1,1,1,2,0,3,0,2,3,0,1,0,1,2,2,0,3,1,3,2,2,3,1,1,1,1,2,0,3,0,0,1,1,3,0,3,2,2,1,3,0,3,0,3,2,2,0
+18-24,Female,Rangpur,Bachelor's degree 1st year,Student,Single,3,0,2,0,3,3,0,0,0,1,1,2,3,2,1,2,2,0,3,0,2,1,2,3,0,2,0,3,3,0,0,0,1,2,2,0,2,3,1,1,3,3,1,2,2,3,3,1,3,3,1
+18-24,Male,Dhaka,Bachelor's degree 1st year,Self-employed,Married,0,3,0,2,3,1,1,2,0,3,0,1,0,1,1,0,1,2,3,3,1,1,0,0,2,0,2,3,1,1,2,0,3,2,0,2,2,1,1,1,2,0,1,2,1,1,1,1,2,0,1
+18-24,Male,Rangpur,Bachelor's degree 1st year,Student,Single,2,0,2,0,3,1,0,1,3,2,0,3,3,2,2,2,0,1,3,2,2,1,3,2,2,2,0,3,1,0,1,3,2,0,1,0,3,3,1,2,3,3,1,1,2,3,1,2,3,3,0
+25-34,Male,Rajshahi,Master's degree 1st year,Employed part-time,Single,1,2,2,2,0,0,3,0,0,2,3,0,3,3,3,1,3,3,2,1,3,1,0,1,2,2,2,0,0,0,0,0,2,1,1,1,0,3,0,2,1,1,1,1,0,3,0,2,1,1,1
+18-24,Male,Rajshahi,Bachelor's degree 3rd year,Student,Married,0,0,2,1,0,2,0,0,3,1,3,0,3,2,2,3,1,1,1,2,3,1,2,0,0,2,1,0,2,0,0,3,1,1,1,0,2,2,2,0,3,1,3,1,3,2,2,0,3,1,0
+18-24,Male,Rangpur,Bachelor's degree 2nd year,Employed part-time,Single,0,2,2,3,3,0,3,1,0,1,2,1,2,2,2,3,0,2,3,1,3,1,2,0,0,2,3,3,0,3,1,0,1,1,3,2,1,1,3,0,2,1,3,2,2,1,3,0,2,1,1
+18-24,Female,Mymensingh,Bachelor's degree 1st year,Student,Married,0,0,3,3,3,1,0,1,0,1,0,3,2,3,2,2,2,3,3,3,3,2,1,0,0,3,3,3,1,0,1,0,1,2,2,3,2,0,1,1,1,2,0,1,1,0,1,2,1,2,1
+18-24,Female,Barishal,Bachelor's degree 3rd year,Employed part-time,Single,2,2,0,1,0,3,3,1,1,3,1,2,3,2,3,0,2,2,0,2,3,3,1,2,3,0,1,0,3,3,1,1,3,0,0,1,0,1,2,3,2,2,3,2,2,1,2,3,2,2,0
+25-34,Male,Dhaka,Bachelor's degree 3rd year,Student,Single,1,0,3,3,2,3,0,1,2,1,0,3,2,3,2,3,2,2,3,3,1,2,1,1,2,3,3,2,3,0,1,2,1,1,1,2,1,2,1,1,2,3,1,1,1,2,1,0,2,3,1
+18-24,Male,Mymensingh,Bachelor's degree 2nd year,Employed full-time,Single,3,3,3,0,3,1,0,1,3,2,1,3,1,1,3,0,0,0,1,3,3,1,1,3,2,3,0,3,1,0,1,3,2,1,2,1,2,2,1,1,3,2,2,0,1,2,0,1,3,2,1
+25-34,Male,Rangpur,Master's degree 1st year,Student,Single,3,0,2,0,1,1,0,0,1,2,2,2,2,2,2,1,3,3,0,2,2,1,2,3,1,2,0,1,1,0,0,1,2,1,2,2,3,2,3,3,0,3,3,0,1,2,3,3,0,3,0
+18-24,Male,Sylhet,Bachelor's degree 4th year,Student,In a relationship,0,0,1,0,2,3,1,1,0,0,2,1,2,3,2,0,1,3,0,1,1,2,3,0,3,1,0,2,3,1,1,0,0,1,3,2,3,3,2,1,1,2,3,1,1,3,2,1,1,2,1
+18-24,Male,Chattogram,Bachelor's degree 4th year,Employed full-time,Married,0,1,1,2,0,0,3,0,3,3,3,3,3,1,1,2,2,2,1,0,0,2,3,0,0,1,2,0,0,3,0,3,3,0,2,0,0,1,2,2,2,2,1,0,0,1,2,2,2,2,0
+18-24,Male,Khulna,Bachelor's degree 3rd year,Self-employed,Single,2,3,3,1,0,0,3,0,0,0,1,0,0,3,2,0,0,1,2,1,0,3,3,2,0,3,1,0,0,3,0,0,0,1,2,2,1,3,0,1,3,1,3,2,3,3,0,1,3,1,0
+25-34,Female,Khulna,Master's degree 2nd year,Student,Married,2,3,3,0,2,3,0,1,2,2,3,0,0,1,3,3,3,0,3,2,3,3,0,2,0,3,0,2,3,0,1,2,2,2,1,2,0,3,0,3,2,1,3,3,1,3,0,3,2,1,1
+25-34,Male,Rajshahi,Master's degree 2nd year,Student,Married,1,0,2,0,2,0,0,1,1,0,3,3,0,1,3,1,1,0,0,2,0,3,1,1,1,2,0,2,0,0,1,1,0,2,1,3,2,1,1,2,2,1,1,0,1,1,1,2,2,1,0
+18-24,Male,Khulna,Bachelor's degree 2nd year,Employed full-time,Married,3,1,3,1,0,3,1,3,2,2,3,0,1,2,3,1,2,3,3,0,2,1,1,3,1,3,1,0,3,1,3,2,2,0,1,1,2,1,0,3,1,1,3,3,1,1,0,3,1,1,1
+18-24,Male,Rangpur,Bachelor's degree 4th year,Student,In a relationship,2,0,2,0,1,0,1,0,1,0,1,3,2,0,0,2,0,0,1,2,1,0,2,2,2,2,0,1,0,1,0,1,0,3,2,3,0,0,1,1,3,0,2,0,0,0,1,1,3,0,0
+18-24,Female,Sylhet,Bachelor's degree 3rd year,Employed part-time,Married,0,2,1,3,3,1,1,1,0,1,3,2,0,2,1,1,1,0,3,3,1,0,2,0,3,1,3,3,1,1,1,0,1,1,3,2,2,0,2,3,0,1,0,2,1,0,2,3,0,1,0
+25-34,Female,Sylhet,Master's degree 1st year,Employed part-time,Married,1,2,1,1,1,3,3,1,2,0,2,3,3,3,2,3,3,1,3,3,1,0,0,1,3,1,1,1,3,3,1,2,0,1,3,0,0,1,2,2,0,0,3,0,1,1,2,2,0,0,0
+18-24,Male,Dhaka,Bachelor's degree 4th year,Student,Married,0,0,0,1,2,0,3,1,2,1,0,2,0,3,3,3,3,3,0,0,0,0,0,0,1,0,1,2,0,3,1,2,1,2,2,2,2,1,1,1,1,1,2,0,3,1,1,1,1,1,1
+18-24,Female,Dhaka,Bachelor's degree 3rd year,Self-employed,Married,0,3,1,1,1,2,3,3,0,1,2,1,0,1,2,2,3,0,3,3,1,1,3,0,2,1,1,1,2,3,3,0,1,0,3,2,0,2,3,1,2,2,3,1,2,2,3,1,2,2,0
+18-24,Female,Mymensingh,Bachelor's degree 3rd year,Student,Married,2,3,3,3,0,3,0,3,2,3,3,3,2,1,0,3,2,2,3,3,3,3,2,2,0,3,3,0,3,0,3,2,3,3,2,3,2,1,1,0,3,3,0,3,1,1,1,0,3,3,1
+18-24,Male,Sylhet,Bachelor's degree 1st year,Student,Single,3,0,1,1,2,3,3,2,3,1,3,1,2,0,0,1,1,3,3,0,3,3,1,3,1,1,1,2,3,3,2,3,1,2,2,1,1,1,1,0,1,2,1,3,1,1,0,0,1,2,1
+25-34,Male,Rajshahi,Master's degree 1st year,Student,In a relationship,3,0,2,3,3,2,2,0,1,1,1,0,2,2,3,1,1,2,3,0,3,2,3,3,3,2,3,3,2,2,0,1,1,3,3,0,1,2,0,3,0,2,0,2,1,2,0,3,0,2,0
+18-24,Male,Sylhet,Bachelor's degree 1st year,Employed part-time,Single,3,2,3,1,0,2,3,2,1,3,2,2,3,3,3,3,3,0,3,1,0,0,1,3,3,3,1,0,2,2,2,1,3,0,2,0,2,2,3,0,1,0,1,2,1,2,3,0,1,0,1
+18-24,Female,Dhaka,Bachelor's degree 2nd year,Self-employed,Married,2,3,0,2,0,3,1,1,1,2,1,3,1,1,0,0,0,0,2,3,1,2,3,2,3,0,2,0,3,1,1,1,2,0,0,0,0,3,2,0,0,1,0,3,1,3,2,0,0,1,0
+18-24,Female,Chattogram,Bachelor's degree 1st year,Student,Single,2,0,3,0,3,2,3,3,3,3,3,1,0,0,3,0,0,3,1,3,0,3,3,2,2,3,0,3,2,3,3,3,3,0,1,2,2,1,1,0,1,3,0,1,2,1,1,0,1,3,1
+18-24,Female,Rangpur,Bachelor's degree 1st year,Student,In a relationship,1,2,2,2,3,1,2,3,1,1,2,2,2,3,0,2,1,3,1,3,1,1,0,1,3,2,2,3,1,2,3,1,1,2,3,1,3,0,2,0,3,3,1,1,3,0,2,0,3,3,0
+18-24,Male,Rajshahi,Bachelor's degree 4th year,Self-employed,Single,3,3,2,0,1,3,1,3,0,3,1,2,0,1,1,1,0,3,0,0,2,0,3,3,0,2,0,1,3,1,3,0,3,2,1,0,3,1,1,2,2,1,3,3,1,1,1,2,2,1,1
+25-34,Female,Mymensingh,Master's degree 2nd year,Employed full-time,Married,3,1,3,3,2,1,3,3,2,0,0,0,3,3,3,3,3,0,3,0,3,0,1,3,0,3,3,2,1,3,3,2,0,2,2,3,0,1,0,2,1,0,1,0,1,1,0,2,2,0,1
+18-24,Female,Chattogram,Bachelor's degree 3rd year,Employed part-time,Single,3,2,1,2,3,3,3,1,3,1,0,0,3,0,3,0,1,1,3,3,0,1,1,3,0,1,2,3,3,0,1,3,1,2,0,3,2,0,1,0,1,1,1,1,1,0,1,0,1,1,1
+25-34,Female,Rajshahi,Master's degree 1st year,Self-employed,In a relationship,0,3,2,1,3,2,2,3,1,0,3,2,2,0,3,2,3,3,3,2,3,2,2,0,1,2,1,3,2,2,3,1,0,1,3,0,2,0,2,3,0,0,1,0,2,0,2,3,0,0,0
+18-24,Male,Barishal,Bachelor's degree 1st year,Student,Single,3,3,0,0,2,2,0,2,0,3,3,2,2,3,1,1,0,1,1,3,3,3,3,3,0,0,0,2,2,0,2,0,3,2,2,0,1,3,3,1,3,3,2,3,1,3,3,2,3,3,1
+25-34,Female,Khulna,Master's degree 1st year,Student,Single,0,2,3,0,3,0,3,1,2,0,3,3,3,2,0,1,3,3,1,1,3,1,1,0,2,3,0,3,0,3,1,2,0,2,3,1,0,2,3,0,1,0,3,0,3,2,3,0,1,0,0
+25-34,Female,Barishal,Master's degree 2nd year,Employed full-time,Married,1,1,0,2,3,3,3,2,2,3,2,2,2,3,2,2,2,3,0,0,3,3,3,1,3,0,2,3,3,2,2,2,3,1,2,1,2,2,0,2,1,0,2,1,3,2,0,2,1,0,1
+25-34,Male,Sylhet,Master's degree 2nd year,Employed part-time,Married,3,2,1,3,1,2,3,3,3,0,0,3,1,1,3,2,2,3,2,3,3,1,1,3,1,1,3,1,2,3,3,3,0,3,1,2,3,1,3,1,1,3,2,1,1,1,3,1,1,3,1
+18-24,Male,Chattogram,Bachelor's degree 1st year,Self-employed,In a relationship,3,3,1,2,0,3,0,3,3,3,2,2,1,3,0,0,3,3,2,1,3,2,3,3,2,1,2,0,3,0,3,3,3,1,0,1,0,1,1,1,1,3,1,2,2,1,1,2,1,3,1
+18-24,Male,Sylhet,Bachelor's degree 2nd year,Student,Single,3,0,1,3,0,2,3,2,3,2,1,0,3,1,1,3,1,3,1,0,3,2,3,3,0,1,3,0,2,2,2,3,2,2,2,2,3,1,2,1,0,2,1,0,1,1,2,2,0,2,1
+18-24,Female,Khulna,Bachelor's degree 1st year,Student,Single,3,0,3,3,0,3,0,0,0,0,3,3,3,3,2,1,1,3,0,2,2,1,3,3,1,3,3,0,3,0,0,0,0,0,2,0,0,1,3,3,0,3,3,1,1,1,3,3,0,3,0
+18-24,Male,Rajshahi,Bachelor's degree 4th year,Employed part-time,Single,1,2,2,0,0,2,3,3,0,0,3,1,0,2,3,3,1,2,3,3,1,3,3,1,2,2,0,0,2,3,3,0,0,0,2,1,3,3,3,2,3,1,2,2,2,3,3,2,3,1,0
+25-34,Male,Khulna,Bachelor's degree 3rd year,Self-employed,Single,2,3,3,2,3,0,3,3,3,2,3,0,2,1,1,1,0,0,3,1,0,2,1,2,0,3,2,3,0,3,3,3,2,1,2,3,3,2,2,1,1,3,0,1,3,2,2,3,0,3,1
+18-24,Male,Dhaka,Bachelor's degree 2nd year,Student,In a relationship,1,0,0,2,2,3,0,2,1,2,2,3,2,3,1,1,3,0,1,0,0,1,1,1,3,0,2,2,3,0,2,1,2,0,2,0,0,2,0,1,2,3,2,0,0,2,0,1,2,3,0
+18-24,Male,Khulna,Bachelor's degree 1st year,Self-employed,Married,2,3,3,3,2,2,2,0,2,0,0,3,0,3,2,3,1,2,2,1,0,2,3,2,2,3,3,2,2,2,0,2,0,1,2,0,0,1,0,0,1,0,1,3,1,1,0,0,1,0,0
+25-34,Female,Dhaka,Master's degree 1st year,Employed part-time,Married,0,3,0,3,1,3,0,3,2,2,2,1,2,2,0,3,3,2,0,3,3,3,2,0,2,0,3,1,3,0,3,2,2,0,2,3,3,3,1,1,1,2,1,1,3,3,1,1,1,2,1
+18-24,Male,Khulna,Bachelor's degree 3rd year,Student,Married,3,0,3,1,1,3,3,1,0,1,2,3,3,3,3,0,3,2,2,2,0,3,2,3,2,3,1,1,3,3,1,3,1,2,2,3,3,1,1,1,1,0,1,3,1,1,1,1,1,0,1
+18-24,Male,Rangpur,Bachelor's degree 2nd year,Student,Single,0,3,2,1,3,3,0,2,2,3,1,2,3,0,3,1,3,3,3,2,3,0,2,0,0,2,1,3,3,0,2,2,3,2,0,1,1,0,1,2,1,1,1,3,0,0,1,2,3,2,1
+25-34,Male,Dhaka,Bachelor's degree 3rd year,Student,Single,3,0,0,2,2,3,3,3,3,3,3,1,1,3,0,3,0,0,2,2,2,3,1,3,1,0,2,2,3,3,3,3,3,2,0,3,2,1,1,3,2,0,1,1,1,1,1,3,2,0,1
+18-24,Male,Chattogram,Bachelor's degree 2nd year,Employed part-time,Married,0,2,1,2,2,2,0,1,2,3,1,0,3,3,3,1,0,2,3,0,3,2,1,0,0,1,2,2,2,0,1,2,3,2,0,2,2,1,0,1,2,1,2,1,3,1,0,1,2,1,1
+25-34,Female,Sylhet,Master's degree 1st year,Self-employed,Single,2,3,1,3,3,3,2,3,3,1,0,0,1,3,0,0,2,3,3,0,0,1,3,2,1,1,3,3,3,2,3,3,1,2,3,0,0,1,0,1,1,0,1,1,1,1,0,1,1,0,1
+25-34,Male,Mymensingh,Master's degree 2nd year,Student,Married,0,0,3,1,3,0,2,1,0,2,0,2,0,3,2,1,2,2,0,2,1,2,0,0,0,3,1,3,0,2,1,0,2,0,0,2,2,2,2,2,3,0,3,3,1,2,2,2,3,0,0
+18-24,Male,Sylhet,Bachelor's degree 2nd year,Employed part-time,In a relationship,1,2,3,1,3,3,0,2,1,2,3,0,1,0,3,0,3,3,3,3,0,0,3,1,2,3,1,3,3,0,2,1,2,0,0,1,1,3,1,1,0,1,1,1,1,3,1,1,0,1,1
+25-34,Female,Barishal,Master's degree 2nd year,Student,Married,1,0,0,0,0,1,3,3,1,0,3,3,3,2,3,0,2,3,1,3,2,3,3,1,3,0,0,0,1,3,3,1,0,2,3,3,3,1,1,1,1,1,3,1,3,1,1,0,1,1,1
+18-24,Male,Sylhet,Bachelor's degree 3rd year,Student,In a relationship,3,0,1,3,3,2,2,3,3,2,0,3,3,3,3,1,3,0,2,3,0,3,3,3,2,1,3,3,2,2,3,3,2,2,1,0,3,0,2,0,2,1,3,2,1,0,2,0,2,1,1
+18-24,Female,Rajshahi,Bachelor's degree 1st year,Employed full-time,Single,1,1,2,0,3,1,3,0,2,0,3,2,0,3,1,1,0,3,0,3,3,0,3,1,2,2,0,3,1,3,0,2,0,2,3,2,1,1,1,1,3,0,1,3,1,3,1,2,3,0,1
+25-34,Female,Rangpur,Bachelor's degree 3rd year,Employed full-time,Married,2,1,2,1,1,1,2,2,0,1,0,0,1,3,3,0,0,1,0,3,3,3,3,2,2,2,1,1,1,2,2,0,1,3,2,3,2,3,1,1,2,1,1,1,1,3,1,3,2,1,1
+18-24,Male,Khulna,Bachelor's degree 2nd year,Student,Single,0,2,3,3,2,0,3,1,1,3,0,0,2,3,2,2,0,1,1,3,3,2,3,0,0,3,3,2,0,3,1,1,3,2,3,1,2,1,0,2,3,1,3,1,2,1,0,2,3,1,0
+18-24,Male,Barishal,Bachelor's degree 3rd year,Employed full-time,In a relationship,3,3,0,3,3,3,0,3,1,3,0,2,3,1,0,3,3,3,3,3,3,0,3,3,0,0,3,3,3,0,3,1,3,1,0,2,2,2,1,2,1,3,3,0,0,2,3,2,0,3,1
+25-34,Female,Rajshahi,Master's degree 1st year,Employed part-time,In a relationship,0,2,2,3,1,3,0,3,1,3,1,1,2,3,1,0,3,2,2,0,2,1,3,0,0,2,3,1,3,0,3,1,3,0,2,1,3,2,0,2,3,2,0,0,0,2,0,2,3,2,0
+18-24,Female,Rajshahi,Bachelor's degree 2nd year,Student,In a relationship,3,1,3,2,2,0,3,1,2,3,3,3,0,1,0,3,0,3,2,2,0,3,3,0,1,3,2,2,0,3,1,2,3,0,2,1,1,2,1,1,1,1,1,2,3,2,1,1,1,1,1
+25-34,Male,Dhaka,Master's degree 2nd year,Student,Single,2,0,0,2,0,3,0,2,1,0,0,1,1,3,3,1,3,2,1,1,0,0,2,2,1,0,2,0,3,0,2,1,0,3,1,0,1,3,1,3,3,1,1,2,3,3,1,3,3,1,0
+18-24,Male,Sylhet,Bachelor's degree 4th year,Employed part-time,Single,1,2,1,3,1,1,3,0,0,0,1,0,2,2,0,2,2,1,0,2,1,0,0,1,3,1,3,1,1,3,0,0,0,0,1,2,3,2,1,1,2,0,0,0,2,2,1,1,2,0,0
+18-24,Male,Dhaka,Bachelor's degree 3rd year,Employed part-time,Single,1,2,1,3,1,3,1,0,0,1,2,0,3,0,2,3,2,1,1,2,2,2,3,1,0,1,3,1,3,1,0,0,1,0,1,2,2,1,3,1,1,3,1,3,3,1,3,2,0,3,1
+18-24,Female,Mymensingh,Bachelor's degree 2nd year,Student,Single,0,0,3,0,2,0,2,3,2,2,2,0,1,2,2,0,0,1,1,0,1,3,2,0,2,3,0,2,0,2,3,2,2,1,2,0,3,3,1,3,2,0,0,2,2,3,1,3,2,0,0
+18-24,Male,Chattogram,Bachelor's degree 3rd year,Student,In a relationship,3,2,1,1,0,3,1,1,3,1,3,0,1,3,3,0,3,0,3,3,3,2,1,3,2,1,1,0,3,1,1,3,1,0,1,3,3,3,3,0,0,1,0,1,1,3,3,0,0,1,1
+18-24,Male,Barishal,Bachelor's degree 2nd year,Employed part-time,In a relationship,1,2,0,2,1,3,3,3,2,0,2,3,3,3,0,3,0,0,1,3,0,0,1,1,3,0,2,1,3,3,3,2,0,1,3,0,3,2,0,3,3,3,1,1,2,2,0,3,3,3,0
+18-24,Male,Rangpur,Bachelor's degree 1st year,Employed full-time,Single,3,1,2,3,3,2,2,1,3,0,3,1,3,3,3,3,2,0,3,0,2,1,2,3,2,2,3,3,2,2,1,3,0,3,3,2,2,0,0,2,1,1,1,3,3,0,0,2,1,0,1
+25-34,Male,Chattogram,Master's degree 2nd year,Student,Married,1,2,1,2,3,3,3,0,1,3,2,1,2,2,0,3,0,3,3,0,1,3,3,1,3,1,2,3,3,3,0,1,3,1,2,2,3,0,1,3,3,1,3,0,3,0,1,3,3,1,0
+18-24,Female,Khulna,Bachelor's degree 3rd year,Self-employed,Single,3,3,3,1,3,3,2,2,2,2,2,0,0,3,1,1,3,1,0,0,1,0,0,3,0,3,1,3,3,2,2,2,2,2,3,0,1,1,1,0,1,1,1,2,2,1,1,0,1,1,0
+18-24,Female,Chattogram,Bachelor's degree 4th year,Student,Single,2,0,1,0,0,1,2,1,0,0,3,0,3,2,2,3,2,1,1,0,1,0,1,2,2,1,0,0,1,2,1,0,0,2,1,1,0,2,2,0,1,3,2,1,0,2,2,0,1,3,0
+18-24,Female,Barishal,Bachelor's degree 4th year,Student,In a relationship,3,1,3,1,1,3,2,0,1,3,3,1,0,1,3,0,1,3,3,0,0,1,3,3,0,3,1,1,3,2,0,1,3,3,2,3,2,1,2,1,1,1,0,0,2,1,2,3,1,1,1
+25-34,Female,Mymensingh,Master's degree 1st year,Employed full-time,Single,2,1,3,1,3,3,2,3,3,2,0,3,2,0,1,3,2,0,0,1,3,0,2,2,1,3,1,3,3,2,3,3,2,2,1,0,1,3,1,0,1,0,2,1,1,3,1,0,1,0,1
+18-24,Female,Chattogram,Bachelor's degree 2nd year,Student,Married,2,3,1,0,0,1,3,1,1,1,3,2,0,0,1,2,1,3,1,2,0,0,1,2,2,1,0,0,1,3,1,1,1,1,3,2,0,3,1,1,3,3,1,3,0,3,1,1,3,3,0
+18-24,Female,Khulna,Bachelor's degree 3rd year,Student,Married,3,0,3,0,3,1,2,2,2,2,3,2,2,2,3,1,0,0,2,2,2,3,1,3,1,3,0,3,1,2,2,2,2,2,1,1,2,2,0,3,1,1,1,1,1,2,0,3,1,1,0
+25-34,Female,Dhaka,Master's degree 1st year,Student,In a relationship,2,0,0,0,2,0,2,3,3,2,3,1,2,1,3,1,0,1,3,2,0,3,1,2,2,0,0,2,0,2,3,3,2,1,2,3,3,3,1,0,1,1,2,3,0,3,1,0,1,1,0
+18-24,Male,Rangpur,Bachelor's degree 3rd year,Employed full-time,In a relationship,0,1,2,3,3,0,1,3,1,0,2,0,0,2,1,3,3,3,0,3,3,3,3,0,2,2,3,3,0,1,3,1,0,2,1,2,2,2,1,0,1,2,1,3,3,2,1,0,2,2,1
+18-24,Male,Barishal,Bachelor's degree 2nd year,Employed part-time,In a relationship,2,2,0,0,1,3,0,0,3,0,3,0,0,1,0,0,1,0,2,1,1,2,3,2,3,0,0,1,3,0,0,3,0,1,3,3,3,1,0,3,0,2,3,3,0,1,0,3,0,2,0
+18-24,Male,Dhaka,Bachelor's degree 4th year,Employed full-time,Married,1,1,0,0,0,3,0,1,1,2,1,3,1,3,3,3,0,1,1,2,1,1,3,1,0,0,0,0,3,0,1,3,2,0,0,2,3,3,3,1,0,3,2,1,1,3,3,1,0,3,1
+18-24,Female,Dhaka,Bachelor's degree 1st year,Student,In a relationship,3,0,0,0,0,0,1,3,0,0,2,2,1,1,3,1,1,1,1,3,3,3,1,3,0,0,0,0,0,1,3,0,0,3,2,2,3,2,2,3,0,2,0,3,3,2,2,3,0,2,0
+18-24,Male,Dhaka,Bachelor's degree 4th year,Self-employed,In a relationship,0,3,3,0,1,3,1,2,0,0,0,3,1,1,1,1,3,2,1,1,0,2,1,0,0,3,0,1,1,1,2,0,0,0,1,1,0,3,2,1,1,0,2,1,2,3,2,0,1,0,1
+25-34,Male,Rajshahi,Master's degree 1st year,Employed full-time,Single,3,1,2,2,3,3,3,1,1,0,0,2,2,1,3,0,2,1,3,1,1,2,3,3,2,2,2,3,3,3,1,1,0,1,2,0,2,1,1,3,1,1,2,2,2,1,1,3,3,1,1
+25-34,Female,Rangpur,Master's degree 2nd year,Student,Single,1,0,2,3,3,2,3,2,3,3,0,1,0,0,2,0,0,1,0,3,0,1,0,1,3,2,3,3,2,3,2,3,3,2,1,0,3,3,3,0,2,1,2,3,1,3,3,0,2,1,0
+18-24,Male,Mymensingh,Bachelor's degree 1st year,Employed full-time,Married,1,1,3,1,2,3,3,3,2,3,2,2,3,3,2,2,3,0,2,1,3,1,3,1,1,3,1,2,3,3,3,2,3,2,0,3,1,2,2,1,0,1,2,3,3,2,2,2,0,1,1
+25-34,Male,Sylhet,Master's degree 1st year,Student,Single,1,2,1,0,3,3,1,2,2,2,1,3,2,3,1,3,2,0,0,3,1,0,3,1,0,1,0,3,3,1,2,2,2,3,3,1,2,3,1,3,1,3,0,0,2,3,1,3,1,3,0
+18-24,Female,Rangpur,Bachelor's degree 2nd year,Employed full-time,In a relationship,2,1,2,2,0,1,1,0,0,0,3,3,3,3,0,0,3,2,3,2,0,2,2,2,2,2,2,0,1,1,0,0,0,0,1,1,1,3,2,3,3,3,0,1,3,3,2,3,3,3,0
+18-24,Female,Rajshahi,Bachelor's degree 1st year,Student,Single,3,1,2,2,3,2,3,2,2,3,3,3,3,3,2,3,2,2,3,3,1,3,3,2,2,2,2,3,2,3,2,2,3,2,1,3,2,2,1,1,2,2,0,0,1,2,0,1,2,2,1
+25-34,Male,Sylhet,Master's degree 1st year,Student,Single,3,0,1,3,3,0,3,1,0,2,0,1,3,3,3,2,3,1,3,1,1,1,0,3,2,1,2,3,0,3,1,3,2,0,0,3,2,0,0,0,2,1,2,1,3,0,0,0,2,1,1
+18-24,Female,Rangpur,Bachelor's degree 2nd year,Student,Single,3,0,2,1,0,2,3,2,2,0,0,2,3,2,1,3,3,0,1,2,0,2,0,3,1,2,1,0,2,3,2,2,0,2,2,3,2,3,0,0,0,1,3,1,1,3,0,0,0,1,0
+18-24,Male,Dhaka,Bachelor's degree 4th year,Student,Single,0,3,0,0,1,2,3,2,1,1,2,2,3,2,0,1,0,3,2,2,3,3,0,0,2,0,0,1,2,3,2,1,1,2,2,0,0,3,2,0,1,1,3,0,1,3,2,0,1,1,1
+25-34,Female,Barishal,Master's degree 2nd year,Student,Single,0,1,0,3,1,2,0,0,0,0,1,3,1,3,3,3,1,2,1,0,1,2,1,0,1,0,3,1,2,0,0,0,0,2,1,3,0,1,3,3,3,1,0,0,1,1,3,3,3,1,0
+18-24,Male,Sylhet,Bachelor's degree 2nd year,Employed part-time,Single,3,2,1,3,3,3,2,2,0,0,3,2,1,0,1,2,0,3,0,0,1,1,1,3,1,1,3,3,3,2,2,0,0,0,1,0,2,0,1,0,1,1,3,1,2,0,1,0,1,1,0
+18-24,Male,Khulna,Bachelor's degree 3rd year,Self-employed,In a relationship,2,3,3,2,1,0,3,2,1,3,2,0,1,2,3,2,3,2,1,1,1,3,3,2,3,3,2,1,0,3,2,1,3,2,3,3,1,1,1,1,3,1,1,1,0,1,1,1,3,1,1
+18-24,Female,Khulna,Bachelor's degree 2nd year,Self-employed,In a relationship,1,3,3,3,1,1,3,3,0,3,3,3,2,1,3,2,2,3,3,3,2,2,2,1,3,3,1,1,1,3,3,0,3,2,0,1,3,2,3,1,0,1,1,1,0,2,3,1,0,1,1
+18-24,Female,Chattogram,Bachelor's degree 2nd year,Student,Single,3,0,1,1,2,0,3,3,2,2,0,3,3,2,2,3,0,0,1,3,1,3,2,3,0,1,1,3,0,3,3,2,2,3,2,1,2,2,1,3,3,0,3,2,1,2,1,3,3,0,1
+25-34,Female,Sylhet,Master's degree 2nd year,Student,Married,0,0,1,1,2,1,0,1,2,3,3,2,0,3,3,1,0,2,2,1,3,1,2,0,2,1,1,2,1,0,1,2,3,0,3,3,2,1,0,0,1,1,3,1,3,1,0,0,1,1,0
+18-24,Male,Barishal,Bachelor's degree 3rd year,Student,Married,2,1,0,3,1,3,0,3,0,0,1,1,3,0,3,3,1,3,2,2,1,0,1,2,3,0,3,1,3,0,3,0,0,2,2,3,3,3,1,0,2,3,1,1,2,3,1,0,2,3,1
+25-34,Male,Mymensingh,Master's degree 1st year,Student,Married,3,3,3,3,3,3,1,3,2,1,1,1,1,2,2,1,3,0,3,1,3,3,0,3,1,3,3,3,3,1,3,2,1,2,0,0,1,0,1,1,2,3,1,3,3,0,1,1,2,3,1
+25-34,Male,Rajshahi,Master's degree 1st year,Student,Married,3,0,2,0,2,3,2,3,3,0,0,1,1,2,2,3,3,2,3,1,3,3,0,3,3,2,0,2,3,2,3,3,0,1,0,2,3,1,3,3,2,0,2,3,1,1,3,3,2,0,0
+18-24,Male,Dhaka,Bachelor's degree 2nd year,Employed part-time,Single,2,2,0,3,0,3,1,3,0,0,1,1,3,3,2,3,3,3,0,2,2,3,1,2,3,0,3,0,3,1,3,0,0,1,3,0,3,1,1,1,2,1,3,0,2,1,1,1,2,1,0
+25-34,Female,Chattogram,Bachelor's degree 3rd year,Employed part-time,In a relationship,3,3,1,2,0,1,2,3,1,1,1,0,1,3,1,3,0,2,3,3,3,2,3,3,0,1,2,0,1,2,3,1,1,3,1,1,1,1,0,3,0,3,1,0,0,1,0,3,0,3,1
+18-24,Male,Khulna,Bachelor's degree 3rd year,Student,Married,2,0,3,2,0,2,0,3,3,3,2,0,3,0,1,3,3,3,3,1,3,1,2,2,3,3,2,0,2,0,3,3,3,2,2,3,1,1,1,0,0,3,1,1,3,1,1,0,0,3,1
+25-34,Male,Rajshahi,Master's degree 2nd year,Student,Single,1,0,2,0,3,1,3,0,0,2,3,3,0,3,3,2,0,0,1,3,3,3,3,1,3,2,0,3,1,3,0,0,2,3,0,1,3,0,2,3,1,1,1,1,2,0,2,3,1,1,0
+18-24,Male,Rajshahi,Bachelor's degree 4th year,Self-employed,Married,2,3,2,0,1,0,1,0,1,3,0,2,2,1,2,2,1,0,0,1,0,2,3,2,1,2,0,1,0,1,0,1,3,0,3,2,3,1,2,0,1,1,3,3,2,1,2,0,1,1,0
+25-34,Female,Dhaka,Master's degree 1st year,Self-employed,Single,2,3,0,0,0,3,3,3,2,3,0,2,2,2,2,2,3,1,0,2,0,1,2,2,3,0,0,0,3,3,3,2,3,1,3,0,2,0,3,0,1,3,3,1,3,0,3,0,1,3,0
+25-34,Female,Mymensingh,Master's degree 2nd year,Employed full-time,Single,2,1,3,1,3,3,1,2,1,0,0,1,2,1,0,2,3,2,3,2,0,1,1,2,1,3,1,3,3,1,2,1,0,3,3,1,1,0,2,2,1,1,3,2,1,0,2,2,1,1,0
+18-24,Male,Mymensingh,Bachelor's degree 1st year,Self-employed,In a relationship,3,3,3,0,2,0,0,0,3,2,0,0,2,2,3,2,0,1,1,0,2,2,2,3,3,3,0,2,0,0,0,3,2,3,0,0,0,1,1,2,3,2,3,2,1,1,1,2,3,2,0
+25-34,Male,Sylhet,Master's degree 1st year,Employed part-time,In a relationship,3,2,1,2,1,1,0,2,2,2,0,1,3,2,0,3,3,0,0,2,0,2,3,3,3,1,2,1,1,0,2,2,2,0,2,3,1,0,0,3,1,1,2,0,1,0,0,3,1,1,0
+25-34,Female,Khulna,Master's degree 2nd year,Employed part-time,Single,2,2,3,0,2,2,0,2,0,3,1,3,3,1,3,0,2,3,3,0,0,3,2,2,2,3,0,2,2,0,2,0,3,2,0,1,3,2,1,0,2,3,2,2,1,2,1,0,2,3,0
+25-34,Male,Mymensingh,Master's degree 1st year,Student,In a relationship,3,0,3,2,3,2,1,3,2,1,2,2,1,3,3,0,1,2,0,1,3,1,1,3,3,3,2,3,2,1,3,2,1,3,3,2,3,3,3,1,2,3,1,3,3,3,3,1,2,3,0
+18-24,Male,Barishal,Bachelor's degree 4th year,Self-employed,Single,0,3,0,3,0,0,2,1,0,3,0,2,3,3,1,2,1,1,1,3,0,0,0,0,1,0,3,0,0,2,1,0,3,1,1,0,3,3,0,0,2,0,0,2,0,3,0,0,2,0,0
+18-24,Female,Mymensingh,Bachelor's degree 1st year,Student,Single,0,1,3,1,0,3,3,3,0,1,2,1,3,2,1,3,3,3,1,2,3,2,1,0,1,3,1,0,3,3,3,0,1,2,1,0,2,1,3,1,3,2,3,0,2,3,3,1,3,2,1
+18-24,Male,Rajshahi,Bachelor's degree 4th year,Employed part-time,Single,3,2,2,3,3,1,2,1,1,2,2,3,1,3,0,1,3,3,1,3,0,1,3,3,0,2,3,3,1,2,1,1,2,1,3,2,0,2,1,3,1,1,1,1,2,2,1,3,1,1,1
+18-24,Male,Dhaka,Bachelor's degree 1st year,Employed part-time,Single,3,2,0,3,0,1,1,1,1,3,1,2,2,2,3,1,2,1,0,2,2,1,3,3,0,0,3,0,1,1,1,1,3,1,1,1,1,2,3,3,2,2,1,2,1,2,3,3,2,2,0
+18-24,Male,Barishal,Bachelor's degree 2nd year,Employed full-time,Single,2,1,0,2,1,0,1,3,1,0,0,3,3,3,3,3,2,0,3,1,2,3,1,2,2,0,2,1,0,1,3,1,0,3,0,1,0,1,1,1,2,1,1,3,3,1,1,1,2,1,1
+25-34,Female,Sylhet,Master's degree 2nd year,Employed full-time,Single,1,1,1,3,3,1,0,3,3,3,1,3,3,2,1,2,3,1,0,0,1,0,1,1,1,1,3,3,1,0,3,3,3,1,2,0,0,3,0,1,2,3,3,3,0,3,0,1,2,3,0
+18-24,Female,Khulna,Bachelor's degree 1st year,Employed part-time,In a relationship,3,2,3,3,3,3,3,1,3,2,0,1,1,3,3,0,3,2,2,1,2,3,3,3,1,3,3,3,3,3,1,3,2,3,0,2,3,0,0,0,2,0,1,1,0,0,0,0,2,0,1
+18-24,Male,Sylhet,Bachelor's degree 4th year,Employed part-time,In a relationship,0,2,1,0,3,0,3,3,1,0,1,0,1,0,0,3,2,2,1,3,2,0,3,0,1,1,0,3,0,3,3,1,0,2,3,0,0,2,0,3,0,3,1,1,2,2,0,3,0,3,0
+25-34,Male,Rajshahi,Master's degree 1st year,Employed full-time,In a relationship,2,3,3,0,1,1,2,1,3,0,2,1,0,1,1,3,0,3,3,3,3,0,0,2,2,3,0,1,1,2,1,3,0,1,2,0,3,1,1,0,1,0,3,3,1,1,1,0,1,0,1
+18-24,Male,Barishal,Bachelor's degree 1st year,Employed part-time,In a relationship,3,2,0,2,1,0,3,2,2,1,0,0,0,0,1,1,2,2,2,3,1,2,2,3,1,0,2,1,0,3,2,2,1,2,1,3,3,2,2,1,1,2,1,0,2,2,2,1,1,2,0
+25-34,Female,Barishal,Master's degree 2nd year,Student,Married,0,0,0,0,3,2,1,3,2,0,3,3,1,1,3,1,0,0,1,2,3,1,1,0,0,0,0,3,2,1,3,2,0,3,0,1,3,1,1,2,3,0,2,0,2,1,1,2,3,0,0
+18-24,Male,Barishal,Bachelor's degree 1st year,Student,In a relationship,0,0,0,3,3,3,1,2,3,3,2,0,0,1,0,2,3,3,1,3,3,1,3,0,2,0,3,3,3,1,2,3,3,2,2,1,0,3,1,1,0,1,3,3,0,3,1,1,0,1,1
+25-34,Female,Rajshahi,Bachelor's degree 3rd year,Employed full-time,In a relationship,1,1,2,3,0,3,0,0,3,3,3,3,0,2,3,1,1,0,2,3,0,1,0,1,0,2,3,0,3,0,0,3,3,2,1,3,3,1,3,2,3,1,2,2,3,1,3,2,3,1,0
+25-34,Male,Rajshahi,Master's degree 1st year,Self-employed,Single,3,3,2,1,1,3,0,2,3,2,3,2,1,1,1,3,2,0,3,3,1,0,2,3,0,3,1,1,3,0,2,3,2,1,2,1,0,2,0,1,2,1,1,1,1,2,0,1,2,1,1
+25-34,Male,Sylhet,Master's degree 2nd year,Employed full-time,In a relationship,2,1,1,3,3,0,3,2,0,1,1,2,1,0,0,3,3,0,1,3,0,1,3,2,2,1,3,3,0,3,2,0,1,2,2,1,1,1,1,0,3,3,3,0,2,2,1,0,3,3,1
+25-34,Female,Chattogram,Master's degree 2nd year,Employed full-time,Married,3,1,1,0,3,0,2,1,3,3,3,2,3,3,1,1,2,3,2,3,3,2,3,3,3,1,0,3,0,2,1,3,3,2,2,1,3,1,1,3,2,1,0,0,1,1,1,3,2,1,1
+18-24,Male,Sylhet,Bachelor's degree 2nd year,Self-employed,Married,1,3,1,1,1,1,3,2,2,0,2,1,1,3,3,3,2,2,3,1,3,0,2,1,3,1,1,1,1,3,2,2,0,3,0,2,2,1,2,1,2,1,1,0,1,1,2,1,2,1,1
+18-24,Female,Khulna,Bachelor's degree 4th year,Self-employed,Married,2,3,3,0,3,3,3,3,3,0,1,1,1,0,1,1,0,2,3,2,2,0,1,2,0,3,0,3,3,3,3,3,0,3,0,3,2,1,3,2,1,3,3,2,3,1,3,2,1,3,0
+18-24,Male,Dhaka,Bachelor's degree 2nd year,Self-employed,Married,2,3,0,3,0,3,3,1,2,1,0,3,2,3,2,1,2,3,1,1,1,0,1,2,3,0,3,0,3,3,1,3,1,3,0,0,2,3,1,0,1,2,3,2,1,3,1,0,1,2,1
+25-34,Female,Barishal,Master's degree 2nd year,Student,In a relationship,3,0,0,2,1,3,3,0,3,2,0,2,3,1,2,0,1,3,0,1,2,0,3,3,1,0,2,1,3,3,0,3,2,2,0,2,2,2,2,3,1,1,3,2,3,2,2,3,1,1,0
+25-34,Male,Chattogram,Master's degree 1st year,Employed part-time,In a relationship,3,2,3,2,0,3,1,3,3,1,2,3,3,0,3,2,3,2,0,2,3,2,2,3,2,3,2,0,3,1,3,3,1,2,1,0,2,1,2,1,1,1,1,1,2,1,2,1,1,1,1
+18-24,Male,Dhaka,Bachelor's degree 1st year,Student,Married,1,0,0,1,0,1,2,0,1,3,0,2,3,1,2,2,3,1,1,2,3,1,3,1,0,0,1,0,1,2,0,1,3,2,0,3,0,2,0,1,1,3,0,1,2,2,0,1,1,3,0
+18-24,Female,Chattogram,Bachelor's degree 1st year,Employed part-time,Single,3,2,1,0,0,2,1,2,2,1,3,3,2,3,1,0,2,2,3,3,3,2,3,3,1,1,0,0,2,1,2,2,1,1,2,3,1,1,1,1,0,2,1,3,3,1,1,1,0,2,1
+25-34,Female,Mymensingh,Master's degree 1st year,Student,In a relationship,0,0,3,0,0,0,2,3,0,0,0,0,1,0,1,0,0,2,1,3,3,1,2,0,3,3,0,0,0,2,3,0,0,1,2,3,0,2,2,3,1,2,2,3,1,2,2,3,1,2,0
+25-34,Male,Mymensingh,Master's degree 2nd year,Employed part-time,Married,3,2,3,1,1,3,0,3,1,3,3,0,3,3,2,2,0,0,2,0,3,2,3,3,1,3,1,1,3,0,3,1,3,2,1,1,3,1,0,3,3,2,2,0,1,1,0,3,3,2,0
+18-24,Male,Rangpur,Bachelor's degree 1st year,Student,Single,3,0,2,2,0,1,3,0,3,0,1,2,3,1,3,1,1,0,0,1,3,3,2,3,3,2,2,0,1,3,0,3,0,2,3,2,1,2,2,2,2,3,0,2,1,2,2,2,2,3,0
+18-24,Male,Mymensingh,Bachelor's degree 1st year,Self-employed,Single,0,3,3,3,0,3,3,3,3,2,3,3,0,0,3,1,3,3,2,2,3,3,2,0,0,3,3,0,3,3,3,3,2,0,0,2,1,3,1,3,1,0,3,1,2,3,3,3,1,0,1
+18-24,Male,Sylhet,Bachelor's degree 1st year,Employed full-time,Married,1,1,1,1,3,2,2,3,0,0,2,1,3,2,0,2,0,1,1,3,0,3,2,1,1,1,1,3,2,2,3,0,0,3,3,0,1,3,2,1,0,0,2,1,0,3,2,1,0,0,0
+18-24,Female,Mymensingh,Bachelor's degree 4th year,Student,Single,0,0,3,3,1,3,0,3,3,0,3,1,3,1,0,1,1,3,3,3,2,3,2,0,2,3,3,1,3,0,3,3,0,2,2,1,1,0,1,0,3,1,2,1,1,0,1,0,3,1,1
+18-24,Female,Rajshahi,Bachelor's degree 4th year,Employed part-time,Single,3,2,3,3,1,3,0,3,2,1,2,0,1,1,0,0,3,3,3,3,1,0,0,3,2,3,2,1,3,0,3,2,1,1,0,1,2,3,1,2,1,1,0,3,1,3,1,2,1,1,1
+18-24,Male,Barishal,Bachelor's degree 3rd year,Self-employed,In a relationship,3,3,0,0,2,2,3,0,1,3,0,0,0,1,2,3,3,3,3,0,2,0,2,3,1,0,0,2,2,3,0,1,3,2,2,2,3,2,1,1,1,1,1,3,1,2,1,2,1,1,1
+18-24,Male,Sylhet,Bachelor's degree 2nd year,Student,In a relationship,3,0,1,2,1,1,2,3,3,3,0,3,3,3,3,1,1,3,3,0,3,2,1,3,1,1,2,1,1,2,3,3,3,2,2,2,1,2,1,3,3,0,0,1,3,2,1,3,3,0,1
+25-34,Female,Dhaka,Master's degree 1st year,Student,Single,3,0,0,1,1,3,3,1,3,3,2,3,3,2,2,3,2,1,2,2,2,2,3,3,3,0,1,1,3,3,1,3,3,2,1,2,1,3,2,1,3,3,0,1,2,3,2,1,3,3,1
+25-34,Male,Rangpur,Master's degree 1st year,Student,Single,0,3,2,0,2,1,3,1,0,2,3,3,3,1,0,3,1,2,3,0,0,3,1,0,0,2,0,2,1,3,1,0,2,0,3,1,2,0,2,2,3,1,3,2,3,0,2,2,3,1,0
+25-34,Male,Rangpur,Master's degree 1st year,Student,In a relationship,3,0,2,1,1,2,1,1,2,3,0,2,2,0,3,3,2,1,1,3,1,1,3,3,2,2,1,1,2,1,1,2,3,3,2,3,0,0,1,1,1,1,0,3,1,0,3,1,1,1,1
+18-24,Female,Rangpur,Bachelor's degree 3rd year,Employed full-time,Married,2,1,2,1,1,3,0,3,3,1,1,0,3,0,1,3,1,3,3,3,2,3,1,2,2,2,1,1,3,0,1,3,1,2,2,0,0,3,3,3,0,1,3,1,0,3,3,3,0,1,1
+18-24,Male,Dhaka,Bachelor's degree 4th year,Student,Single,2,0,0,2,1,1,1,2,0,3,3,2,1,3,3,2,2,3,3,1,0,2,0,2,2,0,2,1,1,1,2,0,3,2,2,2,0,1,1,1,2,3,1,3,3,1,1,1,2,3,1
+25-34,Female,Dhaka,Master's degree 2nd year,Employed full-time,In a relationship,0,1,0,1,1,0,1,3,3,3,1,0,1,0,3,0,1,3,3,0,2,3,3,0,3,0,1,1,0,1,3,3,3,3,2,0,3,1,1,3,1,3,3,1,0,1,1,3,1,3,0
+25-34,Male,Dhaka,Master's degree 2nd year,Employed full-time,Married,0,1,0,2,2,2,3,0,0,1,3,0,2,1,1,1,2,0,2,3,1,2,2,0,2,0,2,2,2,3,0,0,1,3,2,3,0,1,3,2,3,0,1,2,3,1,3,2,3,0,0
+18-24,Male,Dhaka,Bachelor's degree 3rd year,Self-employed,Single,2,3,0,3,1,1,3,3,3,3,1,3,2,0,3,2,1,1,0,3,2,3,1,2,0,0,3,1,1,1,3,3,3,2,2,2,1,1,2,3,0,3,1,1,1,1,2,3,0,3,1
+25-34,Female,Rangpur,Master's degree 2nd year,Student,Married,2,0,2,2,1,0,3,2,2,3,1,0,3,1,1,1,3,3,0,1,3,1,0,2,3,2,2,1,0,3,2,2,3,0,2,0,2,3,0,0,2,2,1,1,2,3,0,0,2,2,0
+25-34,Female,Rangpur,Master's degree 1st year,Student,In a relationship,3,3,2,0,3,2,3,1,3,0,1,0,0,0,3,0,3,0,0,1,2,3,3,3,2,2,0,3,2,3,1,3,0,0,1,1,2,0,2,1,1,0,1,1,3,0,2,1,1,0,1
+18-24,Male,Chattogram,Bachelor's degree 2nd year,Student,Married,3,0,1,2,3,3,3,2,2,3,1,2,3,2,3,1,0,0,2,3,0,1,0,3,2,1,2,3,3,3,2,2,3,2,2,0,0,2,1,0,1,1,3,1,0,2,1,0,1,1,1
+18-24,Female,Sylhet,Bachelor's degree 1st year,Student,Single,3,3,1,3,0,3,3,3,0,3,0,0,2,3,0,0,2,1,1,3,2,3,3,3,2,1,3,0,3,3,3,0,3,0,1,1,2,2,1,1,0,1,2,1,1,2,1,1,0,1,1
+18-24,Female,Barishal,Bachelor's degree 4th year,Employed part-time,Single,3,2,0,3,3,3,2,0,1,1,1,2,3,3,3,1,1,2,3,2,0,2,0,3,0,0,3,3,3,2,0,1,1,2,2,3,1,3,1,1,0,2,0,2,0,3,1,1,0,2,0
+18-24,Male,Mymensingh,Bachelor's degree 4th year,Student,Married,3,0,3,1,2,1,1,2,3,1,0,3,3,2,3,0,2,2,0,1,1,1,3,3,2,3,1,2,1,1,2,3,1,1,0,2,0,2,1,3,0,2,1,3,1,2,1,3,0,2,0
+18-24,Female,Mymensingh,Bachelor's degree 3rd year,Self-employed,Single,1,3,3,3,0,0,0,0,1,0,3,3,2,2,3,1,3,2,0,1,2,0,3,1,2,3,3,0,0,0,0,1,0,3,2,0,1,1,1,1,3,1,2,1,3,1,3,2,3,1,1
+18-24,Male,Rajshahi,Bachelor's degree 4th year,Employed full-time,In a relationship,3,1,2,2,2,3,3,2,3,3,2,0,0,3,1,0,2,1,0,3,1,3,3,3,0,3,2,2,2,3,2,3,3,3,0,1,3,0,1,1,0,1,0,0,1,0,1,2,0,1,1
+25-34,Male,Rangpur,Master's degree 1st year,Student,Single,0,0,3,3,2,0,0,3,2,0,3,2,2,2,2,3,1,2,3,3,1,0,3,0,1,3,3,2,0,0,3,2,3,1,1,3,1,1,2,0,1,2,2,1,1,1,2,0,1,2,1
+25-34,Male,Rajshahi,Master's degree 2nd year,Employed part-time,Married,3,2,2,1,1,0,2,0,2,3,1,3,3,1,0,1,2,3,1,1,2,2,2,3,0,2,1,1,0,2,0,2,3,0,2,2,1,0,2,3,3,2,1,0,3,0,2,3,3,2,0
+25-34,Male,Sylhet,Master's degree 1st year,Student,Single,3,3,1,2,0,1,1,1,2,2,2,1,3,0,2,1,1,3,2,3,0,0,2,3,1,1,2,0,1,1,1,2,2,2,3,2,1,3,0,2,2,2,2,1,3,3,0,2,2,2,0
+18-24,Male,Sylhet,Bachelor's degree 3rd year,Student,Single,2,0,1,3,1,3,3,0,2,2,1,3,2,3,2,2,3,3,1,1,1,2,2,2,2,1,3,1,3,3,0,2,2,2,1,2,1,3,1,1,1,1,2,2,0,3,2,1,1,1,1
+25-34,Female,Rajshahi,Master's degree 1st year,Student,Married,0,3,2,3,0,3,1,1,2,0,1,3,0,2,3,2,3,3,3,0,1,2,2,0,3,2,3,0,3,1,1,2,0,2,2,3,3,3,2,1,3,1,1,2,1,3,2,1,3,1,1
+25-34,Female,Rangpur,Master's degree 2nd year,Student,Married,3,2,2,2,2,2,2,3,1,0,1,3,2,1,0,0,3,0,2,3,2,0,3,3,1,2,2,2,2,2,3,1,0,3,1,3,0,3,1,3,0,0,2,1,1,3,1,3,0,0,0
+18-24,Male,Rajshahi,Bachelor's degree 2nd year,Employed part-time,Married,3,2,2,2,2,2,2,3,2,0,2,2,2,3,2,1,0,3,2,2,2,1,2,3,3,2,2,2,2,2,3,2,0,0,3,3,1,0,1,0,2,3,0,0,0,0,1,0,2,3,0
+18-24,Female,Mymensingh,Bachelor's degree 3rd year,Self-employed,In a relationship,1,3,3,1,3,3,0,1,0,1,3,2,3,2,2,0,3,2,3,1,2,3,3,1,2,3,1,3,3,0,1,0,1,2,2,2,0,2,1,3,0,1,2,1,1,2,1,3,0,1,0
+18-24,Male,Chattogram,Bachelor's degree 2nd year,Student,Single,3,0,1,2,0,2,3,1,0,1,2,1,0,3,0,3,2,1,3,0,2,2,1,3,0,1,2,0,2,3,1,0,1,2,3,0,2,3,1,0,1,2,3,2,1,3,1,0,1,2,0
+18-24,Female,Mymensingh,Bachelor's degree 1st year,Employed full-time,Single,3,1,3,1,1,3,0,2,1,1,3,0,1,2,3,2,0,2,3,2,2,0,2,3,2,3,1,1,3,0,2,1,1,2,2,1,1,1,1,3,1,3,0,2,1,1,1,3,1,3,0
+18-24,Male,Khulna,Bachelor's degree 2nd year,Employed part-time,In a relationship,3,2,3,2,3,2,3,2,3,0,1,2,0,3,2,0,3,3,2,2,3,2,3,3,3,3,2,3,2,3,2,3,0,1,2,3,1,3,0,1,1,1,2,1,0,3,0,1,3,1,1
+18-24,Male,Rangpur,Bachelor's degree 1st year,Student,Married,2,0,3,0,3,3,1,2,0,3,0,2,2,1,1,0,3,0,2,3,2,1,2,2,2,3,0,3,3,1,2,0,3,2,1,2,2,0,0,1,1,0,3,0,2,0,0,3,1,0,1
+18-24,Female,Rangpur,Bachelor's degree 1st year,Student,In a relationship,3,0,3,1,3,3,0,3,3,3,3,3,2,1,3,2,2,3,2,2,3,1,3,3,0,3,1,3,3,0,3,3,3,1,3,1,0,3,0,2,2,2,1,3,1,3,0,2,2,2,1
+18-24,Female,Barishal,Bachelor's degree 2nd year,Employed full-time,In a relationship,1,1,0,2,1,1,0,2,1,0,3,2,2,0,1,1,2,1,3,2,1,0,2,1,2,0,2,1,1,0,2,1,0,2,1,2,3,1,1,2,3,3,3,2,2,1,1,2,3,3,0
+18-24,Male,Dhaka,Bachelor's degree 3rd year,Student,Married,0,2,0,3,3,3,1,0,3,1,2,0,0,3,3,0,1,2,3,3,3,2,3,0,0,0,3,3,3,1,0,3,1,2,3,0,1,1,1,3,2,1,1,2,1,1,1,3,2,1,1
+25-34,Female,Khulna,Master's degree 2nd year,Employed part-time,Single,2,2,3,3,3,0,3,3,3,1,1,1,3,0,2,3,3,3,0,2,0,3,0,2,1,3,3,3,0,3,3,3,1,2,1,2,2,3,1,0,0,1,1,1,1,3,1,0,0,1,1
+25-34,Male,Sylhet,Master's degree 1st year,Student,In a relationship,3,0,1,3,3,0,1,2,3,0,2,0,2,3,3,3,2,1,1,1,3,3,3,3,3,1,3,3,0,1,2,3,0,1,1,1,2,1,1,0,2,1,3,3,0,1,1,0,2,1,1
+25-34,Male,Rangpur,Master's degree 1st year,Student,Single,0,0,2,3,1,1,3,0,3,0,2,0,2,2,0,3,1,3,3,1,3,2,2,0,0,2,3,1,1,3,0,3,0,2,1,3,2,0,0,1,2,0,1,2,2,0,0,1,2,0,1
+25-34,Female,Rajshahi,Master's degree 2nd year,Employed full-time,Single,1,1,2,0,2,0,1,3,1,1,2,1,0,2,2,2,3,2,3,1,1,2,1,1,0,2,0,2,0,1,3,1,1,0,0,2,0,3,1,1,1,2,0,3,3,3,1,1,1,2,0
+18-24,Male,Khulna,Bachelor's degree 1st year,Employed full-time,Single,3,1,3,1,2,1,3,0,0,3,1,2,1,0,3,0,2,3,2,1,0,2,0,3,2,3,1,2,1,3,0,0,3,2,2,0,0,1,0,0,0,0,1,3,3,1,0,0,0,0,1
+18-24,Male,Barishal,Bachelor's degree 1st year,Employed part-time,Married,1,3,0,3,2,3,3,3,2,1,3,0,1,3,3,3,1,1,3,3,2,0,3,1,2,0,3,2,3,3,3,2,1,1,0,3,1,0,1,3,1,2,1,0,1,0,1,3,1,2,1
+18-24,Female,Sylhet,Bachelor's degree 3rd year,Student,Married,1,3,1,0,2,2,2,1,3,1,2,0,3,0,0,1,2,2,1,1,2,1,1,1,0,1,0,2,2,2,1,3,1,1,1,0,2,3,2,1,0,2,1,2,0,3,2,1,0,2,0
+18-24,Male,Dhaka,Bachelor's degree 4th year,Employed part-time,Single,3,2,0,2,2,3,3,1,3,0,3,0,3,1,2,1,0,3,0,2,3,3,2,3,1,0,2,2,2,2,1,3,0,0,3,1,1,0,1,1,0,3,1,1,1,0,1,0,0,3,1
+18-24,Male,Dhaka,Bachelor's degree 2nd year,Student,Single,1,0,0,3,3,0,3,1,0,3,2,0,2,0,3,2,0,2,0,1,3,0,1,1,1,0,3,3,0,3,1,0,3,3,1,1,3,1,3,0,2,1,1,0,3,1,3,0,2,1,0
+18-24,Female,Barishal,Bachelor's degree 1st year,Employed part-time,Single,2,2,0,1,3,1,3,1,1,1,1,1,0,0,0,2,3,0,2,1,3,2,1,2,2,0,1,3,1,3,1,1,1,0,2,3,3,3,0,3,1,0,0,1,1,3,0,3,1,0,0
+25-34,Male,Barishal,Master's degree 1st year,Student,In a relationship,3,3,0,2,3,2,2,0,0,1,3,1,2,2,1,2,2,2,0,3,1,2,2,3,0,0,2,3,2,2,0,0,1,0,0,0,0,3,2,2,2,0,0,3,1,3,2,2,2,0,0
+18-24,Female,Rajshahi,Bachelor's degree 3rd year,Employed full-time,In a relationship,0,1,2,2,1,1,3,2,1,2,3,3,3,0,2,1,1,3,0,2,0,1,0,0,2,2,2,1,1,3,2,1,2,1,2,0,3,3,3,0,2,0,1,3,2,3,3,0,2,0,0
+18-24,Male,Rangpur,Bachelor's degree 2nd year,Self-employed,Single,0,3,2,3,1,1,1,0,3,0,3,3,0,3,1,3,3,3,3,1,3,2,3,0,3,2,3,1,1,1,0,3,0,2,3,0,2,1,0,1,2,1,1,1,0,1,0,1,2,1,1
+18-24,Male,Dhaka,Bachelor's degree 3rd year,Student,Married,3,3,0,2,1,0,1,3,3,2,2,0,0,2,1,1,2,3,0,1,3,0,1,3,3,0,2,1,0,1,3,3,2,2,2,0,3,2,1,3,0,3,3,3,3,2,1,3,0,3,0
+18-24,Male,Sylhet,Bachelor's degree 2nd year,Self-employed,In a relationship,0,3,1,2,3,2,2,3,2,3,0,2,3,0,3,0,3,2,0,1,3,0,2,0,0,1,2,3,2,2,3,2,3,3,2,2,1,1,1,1,1,3,0,3,2,1,1,1,1,3,1
+18-24,Male,Khulna,Bachelor's degree 2nd year,Student,Married,3,1,3,3,2,3,0,0,2,1,0,0,1,3,3,1,1,3,3,0,0,1,3,3,2,3,3,2,3,0,0,2,1,3,3,0,2,1,2,3,1,1,2,0,0,1,2,3,1,2,1
+25-34,Female,Sylhet,Master's degree 2nd year,Self-employed,Married,0,3,1,3,2,0,1,3,2,0,2,2,1,0,3,0,3,0,2,1,0,0,1,0,0,1,3,2,0,1,3,2,0,3,2,1,0,1,1,2,2,0,0,1,2,1,1,2,2,0,1
+18-24,Female,Chattogram,Bachelor's degree 1st year,Student,In a relationship,3,3,1,3,2,2,3,1,0,3,3,0,0,0,2,3,3,3,2,3,3,3,3,3,2,1,3,2,2,3,1,0,3,3,0,0,0,1,1,1,1,1,1,0,1,1,1,2,1,1,1
+18-24,Male,Chattogram,Bachelor's degree 3rd year,Student,Married,0,3,1,0,0,2,0,1,3,1,1,3,2,0,1,2,3,1,3,2,3,0,1,0,3,1,0,0,2,0,1,3,1,0,0,0,3,1,0,1,1,0,3,1,0,1,0,1,1,0,0
+18-24,Female,Barishal,Bachelor's degree 3rd year,Student,In a relationship,3,0,3,1,3,3,3,1,1,3,0,3,1,2,2,3,2,0,3,2,2,0,1,3,3,3,1,3,3,0,1,1,3,0,1,2,0,1,1,1,3,0,1,0,3,1,1,1,3,0,1
+25-34,Male,Rajshahi,Master's degree 2nd year,Self-employed,Married,3,3,2,0,1,3,1,2,2,3,2,2,2,3,3,1,1,0,2,1,3,0,2,3,1,2,0,1,3,1,2,2,3,2,2,2,1,1,1,3,1,1,3,2,0,1,1,3,1,1,0
+25-34,Female,Dhaka,Master's degree 1st year,Student,In a relationship,3,1,1,0,1,3,1,3,1,0,3,3,1,1,1,2,0,3,2,1,1,3,2,3,1,1,0,1,3,1,3,1,0,0,2,2,2,0,3,1,2,0,1,2,1,0,3,1,2,0,1
+25-34,Male,Dhaka,Master's degree 1st year,Self-employed,Single,3,3,0,3,2,2,0,3,1,2,1,3,1,0,2,3,2,3,3,1,1,2,3,3,0,0,3,2,2,0,3,1,2,2,1,1,1,0,1,0,1,3,1,1,1,0,3,0,1,3,1
+18-24,Female,Sylhet,Bachelor's degree 1st year,Self-employed,In a relationship,3,3,1,0,1,3,0,0,2,0,3,3,2,3,2,2,0,0,1,2,3,0,3,3,2,1,0,1,3,0,0,2,0,2,2,0,1,3,0,2,0,3,1,2,1,3,0,2,0,3,0
+18-24,Female,Sylhet,Bachelor's degree 1st year,Employed full-time,In a relationship,2,1,1,3,1,1,2,2,3,3,3,0,3,3,0,1,3,1,0,2,0,1,0,2,0,1,3,1,1,2,2,3,3,2,2,2,2,2,2,1,1,3,2,0,2,2,2,1,3,3,1
+18-24,Male,Barishal,Bachelor's degree 4th year,Self-employed,In a relationship,2,3,0,0,3,1,3,1,2,1,1,0,1,2,2,3,2,0,2,0,2,3,2,2,1,0,0,3,1,3,1,2,1,2,3,0,1,1,2,3,3,1,2,1,2,1,2,3,3,1,0
+25-34,Male,Rangpur,Master's degree 2nd year,Employed full-time,In a relationship,0,1,2,1,2,1,2,3,1,3,3,2,3,1,3,3,2,3,3,3,3,1,3,0,2,2,1,2,1,2,2,1,3,1,2,2,2,0,1,0,2,1,3,2,0,0,1,0,2,1,1
+25-34,Female,Rangpur,Master's degree 1st year,Self-employed,Married,3,3,2,3,3,3,1,3,2,3,0,1,2,3,2,1,1,3,3,0,3,0,3,3,3,2,3,3,3,1,3,2,3,2,2,0,2,0,0,0,1,1,0,2,0,0,0,0,1,1,1
+18-24,Male,Khulna,Bachelor's degree 2nd year,Employed full-time,Single,0,1,3,1,0,2,2,3,1,3,1,2,3,3,3,3,1,3,3,3,3,1,0,0,1,3,1,0,2,2,3,1,3,0,3,2,1,0,1,0,0,0,2,1,1,0,1,0,0,0,1
+18-24,Female,Barishal,Bachelor's degree 3rd year,Self-employed,In a relationship,3,3,0,1,0,0,2,0,1,0,1,3,1,3,2,3,3,1,2,0,2,0,2,3,1,0,1,0,0,2,0,1,0,0,1,0,1,1,2,0,3,0,3,2,1,1,2,0,3,0,0
+18-24,Male,Mymensingh,Bachelor's degree 1st year,Student,Single,3,3,3,2,0,3,2,0,2,3,2,3,1,3,0,1,0,3,0,2,0,3,1,3,2,3,2,0,3,2,0,3,3,2,0,1,0,1,1,3,2,3,0,2,1,1,1,3,2,3,1
+25-34,Male,Khulna,Bachelor's degree 3rd year,Student,Single,2,0,3,2,3,3,2,3,0,2,0,3,3,2,3,3,1,0,1,0,0,1,3,2,1,3,2,3,3,2,3,0,2,0,2,2,0,2,0,2,1,3,0,1,1,2,0,2,1,3,1
+18-24,Female,Mymensingh,Bachelor's degree 3rd year,Student,Single,2,0,3,1,1,3,3,3,2,3,1,3,1,3,3,3,3,0,0,3,3,1,0,2,1,3,1,1,3,3,3,2,3,1,2,3,2,3,1,2,3,3,3,1,1,3,1,2,3,3,1
+18-24,Male,Rangpur,Bachelor's degree 4th year,Self-employed,Single,1,3,2,1,2,0,3,1,0,3,0,3,3,0,0,2,1,3,3,1,2,0,1,1,1,2,1,2,0,3,1,0,3,3,3,2,0,3,3,0,2,3,2,2,3,3,3,0,2,3,0
+25-34,Female,Barishal,Master's degree 1st year,Self-employed,Single,2,3,0,1,2,0,0,2,1,2,1,1,3,2,3,1,2,0,3,3,1,0,1,2,1,0,1,2,0,0,2,1,2,3,0,2,2,3,3,1,2,3,2,2,3,3,3,1,2,3,0
+18-24,Male,Mymensingh,Bachelor's degree 1st year,Employed part-time,In a relationship,1,2,3,2,1,3,1,3,1,0,0,0,2,3,1,1,1,0,1,1,3,2,3,1,1,3,2,1,3,1,3,1,0,2,3,1,2,0,1,3,2,3,3,2,2,0,1,3,2,3,0
+18-24,Female,Barishal,Bachelor's degree 3rd year,Employed full-time,In a relationship,3,1,0,2,3,3,3,3,0,3,3,2,3,2,3,0,0,1,0,2,2,0,2,1,1,0,2,3,3,3,3,0,3,2,2,0,3,3,1,2,1,0,2,3,1,3,1,2,1,0,1
+18-24,Female,Barishal,Bachelor's degree 1st year,Employed part-time,Married,1,2,0,0,0,0,0,1,1,3,2,2,3,3,1,2,1,3,3,3,0,0,3,1,1,0,0,0,0,0,1,1,3,0,2,1,2,0,1,0,1,1,3,1,1,0,1,0,1,1,0
+18-24,Male,Rangpur,Bachelor's degree 2nd year,Student,Married,1,0,2,0,3,3,0,1,0,1,0,3,2,0,1,0,0,0,3,0,3,2,0,1,1,2,0,3,3,0,1,0,1,0,3,0,0,2,1,1,3,3,2,3,0,2,1,1,3,3,0
+18-24,Female,Khulna,Bachelor's degree 4th year,Student,Married,1,0,3,1,0,0,0,3,0,3,3,2,0,0,3,0,2,3,0,3,0,0,1,1,3,3,1,0,0,0,3,0,3,3,3,3,3,0,2,1,1,0,2,3,3,0,2,1,1,0,0
+18-24,Male,Khulna,Bachelor's degree 2nd year,Student,Single,0,0,3,3,2,2,3,0,1,2,0,3,1,1,1,2,0,1,3,1,0,0,3,0,1,3,3,2,2,3,0,1,2,3,0,1,0,2,0,0,1,3,3,0,2,2,0,0,1,3,0
+18-24,Male,Barishal,Bachelor's degree 1st year,Student,Single,2,0,0,3,0,1,2,3,3,1,0,1,0,3,3,2,1,3,0,2,3,2,0,2,3,0,3,0,1,2,3,3,1,0,0,1,2,2,1,3,3,2,3,3,1,2,1,3,3,2,0
+18-24,Male,Chattogram,Bachelor's degree 1st year,Self-employed,In a relationship,1,3,1,2,2,0,2,3,0,0,3,3,3,1,0,3,3,0,3,0,3,3,2,1,3,1,2,2,0,2,3,0,0,2,2,2,2,3,1,2,1,2,2,3,1,3,1,2,1,2,1
+25-34,Male,Rajshahi,Master's degree 1st year,Student,Single,3,0,2,2,3,2,1,1,2,1,0,0,3,1,3,2,2,3,0,3,3,3,1,3,0,2,2,3,2,1,1,2,1,1,1,1,1,3,2,1,0,0,3,0,2,3,2,1,0,0,0
+18-24,Male,Rangpur,Bachelor's degree 3rd year,Student,Single,2,3,2,2,2,3,2,1,2,2,0,1,3,0,0,1,1,0,1,1,3,0,3,2,0,2,2,2,3,2,1,2,2,1,1,0,2,0,1,2,3,1,2,2,2,0,1,2,3,1,0
+25-34,Male,Rajshahi,Bachelor's degree 3rd year,Self-employed,Married,3,3,2,1,3,0,2,0,1,2,2,1,3,2,1,2,2,0,3,0,3,0,2,3,2,2,1,3,0,2,0,1,2,3,2,2,3,1,1,1,3,1,1,1,1,1,1,2,3,1,1
+18-24,Female,Rajshahi,Bachelor's degree 2nd year,Student,Married,1,0,3,3,1,3,3,0,3,1,3,0,3,2,3,3,2,0,1,2,0,3,3,1,3,3,3,1,3,3,0,3,1,3,2,1,2,3,1,1,2,1,0,3,1,3,0,1,2,2,1
+18-24,Male,Khulna,Bachelor's degree 4th year,Student,Married,0,0,3,0,1,3,1,2,1,0,3,2,2,1,1,3,1,1,3,0,1,2,0,0,1,3,0,1,3,1,2,1,0,3,2,3,1,3,3,0,1,1,0,0,2,3,3,0,1,1,0
+25-34,Male,Khulna,Master's degree 2nd year,Employed full-time,In a relationship,3,3,3,1,1,3,2,3,3,1,3,3,3,0,3,3,1,3,3,2,1,3,3,3,2,3,1,1,3,2,3,3,1,2,1,0,2,1,1,1,3,2,2,1,1,1,1,1,3,2,1
+18-24,Male,Chattogram,Bachelor's degree 3rd year,Employed part-time,Single,0,2,1,0,2,3,3,1,0,0,0,3,2,3,0,2,3,1,2,0,3,1,3,0,2,1,0,2,3,3,1,0,0,1,1,2,2,1,2,1,3,3,0,0,0,1,2,1,3,3,0
+25-34,Male,Rajshahi,Master's degree 1st year,Student,Single,3,0,2,0,1,0,2,0,0,1,3,3,1,2,0,2,2,3,0,3,0,0,2,3,0,2,0,1,0,2,0,0,1,0,3,0,2,1,0,3,0,1,1,1,2,1,0,3,0,1,1
+18-24,Female,Dhaka,Bachelor's degree 2nd year,Employed full-time,In a relationship,2,1,3,1,0,3,0,2,0,3,0,3,3,1,3,0,2,1,1,3,1,1,0,2,2,3,1,0,3,0,2,0,3,2,1,2,1,1,1,2,1,1,3,1,1,1,1,2,2,1,1
+18-24,Male,Barishal,Bachelor's degree 2nd year,Employed full-time,Single,3,3,0,0,3,2,3,2,3,3,0,2,3,2,0,0,1,2,1,3,3,1,2,3,3,0,0,3,2,3,2,3,3,3,3,0,0,1,1,0,1,1,1,1,1,1,0,0,3,1,1
+25-34,Female,Khulna,Master's degree 2nd year,Student,Single,0,2,3,3,3,3,0,1,2,3,1,1,0,2,1,1,0,0,1,3,1,2,3,0,1,3,3,3,3,0,1,2,3,0,2,0,2,2,1,2,0,1,0,1,1,2,1,2,0,1,1
+25-34,Female,Rajshahi,Master's degree 1st year,Self-employed,Married,3,3,2,0,0,0,2,1,3,0,0,0,1,3,1,0,1,0,0,2,0,0,0,3,1,2,0,0,0,2,1,3,0,1,3,1,3,2,1,1,3,2,0,3,2,2,1,1,3,2,1
+18-24,Male,Sylhet,Bachelor's degree 4th year,Student,In a relationship,3,0,1,3,2,3,3,2,1,0,3,0,3,0,2,1,2,1,2,2,3,0,1,3,0,1,3,2,3,3,2,1,0,0,2,1,1,1,1,0,3,1,3,1,1,1,1,0,3,1,1
+25-34,Male,Chattogram,Master's degree 1st year,Student,In a relationship,0,2,1,3,2,1,1,0,3,0,2,0,3,3,0,3,1,2,1,2,3,2,3,0,1,1,3,2,1,1,0,3,0,1,3,0,3,3,1,0,3,2,1,1,2,3,1,0,3,2,0
+18-24,Female,Mymensingh,Bachelor's degree 4th year,Student,In a relationship,3,0,3,3,3,3,1,2,0,2,1,3,1,0,1,0,3,0,0,3,3,1,3,3,2,3,3,3,3,1,2,0,2,2,1,0,2,0,3,0,0,2,1,0,0,0,3,0,0,2,0
+25-34,Female,Sylhet,Master's degree 1st year,Employed full-time,In a relationship,2,3,1,2,1,1,3,3,0,1,0,2,3,2,3,2,0,3,3,0,3,2,0,2,2,1,2,1,1,3,3,0,1,1,3,2,1,1,3,1,1,3,1,2,2,1,3,0,1,3,1
+25-34,Female,Sylhet,Master's degree 1st year,Employed full-time,Married,3,1,1,0,2,2,3,3,3,2,2,0,3,3,0,0,1,1,1,0,2,3,0,3,1,1,0,2,2,3,3,3,2,0,2,2,2,1,1,1,3,1,3,1,1,3,1,3,3,0,1
+18-24,Female,Mymensingh,Bachelor's degree 1st year,Self-employed,Married,2,3,3,1,2,3,3,1,3,3,0,0,0,3,1,1,3,3,1,3,2,0,3,2,2,3,1,2,3,3,1,3,3,2,2,1,2,1,1,0,3,1,1,3,2,1,1,0,3,0,1
+18-24,Female,Dhaka,Bachelor's degree 2nd year,Employed full-time,Single,3,1,2,1,0,3,3,0,1,0,0,0,3,0,0,0,2,0,2,3,0,3,3,3,2,2,1,0,3,3,0,1,0,1,2,1,1,0,3,1,1,0,0,1,1,0,3,1,1,0,0
+25-34,Female,Rangpur,Master's degree 1st year,Employed full-time,Single,3,1,2,0,0,0,0,3,3,3,0,2,3,3,3,3,1,1,1,1,1,2,0,0,0,2,0,0,0,0,3,3,3,3,2,1,0,0,1,1,3,3,1,2,1,0,1,3,3,3,1
+25-34,Male,Chattogram,Master's degree 2nd year,Employed part-time,Single,3,3,3,2,1,1,2,3,3,3,1,3,0,0,1,2,2,3,1,2,1,0,1,3,2,3,2,1,1,2,3,3,3,1,0,1,0,1,1,1,1,3,1,2,3,1,3,1,2,3,1
+25-34,Male,Sylhet,Master's degree 1st year,Student,Single,0,0,3,2,3,2,3,2,0,3,0,1,3,0,2,3,3,3,3,2,0,3,1,0,3,3,2,3,2,3,2,0,3,2,0,0,0,3,1,1,1,3,1,1,1,3,3,1,1,3,1
+18-24,Male,Rajshahi,Bachelor's degree 3rd year,Student,Married,3,0,2,3,2,1,3,1,0,3,2,3,3,0,3,3,2,3,0,3,0,3,0,3,3,2,3,2,1,3,1,0,3,0,3,0,2,3,0,2,2,1,1,1,1,3,0,2,2,1,1
+18-24,Female,Khulna,Bachelor's degree 2nd year,Employed part-time,In a relationship,3,3,3,0,0,1,3,2,0,2,0,0,3,2,0,2,3,0,0,3,3,1,3,3,0,3,0,0,1,3,2,0,2,2,0,2,1,0,1,1,1,3,1,3,1,0,1,0,1,3,1
+18-24,Male,Chattogram,Bachelor's degree 3rd year,Student,Married,1,3,1,0,2,1,2,2,0,0,2,3,1,1,3,1,3,0,2,0,3,0,2,1,1,1,0,2,1,2,2,0,0,0,2,1,3,2,1,0,0,0,3,3,1,2,1,0,0,0,0
+25-34,Female,Barishal,Bachelor's degree 3rd year,Student,Single,0,0,0,1,3,2,3,2,1,3,0,3,3,3,1,3,3,3,3,3,3,3,2,0,0,0,1,3,2,3,2,1,3,1,2,1,2,3,1,1,1,1,1,1,0,3,1,1,1,1,1
+18-24,Male,Mymensingh,Bachelor's degree 3rd year,Employed full-time,Married,1,1,3,0,0,3,3,0,0,0,2,1,3,1,3,2,1,0,0,0,2,3,1,1,1,3,0,0,3,3,0,0,0,1,1,0,2,2,1,0,3,3,1,1,0,2,1,0,3,3,0
+25-34,Female,Sylhet,Master's degree 1st year,Student,In a relationship,0,0,1,2,1,1,1,3,1,2,2,2,2,0,1,0,2,0,3,3,0,1,2,0,1,1,2,1,1,1,3,1,2,2,2,2,2,0,3,3,2,1,1,1,3,0,3,3,2,1,0
+25-34,Female,Chattogram,Master's degree 1st year,Employed full-time,In a relationship,1,1,1,0,0,1,1,0,0,3,0,2,1,2,0,2,2,1,0,1,2,3,2,1,1,1,0,0,1,1,0,0,3,3,1,0,3,3,1,2,0,2,2,1,3,3,1,2,0,2,0
+18-24,Female,Dhaka,Bachelor's degree 1st year,Self-employed,Married,2,3,0,1,2,0,2,3,2,2,0,3,3,0,1,2,0,0,3,1,1,3,0,2,1,0,1,2,0,2,3,2,2,1,3,1,1,2,0,0,3,2,1,2,2,2,0,0,3,2,0
+25-34,Female,Dhaka,Master's degree 2nd year,Employed part-time,Married,3,2,0,3,1,2,3,1,2,2,2,3,3,3,3,2,0,0,2,0,0,3,1,3,1,0,3,1,2,3,1,2,2,2,1,1,2,0,1,0,1,3,1,1,3,0,1,0,0,3,1
+18-24,Male,Rangpur,Bachelor's degree 3rd year,Student,Married,3,0,2,1,0,1,1,1,2,0,3,2,2,1,3,3,0,2,1,3,0,1,3,3,0,2,1,0,1,1,1,2,0,3,2,3,2,2,1,3,1,1,2,1,2,2,0,3,1,1,1
+18-24,Female,Mymensingh,Bachelor's degree 4th year,Employed part-time,Married,0,3,3,1,3,2,3,2,2,3,1,2,3,2,0,1,0,3,2,1,3,3,1,0,1,3,1,3,2,3,2,2,3,2,1,3,3,3,1,1,1,1,0,1,0,3,2,1,1,1,1
+18-24,Female,Khulna,Bachelor's degree 1st year,Student,Married,3,0,3,3,3,1,3,3,1,2,3,1,2,0,3,3,2,1,0,0,3,3,0,3,2,3,3,3,1,3,3,1,2,1,1,3,1,1,1,3,1,2,0,2,0,1,1,3,1,2,0
+18-24,Female,Rajshahi,Bachelor's degree 3rd year,Employed full-time,Married,0,1,2,1,0,3,1,3,1,3,3,0,3,3,1,0,3,2,2,3,3,0,2,0,2,2,1,0,3,1,3,1,3,3,2,2,0,2,1,1,3,2,3,0,1,2,1,1,3,2,0
+25-34,Male,Khulna,Bachelor's degree 3rd year,Employed part-time,Married,0,2,3,1,3,3,2,3,3,0,0,3,2,3,0,2,3,3,1,3,1,0,3,0,1,3,1,3,3,2,3,3,0,1,2,0,3,1,1,1,3,1,3,1,2,1,1,1,3,1,0
+18-24,Male,Khulna,Bachelor's degree 1st year,Student,In a relationship,1,3,3,0,3,1,2,2,0,2,1,2,1,1,1,2,3,3,3,0,1,1,1,1,2,3,0,3,1,2,2,0,2,0,0,1,2,3,1,0,1,2,3,2,1,3,0,0,1,2,1
+25-34,Male,Khulna,Master's degree 1st year,Employed full-time,In a relationship,0,1,3,0,3,3,2,2,2,0,3,3,1,2,3,1,3,3,0,2,2,2,2,0,3,3,0,3,3,2,2,2,0,3,2,1,3,1,1,2,2,3,3,2,0,1,1,2,2,3,0
+18-24,Female,Mymensingh,Bachelor's degree 3rd year,Employed part-time,Single,2,2,3,3,1,1,1,1,1,3,0,3,3,3,0,3,2,2,3,0,0,0,3,2,2,3,3,1,1,1,1,1,3,2,0,2,0,0,1,1,3,1,1,0,2,0,1,1,3,1,1
+25-34,Male,Khulna,Master's degree 1st year,Employed part-time,Single,2,2,3,0,3,3,3,0,0,3,3,2,2,0,1,2,3,2,2,0,2,1,3,2,0,3,0,3,3,3,0,0,3,2,2,1,1,1,3,3,0,1,3,3,1,1,3,3,0,1,1
+18-24,Female,Barishal,Bachelor's degree 1st year,Student,In a relationship,3,0,0,0,3,0,3,3,0,0,3,1,2,1,3,1,2,3,1,1,1,3,1,3,1,0,0,3,0,3,3,0,0,3,0,1,3,2,2,1,3,0,1,3,1,2,2,1,3,0,0
+25-34,Male,Mymensingh,Master's degree 1st year,Student,In a relationship,0,0,3,1,3,0,3,3,1,1,0,3,3,1,3,0,1,3,2,0,3,3,1,0,2,3,1,3,0,0,3,1,1,1,1,0,2,2,0,1,3,0,0,3,1,2,0,1,3,0,1
+18-24,Male,Barishal,Bachelor's degree 2nd year,Student,In a relationship,3,0,0,2,1,0,0,0,2,2,0,1,1,0,2,0,0,0,1,0,1,1,1,3,3,0,2,1,0,0,0,2,2,0,0,3,0,1,3,3,0,1,3,1,1,1,3,3,0,1,0
+18-24,Female,Mymensingh,Bachelor's degree 4th year,Employed full-time,Married,2,3,3,0,0,2,3,3,3,3,0,2,3,0,3,2,3,2,3,3,2,3,2,2,1,3,0,0,2,3,3,3,3,0,3,3,2,0,0,0,1,1,1,3,1,0,0,0,1,1,1
+18-24,Female,Rangpur,Bachelor's degree 3rd year,Student,Married,0,0,2,2,2,2,3,2,0,3,1,0,1,1,1,2,2,2,1,1,2,3,3,0,2,2,2,2,2,3,2,0,3,2,1,2,3,3,3,2,2,0,3,1,2,3,3,2,2,0,0
+25-34,Male,Chattogram,Master's degree 2nd year,Employed part-time,In a relationship,0,2,1,3,3,0,3,2,3,3,3,0,3,0,3,3,2,3,3,3,3,2,3,0,3,1,3,3,0,3,2,3,3,2,0,3,2,1,2,0,1,3,1,1,2,1,2,0,1,3,1
+18-24,Male,Dhaka,Bachelor's degree 4th year,Employed part-time,Married,3,2,0,0,0,2,1,3,2,0,0,3,3,3,2,3,0,3,2,3,1,3,2,3,2,0,0,0,2,1,3,2,0,1,2,3,0,2,3,3,0,2,2,2,0,2,3,3,0,2,0
+25-34,Male,Khulna,Master's degree 1st year,Student,Single,2,0,3,3,3,3,1,2,2,0,2,2,1,1,3,2,2,0,1,2,2,0,2,2,0,3,3,3,3,1,2,2,0,2,2,2,3,2,0,1,1,2,0,3,0,2,0,1,1,2,0
+18-24,Male,Rangpur,Bachelor's degree 3rd year,Student,Single,0,0,2,3,1,1,1,2,3,0,3,1,1,0,3,1,3,2,3,2,0,3,2,0,2,2,3,1,1,1,2,3,0,1,2,2,1,1,1,2,3,2,0,3,0,1,1,2,3,2,0
+25-34,Female,Chattogram,Master's degree 1st year,Self-employed,In a relationship,3,3,1,3,0,1,3,3,2,1,2,3,3,1,3,3,1,2,3,1,2,3,0,3,0,1,3,0,1,3,3,2,1,3,2,3,1,1,1,0,3,1,2,1,1,1,1,0,3,1,1
+18-24,Female,Dhaka,Bachelor's degree 2nd year,Employed part-time,In a relationship,2,2,0,2,1,1,3,1,0,1,1,2,3,2,1,2,2,1,3,1,2,2,1,2,2,0,2,1,1,3,1,0,1,0,0,0,1,1,2,3,3,3,1,1,2,1,2,3,3,3,0
+18-24,Male,Sylhet,Bachelor's degree 1st year,Employed full-time,Married,3,1,1,1,3,0,0,0,3,3,0,2,1,1,3,3,3,3,0,3,0,3,1,3,0,1,1,3,0,0,0,3,3,3,3,2,1,1,0,1,3,0,3,1,2,1,0,1,3,0,1
+18-24,Female,Rajshahi,Bachelor's degree 3rd year,Student,In a relationship,1,3,2,0,3,2,3,2,2,0,2,1,3,1,1,3,2,1,2,2,1,1,3,1,2,2,0,3,2,3,2,2,0,2,1,1,0,2,1,1,3,3,1,3,1,2,1,1,3,3,1
+18-24,Male,Barishal,Bachelor's degree 2nd year,Student,Single,3,0,0,3,1,3,1,3,3,2,1,3,2,3,2,0,3,0,3,2,3,0,1,0,2,0,3,1,3,1,1,3,2,0,1,2,3,2,1,1,0,3,1,1,1,2,0,0,0,3,1
+18-24,Female,Dhaka,Bachelor's degree 2nd year,Student,Single,1,0,1,0,2,3,0,2,0,3,0,2,3,3,0,2,2,1,1,2,3,3,0,1,0,1,0,2,3,0,2,0,3,0,1,1,0,2,2,3,3,2,2,1,0,2,2,3,3,2,0
+18-24,Male,Mymensingh,Bachelor's degree 3rd year,Employed part-time,Single,2,3,3,3,1,0,3,2,2,2,2,2,3,0,1,0,2,1,3,2,3,2,2,2,2,3,2,1,0,3,2,2,2,2,2,2,0,3,1,1,3,0,2,0,0,3,1,1,3,0,1
+25-34,Male,Dhaka,Master's degree 1st year,Student,In a relationship,1,0,0,3,3,3,0,0,0,3,2,2,3,2,1,3,1,1,0,3,0,3,3,1,3,0,3,3,3,0,0,0,3,1,0,2,1,0,3,1,1,3,1,0,0,0,3,1,1,3,0
+25-34,Male,Sylhet,Master's degree 2nd year,Employed full-time,In a relationship,1,1,1,1,1,3,0,2,2,1,1,1,1,1,0,2,0,3,2,1,2,1,3,1,1,1,1,1,3,0,2,2,1,0,0,3,2,2,2,2,3,0,1,3,3,2,2,2,3,0,0
+18-24,Female,Rajshahi,Bachelor's degree 2nd year,Employed part-time,In a relationship,2,3,2,3,2,3,3,0,1,3,3,3,2,0,2,3,0,3,3,3,1,2,1,2,2,2,3,2,3,3,0,3,3,1,3,2,1,2,3,1,2,1,1,1,1,2,3,1,2,1,1
+18-24,Male,Rangpur,Bachelor's degree 4th year,Student,In a relationship,3,0,2,3,1,3,2,0,2,1,0,3,0,2,3,0,1,1,0,3,2,3,3,3,3,2,3,1,3,2,0,2,1,3,1,3,2,0,1,0,0,2,0,0,0,0,1,0,0,2,0
+18-24,Female,Dhaka,Bachelor's degree 2nd year,Student,In a relationship,1,2,0,3,3,2,3,0,3,3,2,3,0,0,0,3,2,3,0,3,3,0,3,1,2,0,2,3,2,3,0,3,3,3,0,0,2,3,1,3,0,0,3,1,1,3,2,3,0,0,1
+25-34,Female,Sylhet,Master's degree 2nd year,Student,Single,3,0,1,1,2,3,2,1,2,0,2,3,2,0,3,3,3,0,1,3,2,2,3,3,3,1,1,2,3,2,1,2,0,1,0,3,1,0,1,3,0,1,3,1,0,0,1,3,0,1,0
+25-34,Male,Barishal,Master's degree 1st year,Student,Married,1,0,0,3,1,1,2,3,0,2,2,0,2,2,3,3,0,2,3,2,0,0,2,1,2,0,3,1,1,2,3,0,2,3,0,3,2,0,3,2,2,1,1,2,1,0,3,2,2,1,1
+25-34,Male,Barishal,Master's degree 1st year,Student,Single,3,0,0,2,1,0,2,1,0,0,0,0,2,0,0,3,0,1,2,2,0,3,0,3,1,0,2,1,0,2,1,0,0,0,0,2,0,0,0,3,1,1,1,3,1,0,0,3,3,1,1
+18-24,Male,Chattogram,Bachelor's degree 4th year,Employed full-time,In a relationship,3,1,1,1,0,2,1,3,2,3,1,3,3,3,3,1,2,0,1,0,1,3,3,3,3,1,1,0,2,1,3,2,3,2,1,2,1,0,1,0,0,1,2,3,1,0,1,0,0,1,1
+18-24,Male,Sylhet,Bachelor's degree 2nd year,Student,Married,1,1,1,0,3,3,3,3,3,3,3,1,0,2,3,0,2,1,2,0,1,0,2,1,1,1,0,3,3,3,3,3,3,3,1,0,3,3,3,1,2,1,2,1,0,3,3,1,2,1,1
+25-34,Male,Khulna,Master's degree 1st year,Employed part-time,Single,3,2,3,1,3,3,2,0,1,3,0,0,2,3,0,0,3,2,0,0,3,1,1,2,0,3,1,3,3,2,0,1,3,0,0,1,2,1,0,2,1,2,0,2,2,3,0,2,1,2,1
+25-34,Female,Sylhet,Master's degree 2nd year,Student,In a relationship,1,3,3,0,0,3,0,2,3,1,3,2,3,1,1,0,2,0,2,0,1,3,3,1,2,3,0,0,3,0,2,3,1,1,2,2,2,0,3,3,3,1,1,2,1,0,3,3,3,2,1
+18-24,Male,Rangpur,Bachelor's degree 3rd year,Student,Single,3,0,2,3,1,1,3,0,1,2,1,0,0,0,3,2,3,3,3,0,2,1,3,3,2,2,2,1,1,3,0,1,2,2,3,2,2,1,2,1,1,1,1,1,2,1,2,2,1,1,1
+18-24,Male,Dhaka,Bachelor's degree 1st year,Employed full-time,Single,2,1,0,3,3,3,3,2,0,2,2,3,3,1,1,2,0,0,0,3,0,0,3,2,2,0,3,3,3,3,2,0,2,2,1,1,1,1,2,2,3,2,1,0,2,1,2,2,3,2,1
+18-24,Female,Dhaka,Bachelor's degree 1st year,Student,Married,1,0,0,3,0,3,2,3,3,3,3,3,3,1,0,2,3,3,1,0,0,1,3,1,1,0,3,0,3,2,3,3,3,0,1,0,2,1,2,1,1,3,0,1,1,1,2,3,1,3,1
+18-24,Male,Rangpur,Bachelor's degree 1st year,Employed full-time,In a relationship,1,1,2,2,2,3,0,0,1,3,3,0,0,0,1,1,3,0,3,3,0,2,0,1,0,2,2,2,3,0,0,1,3,1,2,2,1,1,0,2,2,2,1,0,2,1,0,2,2,2,0
+18-24,Female,Sylhet,Bachelor's degree 2nd year,Student,Married,1,0,1,3,0,3,3,2,2,1,1,1,1,2,3,1,2,3,0,1,1,3,0,1,3,1,3,0,3,3,2,2,1,1,1,3,2,2,1,3,3,0,3,1,3,2,1,3,3,0,0
+18-24,Male,Rangpur,Bachelor's degree 4th year,Employed part-time,Married,0,2,2,3,2,3,3,1,0,0,3,0,0,0,1,0,3,2,0,0,0,1,3,0,2,2,3,2,3,3,1,0,0,2,2,0,1,3,0,0,2,3,1,0,2,3,0,0,2,3,0
+25-34,Female,Rajshahi,Master's degree 1st year,Student,In a relationship,3,0,2,0,1,0,1,2,2,0,3,0,0,1,1,1,2,2,2,0,0,0,0,3,2,2,0,1,0,1,2,2,0,2,2,1,2,3,0,3,0,1,1,2,3,3,0,3,0,1,0
+18-24,Male,Mymensingh,Bachelor's degree 3rd year,Student,Single,0,0,3,2,3,0,3,0,0,2,1,0,3,1,3,3,1,2,0,3,0,3,0,0,0,3,2,3,0,3,0,0,2,3,0,1,0,0,1,1,3,1,1,2,2,0,1,1,3,1,0
+25-34,Female,Rangpur,Master's degree 2nd year,Self-employed,Single,0,3,2,1,3,1,1,1,3,1,1,3,1,2,1,0,2,0,1,1,3,2,0,0,0,2,1,3,1,1,1,3,1,2,1,3,2,2,1,3,2,2,0,3,0,2,1,3,2,2,0
+18-24,Male,Barishal,Bachelor's degree 3rd year,Employed full-time,Single,2,1,0,0,3,3,2,3,3,3,3,1,2,0,3,0,3,2,2,3,3,3,3,2,1,0,0,3,0,2,3,3,3,2,3,3,0,0,1,1,0,3,3,0,1,0,1,1,0,3,1
+25-34,Female,Rangpur,Master's degree 2nd year,Student,Married,1,0,2,2,1,3,1,2,0,2,2,0,3,1,1,3,1,1,3,3,1,2,1,1,1,2,2,1,3,1,2,0,2,2,2,3,0,0,1,2,1,1,3,2,0,0,1,2,1,1,0
+18-24,Female,Dhaka,Bachelor's degree 2nd year,Student,In a relationship,3,0,0,0,3,1,0,2,0,1,0,1,3,3,3,0,2,3,1,0,0,3,0,3,3,0,0,3,1,0,2,0,1,2,3,0,0,3,1,3,1,1,2,3,1,3,1,3,3,1,1
+18-24,Male,Barishal,Bachelor's degree 1st year,Self-employed,In a relationship,2,3,0,1,1,1,1,2,0,0,3,3,0,1,1,1,3,3,3,2,1,1,0,2,0,0,1,1,1,1,2,0,0,1,0,1,2,2,3,1,3,3,2,0,3,2,3,1,3,3,0
+18-24,Female,Dhaka,Bachelor's degree 2nd year,Self-employed,Married,0,3,0,1,3,1,0,2,3,1,3,2,2,1,3,2,0,3,3,2,0,1,1,0,3,0,1,3,1,0,2,3,1,2,1,3,3,1,2,3,1,3,3,0,1,1,2,3,1,3,0
+18-24,Male,Chattogram,Bachelor's degree 4th year,Employed full-time,In a relationship,1,1,1,2,1,3,1,1,1,0,2,0,3,2,3,3,3,3,3,3,0,3,1,1,0,1,2,1,3,1,1,1,0,0,0,3,2,1,3,3,0,1,1,2,2,3,3,3,0,1,1
+18-24,Female,Khulna,Bachelor's degree 4th year,Self-employed,Married,2,3,3,1,1,2,3,3,2,1,3,1,2,3,3,1,2,0,0,0,0,2,3,2,2,3,1,1,2,3,3,2,1,2,0,1,1,2,0,3,1,2,1,3,2,2,0,3,1,2,0
+25-34,Male,Dhaka,Master's degree 2nd year,Employed part-time,In a relationship,1,2,0,3,1,3,3,1,3,2,3,1,3,1,3,3,2,1,1,1,1,0,3,1,0,0,0,1,3,2,1,3,2,0,2,2,2,2,1,1,3,1,1,3,1,2,1,0,3,2,1
+25-34,Male,Barishal,Master's degree 1st year,Self-employed,Single,3,3,0,1,2,3,0,1,3,0,3,3,2,1,1,3,3,2,3,2,1,1,3,2,0,0,1,2,3,0,1,3,0,1,3,0,2,3,1,1,2,1,0,1,1,3,1,1,2,1,1
+25-34,Male,Chattogram,Master's degree 1st year,Employed part-time,In a relationship,1,2,1,0,0,3,3,1,2,3,0,3,2,3,2,0,3,3,0,1,3,2,0,1,2,3,0,0,3,1,1,2,3,2,2,2,3,1,1,0,0,1,1,1,1,1,2,0,0,1,1
+25-34,Male,Dhaka,Master's degree 2nd year,Employed full-time,Single,0,1,0,0,0,3,1,3,0,2,0,2,2,0,3,0,3,1,2,2,2,0,0,0,0,0,0,0,3,1,3,0,2,1,1,3,3,0,3,0,0,3,0,2,3,0,3,0,0,3,0
+18-24,Female,Rajshahi,Bachelor's degree 4th year,Employed full-time,In a relationship,3,1,2,1,1,3,1,0,1,0,1,1,0,0,0,1,3,3,3,0,1,0,3,3,3,2,1,1,3,1,0,1,0,0,0,0,0,0,0,1,0,1,3,0,2,0,0,1,0,1,0
+18-24,Male,Rangpur,Bachelor's degree 4th year,Employed full-time,Married,0,1,2,2,0,1,3,3,2,0,1,0,0,1,3,3,2,3,1,3,3,0,0,0,1,2,2,0,1,3,3,2,0,1,2,2,3,0,0,3,1,0,1,2,3,0,0,3,1,0,0
+18-24,Male,Khulna,Bachelor's degree 4th year,Employed full-time,In a relationship,3,1,3,3,0,3,3,1,3,3,3,3,3,1,3,0,3,3,0,1,3,0,3,3,2,3,3,0,3,3,1,3,3,1,2,1,3,1,0,0,1,2,1,2,1,1,0,0,1,2,1
+18-24,Female,Dhaka,Bachelor's degree 2nd year,Employed full-time,Single,1,1,0,1,1,1,0,2,0,3,0,1,0,0,0,0,1,3,3,1,0,0,3,1,2,0,1,1,1,0,2,0,3,2,0,3,2,3,1,0,2,0,1,1,2,3,2,0,2,0,1
+18-24,Male,Chattogram,Bachelor's degree 4th year,Student,Married,2,2,1,0,1,0,0,2,2,3,1,1,3,2,3,3,1,1,2,3,2,2,3,2,2,1,0,1,0,0,2,2,3,3,0,0,2,2,3,0,2,1,3,2,2,2,3,0,2,1,0
