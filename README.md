@@ -104,18 +104,17 @@ Report source:
 
 *	R Markdown report: [path]/reports/NFED_case_study.Rmd
 
-Rendered outputs:
+Rendered output:
 
-*	PDF report: [path]/reports/NFED_case_study.pdf
-*	HTML report: [path]/reports/NFED_case_study.html
+*	PDF report: [path](https://github.com/Ro98ert/Neurobehavioral-Factors-in-Eating-Disorders-Study/blob/8746c4899ceb388ec4af243af6be93ba6950e721/reports/Neurobehavioral_Factors_in_E._D._Markdown.pdf)
 
 Figures directory:
 
-*	[path]/figures/
+*	[Figures](https://github.com/Ro98ert/Neurobehavioral-Factors-in-Eating-Disorders-Study/tree/8746c4899ceb388ec4af243af6be93ba6950e721/figures)
 
 Tables directory:
 
-*	[path]/tables/
+*	[Tables](https://github.com/Ro98ert/Neurobehavioral-Factors-in-Eating-Disorders-Study/tree/8746c4899ceb388ec4af243af6be93ba6950e721/tables)
 
 #	Recommendations (Act)
 
@@ -137,4 +136,4 @@ Evidence-supported program directions based on model results:
 ##	Author
 
 *	**Name:** Amartisoaei Robert
-*	**Contact / portfolio: [path] (e.g., LinkedIn URL or portfolio site)
+*	**Contact / portfolio: [LinkedIn](www.linkedin.com/in/robert-a-lnkdn98)
