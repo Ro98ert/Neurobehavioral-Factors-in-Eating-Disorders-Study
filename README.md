@@ -67,11 +67,6 @@ Work is organized using the standard case study roadmap phases (**Ask → Prepar
 
 *	`score_body_image_rev`
 
-**Documentation**
-
-*	Cleaning notes (Excel operations, recode mappings, integrity checks): [path]/docs/data_cleaning_notes.md
-*	Optional recode lookup tables used for transparency: [path]/data/support/recode_maps.xlsx
-
 #	Analysis and modeling (Analyze)
 
 **Core question:** Which neurobehavioral domains are most strongly associated with ED perception, and how well can a simple model predict ED perception?
