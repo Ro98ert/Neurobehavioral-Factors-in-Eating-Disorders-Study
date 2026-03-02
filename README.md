@@ -100,17 +100,11 @@ Stakeholder-facing outputs include:
 *	Confusion matrix and metrics at threshold 0.50
 *	Risk gradient visualization (quartiles)
 
-Report source:
+Report source:  [PDF](https://github.com/Ro98ert/Neurobehavioral-Factors-in-Eating-Disorders-Study/blob/8746c4899ceb388ec4af243af6be93ba6950e721/reports/Neurobehavioral_Factors_in_E._D._Markdown.pdf)
 
-*	PDF report: [Path](https://github.com/Ro98ert/Neurobehavioral-Factors-in-Eating-Disorders-Study/blob/8746c4899ceb388ec4af243af6be93ba6950e721/reports/Neurobehavioral_Factors_in_E._D._Markdown.pdf)
+Figures directory:  [Figures](https://github.com/Ro98ert/Neurobehavioral-Factors-in-Eating-Disorders-Study/tree/8746c4899ceb388ec4af243af6be93ba6950e721/figures)
 
-Figures directory:
-
-*	[Figures](https://github.com/Ro98ert/Neurobehavioral-Factors-in-Eating-Disorders-Study/tree/8746c4899ceb388ec4af243af6be93ba6950e721/figures)
-
-Tables directory:
-
-*	[Tables](https://github.com/Ro98ert/Neurobehavioral-Factors-in-Eating-Disorders-Study/tree/8746c4899ceb388ec4af243af6be93ba6950e721/tables)
+Tables directory:  [Tables](https://github.com/Ro98ert/Neurobehavioral-Factors-in-Eating-Disorders-Study/tree/8746c4899ceb388ec4af243af6be93ba6950e721/tables)
 
 #	Recommendations (Act)
 
@@ -132,4 +126,4 @@ Evidence-supported program directions based on model results:
 ##	Author
 
 *	**Name:** Amartisoaei Robert
-*	**Contact / portfolio: [LinkedIn](www.linkedin.com/in/robert-a-lnkdn98)
+*	**Contact / portfolio:** [LinkedIn](www.linkedin.com/in/robert-a-lnkdn98)
