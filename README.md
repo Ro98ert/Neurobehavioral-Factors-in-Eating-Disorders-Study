@@ -30,8 +30,8 @@ Work is organized using the standard case study roadmap phases (**Ask → Prepar
 
 **Data files**
 
-*	Raw dataset (immutable): [path]/data/raw/neurobehavioral_factors_in_eating_disorders_raw.csv
-*	Cleaned dataset (analysis-ready): [path]/data/clean/neurobehavioral_factors_in_eating_disorders_clean.csv
+*	Raw dataset (immutable): [data](https://github.com/Ro98ert/Neurobehavioral-Factors-in-Eating-Disorders-Study/blob/0bf18461e06e270f9ea86c7d9cad75b0cb28b535/data/raw/neurobehavioral_factors_in_eating_disorders_raw.csv)
+*	Cleaned dataset (analysis-ready): [data](https://github.com/Ro98ert/Neurobehavioral-Factors-in-Eating-Disorders-Study/blob/0bf18461e06e270f9ea86c7d9cad75b0cb28b535/data/clean/neurobehavioral_factors_in_eating_disorders_clean.csv)
 
 **Ethics / privacy**
 
