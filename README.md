@@ -30,8 +30,8 @@ Work is organized using the standard case study roadmap phases (**Ask → Prepar
 
 **Data files**
 
-*	Raw dataset (immutable): [path]/data/raw/neurobehavioral_factors_in_eating_disorders_raw.csv
-*	Cleaned dataset (analysis-ready): [path]/data/clean/neurobehavioral_factors_in_eating_disorders_clean.csv
+*	Raw dataset (immutable): [Path](https://github.com/Ro98ert/Neurobehavioral-Factors-in-Eating-Disorders-Study/blob/0bf18461e06e270f9ea86c7d9cad75b0cb28b535/data/raw/neurobehavioral_factors_in_eating_disorders_raw.csv)
+*	Cleaned dataset (analysis-ready): [Path](https://github.com/Ro98ert/Neurobehavioral-Factors-in-Eating-Disorders-Study/blob/0bf18461e06e270f9ea86c7d9cad75b0cb28b535/data/clean/neurobehavioral_factors_in_eating_disorders_clean.csv)
 
 **Ethics / privacy**
 
@@ -41,7 +41,7 @@ Work is organized using the standard case study roadmap phases (**Ask → Prepar
 **ROCCC notes (high-level)**
 
 *	**Reliable:** Self-report bias possible; sample size adequate for exploratory modeling.
-*	**Original / Cited:** Source attribution should be recorded in [path]/data/README_data_source.md (or equivalent).
+*	**Original / Cited:** Source reference on Kaggle [path](https://www.kaggle.com/datasets/jocelyndumlao/neurobehavioral-factors-in-eating-disorders-study)
 *	**Current:** Data collection period noted in the project narrative (Aug–Nov 2024).
 
 #	Cleaning and feature construction (Process)
@@ -66,11 +66,6 @@ Work is organized using the standard case study roadmap phases (**Ask → Prepar
 4.	Reverse-code body-image composite to enforce consistent interpretation (higher = worse distress):
 
 *	`score_body_image_rev`
-
-**Documentation**
-
-*	Cleaning notes (Excel operations, recode mappings, integrity checks): [path]/docs/data_cleaning_notes.md
-*	Optional recode lookup tables used for transparency: [path]/data/support/recode_maps.xlsx
 
 #	Analysis and modeling (Analyze)
 
@@ -105,22 +100,11 @@ Stakeholder-facing outputs include:
 *	Confusion matrix and metrics at threshold 0.50
 *	Risk gradient visualization (quartiles)
 
-Report source:
+Report source:  [PDF](https://github.com/Ro98ert/Neurobehavioral-Factors-in-Eating-Disorders-Study/blob/8746c4899ceb388ec4af243af6be93ba6950e721/reports/Neurobehavioral_Factors_in_E._D._Markdown.pdf)
 
-*	R Markdown report: [path]/reports/NFED_case_study.Rmd
+Figures directory:  [Figures](https://github.com/Ro98ert/Neurobehavioral-Factors-in-Eating-Disorders-Study/tree/8746c4899ceb388ec4af243af6be93ba6950e721/figures)
 
-Rendered outputs:
-
-*	PDF report: [path]/reports/NFED_case_study.pdf
-*	HTML report: [path]/reports/NFED_case_study.html
-
-Figures directory:
-
-*	[path]/figures/
-
-Tables directory:
-
-*	[path]/tables/
+Tables directory:  [Tables](https://github.com/Ro98ert/Neurobehavioral-Factors-in-Eating-Disorders-Study/tree/8746c4899ceb388ec4af243af6be93ba6950e721/tables)
 
 #	Recommendations (Act)
 
@@ -142,4 +126,4 @@ Evidence-supported program directions based on model results:
 ##	Author
 
 *	**Name:** Amartisoaei Robert
-*	**Contact / portfolio: [path] (e.g., LinkedIn URL or portfolio site)
+*	**Contact / portfolio:** [LinkedIn](www.linkedin.com/in/robert-a-lnkdn98)
