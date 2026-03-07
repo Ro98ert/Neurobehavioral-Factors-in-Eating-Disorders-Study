@@ -33,3 +33,6 @@ score_labels <- c(
   score_habit = "Habit / Automatic Eating",
   score_body_image_rev = "Body Image Distress"
 )
+
+path_derived <- here::here("data", "derived")
+dir.create(path_derived, showWarnings = FALSE, recursive = TRUE)
