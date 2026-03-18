@@ -123,6 +123,9 @@ Evidence-supported program directions based on model results:
 *	Single-university sample limits generalizability
 *	Screening support only; not a diagnostic instrument
 
+## Notes
+AI tools were used selectively for brainstorming, editing, and improving documentation clarity. All analysis logic, SQL/R workflows, interpretation, and final conclusions were reviewed and validated by me.
+
 ##	Author
 
 *	**Name:** Amartisoaei Robert
