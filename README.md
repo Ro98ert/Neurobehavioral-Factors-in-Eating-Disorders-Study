@@ -1,132 +1,120 @@
-#	Neurobehavioral Factors in Eating Disorders (NFED)
+# Neurobehavioral Factors in Eating Disorders (NFED)
 
-##	Overview
+## Project Summary
 
-This repository contains an end-to-end case study analyzing neurobehavioral factors associated with **self-perceived eating disorder status** among **university students in Bangladesh (n = 550)**. The primary outcome is:
+This project analyzes neurobehavioral factors associated with self-perceived eating disorder (ED) status among 550 university students in Bangladesh. It builds composite domain scores (emotional eating, cognitive restraint, body image distress) and tests whether an interpretable logistic regression model can support screening-oriented decision support.
 
-*	`perception_eating_disorder` (binary; `0 = No`, `1 = Yes`)
+## Business Question
 
-The analysis builds composite domain scores (e.g., emotional eating, cognitive restraint) and evaluates associations using bivariate testing and logistic regression, prioritizing **interpretability** and **out-of-sample performance**.
-
-##	Case study framework
-
-Work is organized using the standard case study roadmap phases (**Ask → Prepare → Process → Analyze → Share → Act**) and portfolio-ready deliverables. 
-
-#	Business task (Ask)
-
-**Goal:** Identify the primary neurobehavioral drivers most strongly associated with **self-perceived eating disorder status** in the sample, and assess whether a simple, interpretable model can predict ED perception well enough to support screening-oriented decision support (not diagnosis).
+Which neurobehavioral domains are most strongly associated with self-perceived ED status, and how well can a simple, interpretable model predict it?
 
 **Primary stakeholders:** University administration, student health services, mental health researchers.
 
-**Success metrics:**
+**Success metrics:** association strength/significance of neurobehavioral domains, predictive discrimination on a holdout test set (AUC), threshold-based classification metrics (accuracy, sensitivity, specificity, precision).
 
-*	Association strength and statistical significance of neurobehavioral domains
-*	Predictive discrimination on a holdout test set (AUC)
-*	Threshold-based classification metrics (accuracy, sensitivity, specificity, precision)
+## Tools Used
 
-#	Data (Prepare)
+- Excel / Google Sheets: initial recoding and integrity checks
+- R (Tidyverse, janitor): scoring, modeling, validation, and reporting
 
-**Dataset:** Survey responses from 550 university students in Bangladesh.
+## Workflow
 
-**Data files**
+This project follows the standard case study roadmap (**Ask → Prepare → Process → Analyze → Share → Act**):
 
-*	Raw dataset (immutable): [Path](https://github.com/Ro98ert/Neurobehavioral-Factors-in-Eating-Disorders-Study/blob/main/data/raw/neurobehavioral_factors_in_eating_disorders_raw.csv)
-*	Cleaned dataset (analysis-ready): [Path](https://github.com/Ro98ert/Neurobehavioral-Factors-in-Eating-Disorders-Study/blob/main/data/clean/neurobehavioral_factors_in_eating_disorders_clean.csv)
+- **Ask:** define the outcome (`perception_eating_disorder`) and success metrics
+- **Prepare:** source and validate 550 survey responses; dataset should contain no PII
+- **Process:** standardize columns, recode categorical items, build composite domain scores (`score_cognitive_control`, `score_affective`, `score_salience`, `score_habit`, `score_body_image_rev`)
+- **Analyze:** bivariate group comparisons, multivariable logistic regression, stratified train/test split, ROC/AUC, risk quartiles
+- **Share:** stakeholder-facing tables and figures (odds ratio plot, ROC curve, confusion matrix, risk gradient)
+- **Act:** translate model findings into program recommendations
 
-**Ethics / privacy**
+## Repository Contents
 
-*	Dataset should contain no personally identifiable information (PII). Validate before sharing or publishing.
-*	Outcome is self-perceived ED status; results support association and screening-oriented prioritization only.
+### 1. Data
 
-**ROCCC notes (high-level)**
+**Location:** [`data/`](./data/)
 
-*	**Reliable:** Self-report bias possible; sample size adequate for exploratory modeling.
-*	**Original / Cited:** Source reference on Kaggle [path](https://www.kaggle.com/datasets/jocelyndumlao/neurobehavioral-factors-in-eating-disorders-study)
-*	**Current:** Data collection period noted in the project narrative (Aug–Nov 2024).
+- [`raw/neurobehavioral_factors_in_eating_disorders_raw.csv`](./data/raw/neurobehavioral_factors_in_eating_disorders_raw.csv) — immutable raw survey data
+- [`clean/neurobehavioral_factors_in_eating_disorders_clean.csv`](./data/clean/neurobehavioral_factors_in_eating_disorders_clean.csv) — analysis-ready dataset
 
-#	Cleaning and feature construction (Process)
+### 2. R Scripts
 
-**Tools**
+**Location:** [`scripts/`](./scripts/)
 
-*	Excel / Google Sheets for initial recoding and integrity checks
-*	R for reproducible scoring, modeling, validation, and reporting
+Numbered pipeline, run end-to-end via [`run_all.R`](./scripts/run_all.R):
 
-**Key processing steps**
+- [`00_config.R`](./scripts/00_config.R)
+- [`01_import_and_clean.R`](./scripts/01_import_and_clean.R)
+- [`02_score_domains.R`](./scripts/02_score_domains.R)
+- [`03_eda_and_bivariate_tests.R`](./scripts/03_eda_and_bivariate_tests.R)
+- [`04_model_training_and_validation.R`](./scripts/04_model_training_and_validation.R)
+- [`05_risk_summary_and_thresholds.R`](./scripts/05_risk_summary_and_thresholds.R)
+- [`06_export_tables_and_figures.R`](./scripts/06_export_tables_and_figures.R)
+- [`07_save_models_and_results.R`](./scripts/07_save_models_and_results.R)
+- [`08_render_report.R`](./scripts/08_render_report.R)
 
-1.	Standardize column names (`janitor::clean_names()`).
-2.	Convert categorical survey responses to numeric codes (frequency-scale items).
-3.	Build composite domain scores using row-wise means:
+### 3. Models
 
-*	`score_cognitive_control`
-*	`score_affective`
-*	`score_salience`
-*	`score_habit`
-*	`score_body_image`
+**Location:** [`models/`](./models/)
 
-4.	Reverse-code body-image composite to enforce consistent interpretation (higher = worse distress):
+- [`final_logistic_model.rds`](./models/final_logistic_model.rds)
+- [`final_model_roc.rds`](./models/final_model_roc.rds)
+- [`results_summary.rds`](./models/results_summary.rds)
 
-*	`score_body_image_rev`
+### 4. Tables
 
-#	Analysis and modeling (Analyze)
+**Location:** [`tables/`](./tables/)
 
-**Core question:** Which neurobehavioral domains are most strongly associated with ED perception, and how well can a simple model predict ED perception?
+- [`descriptive_scores.csv`](./tables/descriptive_scores.csv)
+- [`final_model_odds_ratios.csv`](./tables/final_model_odds_ratios.csv)
+- [`final_model_test_metrics.csv`](./tables/final_model_test_metrics.csv)
+- [`risk_by_quartile.csv`](./tables/risk_by_quartile.csv)
 
-**Analytic sequence**
+### 5. Figures
 
-1.	Outcome distribution validation (`0/1`)
-2.	Distribution checks for composite scores (histograms, summaries)
-3.	Group comparisons (t-tests): ED=0 vs ED=1
-4.	Logistic regression (multivariable), simplified for interpretability
-5.	Train/test validation with stratified split
-6.	ROC/AUC and threshold-based classification metrics
-7.	Risk summaries (quartiles) for stakeholder interpretability
+**Location:** [`figures/`](./figures/)
 
-**Final interpretable model (logistic regression)**
+- [`distribution_of_composite_domain_scores.png`](./figures/distribution_of_composite_domain_scores.png)
+- [`domain_scores_by_ed_perception_group.png`](./figures/domain_scores_by_ed_perception_group.png)
+- [`odds_ratio_plot.png`](./figures/odds_ratio_plot.png)
+- [`predicted_ed_risk_by_emotional_eating_quartile.png`](./figures/predicted_ed_risk_by_emotional_eating_quartile.png)
+- [`roc_curve_final.png`](./figures/roc_curve_final.png)
+- [`roc_curve_test.png`](./figures/roc_curve_test.png)
 
-Predictors:
+### 6. Reports
 
-*	`score_affective` (emotional eating)
-*	`score_cognitive_control` (restriction/control)
-*	`score_body_image_rev` (body image distress; higher = worse)
+**Location:** [`reports/`](./reports/)
 
-#	Communication artifacts (Share)
+- [`Neurobehavioral_Factors_in_E._D._Markdown.pdf`](./reports/Neurobehavioral_Factors_in_E._D._Markdown.pdf)
 
-Stakeholder-facing outputs include:
+## Key Findings
 
-*	Outcome distribution table
-*	Domain score comparisons (boxplots)
-*	Odds ratio table and OR plot
-*	ROC curve + AUC
-*	Confusion matrix and metrics at threshold 0.50
-*	Risk gradient visualization (quartiles)
+- Emotional eating (`score_affective`) shows the strongest association with ED perception
+- Cognitive restraint and body image distress are also significant predictors
+- Final logistic model: 76.5% accuracy, 78.7% sensitivity, 74.0% specificity, 77.8% precision at threshold 0.50
+- Predicted risk increases consistently across emotional-eating quartiles
 
-Report source:  [PDF](https://github.com/Ro98ert/Neurobehavioral-Factors-in-Eating-Disorders-Study/blob/main/reports/Neurobehavioral_Factors_in_E._D._Markdown.pdf)
+Recommended program directions based on model results:
 
-Figures directory:  [Figures](https://github.com/Ro98ert/Neurobehavioral-Factors-in-Eating-Disorders-Study/tree/main/figures)
+1. Target emotional eating / affect regulation (highest association signal)
+2. Address restrictive eating and dieting cycles
+3. Offer body image support programming
+4. Treat model outputs as screening-oriented decision support, not diagnosis
+5. Validate externally (new cohort / new university) before operational use
 
-Tables directory:  [Tables](https://github.com/Ro98ert/Neurobehavioral-Factors-in-Eating-Disorders-Study/tree/main/tables)
+## Data Source
 
-#	Recommendations (Act)
+Dataset: [Neurobehavioral Factors in Eating Disorders Study (Kaggle)](https://www.kaggle.com/datasets/jocelyndumlao/neurobehavioral-factors-in-eating-disorders-study)
 
-Evidence-supported program directions based on model results:
+Survey responses from 550 university students in Bangladesh, collected Aug–Nov 2024. Dataset should contain no personally identifiable information (PII); validated before publishing.
 
-1.	Target emotional eating / affect regulation (highest association signal)
-2.	Address restrictive eating and dieting cycles
-3.	Offer body image support programming
-4.	Treat model outputs as screening-oriented decision support, not diagnosis
-5.	Validate externally (new cohort / new university) before operational use
+## Limitations
 
-##	Limitations
-
-*	Cross-sectional survey: association ≠ causation
-*	Self-report bias likely
-*	Single-university sample limits generalizability
-*	Screening support only; not a diagnostic instrument
+- Cross-sectional survey: association ≠ causation
+- Self-report bias likely
+- Single-university sample limits generalizability
+- Screening support only; not a diagnostic instrument
 
 ## Notes
-AI tools were used selectively for brainstorming, editing, and improving documentation clarity. All analysis logic, SQL/R workflows, interpretation, and final conclusions were reviewed and validated by me.
 
-##	Author
-
-*	**Name:** Amartisoaei Robert
-*	**Contact / portfolio:** [LinkedIn](www.linkedin.com/in/robert-a-lnkdn98)
+AI tools were used selectively for brainstorming, editing, and improving documentation clarity. All analysis logic, R workflows, interpretation, and final conclusions were reviewed and validated by me.
