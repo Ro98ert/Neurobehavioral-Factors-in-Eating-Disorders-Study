@@ -30,8 +30,8 @@ Work is organized using the standard case study roadmap phases (**Ask → Prepar
 
 **Data files**
 
-*	Raw dataset (immutable): [Path](https://github.com/Ro98ert/Neurobehavioral-Factors-in-Eating-Disorders-Study/blob/0bf18461e06e270f9ea86c7d9cad75b0cb28b535/data/raw/neurobehavioral_factors_in_eating_disorders_raw.csv)
-*	Cleaned dataset (analysis-ready): [Path](https://github.com/Ro98ert/Neurobehavioral-Factors-in-Eating-Disorders-Study/blob/0bf18461e06e270f9ea86c7d9cad75b0cb28b535/data/clean/neurobehavioral_factors_in_eating_disorders_clean.csv)
+*	Raw dataset (immutable): [Path](https://github.com/Ro98ert/Neurobehavioral-Factors-in-Eating-Disorders-Study/blob/main/data/raw/neurobehavioral_factors_in_eating_disorders_raw.csv)
+*	Cleaned dataset (analysis-ready): [Path](https://github.com/Ro98ert/Neurobehavioral-Factors-in-Eating-Disorders-Study/blob/main/data/clean/neurobehavioral_factors_in_eating_disorders_clean.csv)
 
 **Ethics / privacy**
 
@@ -100,11 +100,11 @@ Stakeholder-facing outputs include:
 *	Confusion matrix and metrics at threshold 0.50
 *	Risk gradient visualization (quartiles)
 
-Report source:  [PDF](https://github.com/Ro98ert/Neurobehavioral-Factors-in-Eating-Disorders-Study/blob/8746c4899ceb388ec4af243af6be93ba6950e721/reports/Neurobehavioral_Factors_in_E._D._Markdown.pdf)
+Report source:  [PDF](https://github.com/Ro98ert/Neurobehavioral-Factors-in-Eating-Disorders-Study/blob/main/reports/Neurobehavioral_Factors_in_E._D._Markdown.pdf)
 
-Figures directory:  [Figures](https://github.com/Ro98ert/Neurobehavioral-Factors-in-Eating-Disorders-Study/tree/8746c4899ceb388ec4af243af6be93ba6950e721/figures)
+Figures directory:  [Figures](https://github.com/Ro98ert/Neurobehavioral-Factors-in-Eating-Disorders-Study/tree/main/figures)
 
-Tables directory:  [Tables](https://github.com/Ro98ert/Neurobehavioral-Factors-in-Eating-Disorders-Study/tree/8746c4899ceb388ec4af243af6be93ba6950e721/tables)
+Tables directory:  [Tables](https://github.com/Ro98ert/Neurobehavioral-Factors-in-Eating-Disorders-Study/tree/main/tables)
 
 #	Recommendations (Act)
 
