@@ -34,24 +34,24 @@ This project follows the standard case study roadmap (**Ask → Prepare → Proc
 
 **Location:** [`data/`](./data/)
 
-- [`raw/neurobehavioral_factors_in_eating_disorders_raw.csv`](./data/raw/neurobehavioral_factors_in_eating_disorders_raw.csv) — immutable raw survey data
-- [`clean/neurobehavioral_factors_in_eating_disorders_clean.csv`](./data/clean/neurobehavioral_factors_in_eating_disorders_clean.csv) — analysis-ready dataset
+- [`raw/neurobehavioral_factors_in_eating_disorders_raw.csv`](./data/raw/neurobehavioral_factors_in_eating_disorders_raw.csv): raw survey data, kept unchanged
+- [`clean/neurobehavioral_factors_in_eating_disorders_clean.csv`](./data/clean/neurobehavioral_factors_in_eating_disorders_clean.csv): analysis-ready dataset
 
 ### 2. R Scripts
 
 **Location:** [`scripts/`](./scripts/)
 
-Numbered pipeline, run end-to-end via [`run_all.R`](./scripts/run_all.R):
+The pipeline is planned as numbered stages. Right now only stages 00 to 02 contain code. Scripts 03 to 08 and [`run_all.R`](./scripts/run_all.R) are empty placeholders, so the repository cannot yet reproduce the model end to end. The model results, tables and figures below come from the analysis written up in the [PDF report](./reports/Neurobehavioral_Factors_in_E._D._Markdown.pdf).
 
 - [`00_config.R`](./scripts/00_config.R)
 - [`01_import_and_clean.R`](./scripts/01_import_and_clean.R)
 - [`02_score_domains.R`](./scripts/02_score_domains.R)
-- [`03_eda_and_bivariate_tests.R`](./scripts/03_eda_and_bivariate_tests.R)
-- [`04_model_training_and_validation.R`](./scripts/04_model_training_and_validation.R)
-- [`05_risk_summary_and_thresholds.R`](./scripts/05_risk_summary_and_thresholds.R)
-- [`06_export_tables_and_figures.R`](./scripts/06_export_tables_and_figures.R)
-- [`07_save_models_and_results.R`](./scripts/07_save_models_and_results.R)
-- [`08_render_report.R`](./scripts/08_render_report.R)
+- [`03_eda_and_bivariate_tests.R`](./scripts/03_eda_and_bivariate_tests.R) (placeholder, empty)
+- [`04_model_training_and_validation.R`](./scripts/04_model_training_and_validation.R) (placeholder, empty)
+- [`05_risk_summary_and_thresholds.R`](./scripts/05_risk_summary_and_thresholds.R) (placeholder, empty)
+- [`06_export_tables_and_figures.R`](./scripts/06_export_tables_and_figures.R) (placeholder, empty)
+- [`07_save_models_and_results.R`](./scripts/07_save_models_and_results.R) (placeholder, empty)
+- [`08_render_report.R`](./scripts/08_render_report.R) (placeholder, empty)
 
 ### 3. Models
 
@@ -91,7 +91,8 @@ Numbered pipeline, run end-to-end via [`run_all.R`](./scripts/run_all.R):
 
 - Emotional eating (`score_affective`) shows the strongest association with ED perception
 - Cognitive restraint and body image distress are also significant predictors
-- Final logistic model: 76.5% accuracy, 78.7% sensitivity, 74.0% specificity, 77.8% precision at threshold 0.50
+- Final logistic model on the holdout test set: 76.5% accuracy, 78.7% sensitivity, 74.0% specificity, 77.8% precision at threshold 0.50
+- For comparison, 296 of the 550 students (53.8%) report ED perception, so always predicting the larger class would score about 54% accuracy. This baseline is computed from the clean dataset, not from the test split, and the test-set metrics imply a similar share (about 54%).
 - Predicted risk increases consistently across emotional-eating quartiles
 
 Recommended program directions based on model results:
@@ -106,7 +107,7 @@ Recommended program directions based on model results:
 
 Dataset: [Neurobehavioral Factors in Eating Disorders Study (Kaggle)](https://www.kaggle.com/datasets/jocelyndumlao/neurobehavioral-factors-in-eating-disorders-study)
 
-Survey responses from 550 university students in Bangladesh, collected Aug–Nov 2024. Dataset should contain no personally identifiable information (PII); validated before publishing.
+Survey responses from 550 university students in Bangladesh, collected August to November 2024. Dataset should contain no personally identifiable information (PII); validated before publishing.
 
 ## Limitations
 
