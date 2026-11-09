@@ -118,4 +118,4 @@ Survey responses from 550 university students in Bangladesh, collected August to
 
 ## Notes
 
-AI tools were used selectively for brainstorming, editing, and improving documentation clarity. All analysis logic, R workflows, interpretation, and final conclusions were reviewed and validated by me.
+The analysis, the R code and the conclusions were done by hand, without AI coding tools.
